@@ -1,0 +1,41 @@
+.top-nav
+	ul
+		list-style-type none
+		width 100%
+		margin 0
+		padding 0
+		display flex
+		flex-direction row
+		justify-content flex-end
+		
+		+below(47.25rem)
+			flex-direction column
+
+		li
+			display inline-block
+			margin 0 25px
+
+			&:last-child
+				margin-right 0
+				
+			a
+				color text-site-color
+				text-decoration none
+				position relative
+				font-family font-title
+				transition .4s
+				
+				&:after
+					content ""
+					width 0
+					height 2px
+					background-color black
+					display block
+					transition .4s ease
+					margin-top 5px
+				
+				&:hover
+					color black
+					transition .4s
+					&:after
+						width 100%

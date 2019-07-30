@@ -1,0 +1,42 @@
+.article
+	&__container
+		max-width wrap-max-width
+		width 100%
+		margin 0 auto
+		position relative
+
+	&__header
+		h1
+			margin-bottom 10px
+
+	&__wrap
+		max-width "calc(%s - 300px)" % wrap-max-width
+		width 100%
+		margin 0 auto
+		padding-top 10vh
+
+		+below(47.25rem)
+			center(wrap-max-width)
+
+	&__content
+		width 100%
+
+		pre, code
+			float left
+			clear both
+		
+		code
+			width 100%
+			border-radius 5px
+			padding 20px
+
+		pre
+			width 100%
+			padding 16px
+
+		p
+			margin-bottom 6vh
+
+		a
+			color link-color
+			font-weigth bold

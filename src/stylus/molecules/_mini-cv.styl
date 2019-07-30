@@ -1,0 +1,78 @@
+.mini-cv
+    width 100%
+    padding 21px
+
+    &__title
+        margin-bottom 2vh
+
+    &__timeline
+        padding 5vh 0
+
+    &__job
+        margin-bottom 6vh
+        padding-left 20px
+
+        &--title
+            font-size 3rem
+            position relative
+
+            &:before
+                content ""
+                width 10px
+                height 10px
+                border-top 5px solid transparent
+                border-bottom 5px solid transparent
+                border-left 5px solid bluegreen
+                left -20px
+                top 15px
+                position absolute
+        &--time
+            font-size 1.4rem
+            display inline-block
+            margin-bottom 1vh
+
+        &--content
+            font-size 1.4rem
+            color #666
+
+.c-skills
+    width 100%
+
+    &__section
+        display flex
+        flex-direction row
+        width 100%
+
+    &__column
+        display flex
+        flex-direction column
+        flex-grow 1
+
+        h3
+            color bluegreen
+            min-height 40px
+
+        ul
+            list-style-type none
+
+            li
+                position relative
+                min-height 30px
+
+                &:before
+                    content ""
+                    width 10px
+                    height 10px
+                    border-top 5px solid transparent
+                    border-bottom 5px solid transparent
+                    border-left 5px solid bluegreen
+                    left -20px
+                    top 5px
+                    position absolute
+    &__doubleColumn
+        display flex
+        flex-direction row
+
+        ul
+            max-width 50%
+            width 100%

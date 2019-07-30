@@ -1,0 +1,31 @@
+.header
+	width 100%
+	padding-top 2vw
+
+	.wrap
+		display flex
+		flex-direction row
+		align-items center
+		
+		+below(47.25rem)
+			align-items flex-start
+	
+	&__logo
+		display flex
+		flex-grow 1
+	
+	&__name
+		display flex
+		flex-grow 2
+		font-family font-title
+		font-weight bold
+
+		+below(47.25rem)
+			display none
+		
+	
+	&__menu
+		display flex
+		flex-grow 3
+		flex-direction row
+		justify-content flex-end

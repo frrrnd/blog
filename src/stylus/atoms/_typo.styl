@@ -1,0 +1,40 @@
+@import url('https://rsms.me/inter/inter.css')
+
+font-title = 'Inter', sans-serif
+font-text = 'Inter', sans-serif
+font-link = font-text
+
+@supports(font-variation-settings: normal)
+	html
+		font-family 'Inter var', sans-serif
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	margin 0
+	font-family font-title
+
+h1
+	font-size 5rem
+	line-height 120%
+	+below(47.25rem)
+		font-size 3rem
+
+h2
+	font-size 4rem
+
+p
+	font-family font-text
+	font-size 1.6rem
+	line-height 140%
+	margin 0
+
+	a
+		border-bottom 2px solid #eee
+
+a 
+	text-decoration none
+	outline none

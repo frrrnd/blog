@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main notes-page" role="main">
+	<div class="wrap-notes">
+		<section class="notes__list">
+		{{ range .Pages }}
+	        <article class="notes__article">
+				<header role="banner" class="notes__header">
+					<h2 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+					<time class="notes__time">{{ .Date.Format "2 de Jan de 2006" }}</time>
+				</header>
+
+				<div>
+					<section class="notes__content">
+						{{ .Content }}
+					</section>
+				</div>
+	    	</article>
+		{{ end }}
+		</section>
+	</div>
+</main>
+
+{{ partial "footer.html" . }}
