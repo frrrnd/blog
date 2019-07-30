@@ -1,11 +1,13 @@
 ## Run Hugo
 
-``` cd hugo
+``` 
+	cd project
 	hugo server watch
 ```
 
 ## Run watch to styl
 
-``` npm install
+``` 
+	npm install
 	npm gulp
 ```
