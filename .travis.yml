@@ -1,10 +1,14 @@
 ---
 install:
-  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
-  - sudo dpkg -i hugo_0.55.4_Linux-64bit.debscript:
-  - hugodeploy:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+
+script:
+  - hugo
+
+deploy:
   - provider: script
-    script: ./deploy.sh
+    script: bash deploy.sh
     skip_cleanup: true
     on:
-      branch: master
+      branch: master # or master if you are using the two-repository approach
