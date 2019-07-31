@@ -7,24 +7,33 @@ My portfolio/blog built with [Hugo](https://gohugo.io/) and deploy by [Travis CI
 [![Top Language](https://img.shields.io/github/languages/top/frrrnd/blog?color=blueviolet&label=css%2Fstylus)](https://frrrnd.design)
 [![Code Size](https://img.shields.io/github/languages/code-size/frrrnd/blog?color=ff69b4)](https://github.com/frrrnd/blog)
 
-### Run Hugo
+### Installation (ubuntu)
+```
+sudo apt-get install hugo
+```
 
+### Development
 ``` 
 cd blog
 hugo server watch
 ```
 
-### Run watch to styl
-
+#### Install gulp and npm deps
 ``` 
 npm install
-npm gulp
+```
+#### Browser sync and watch styl
+```
+gulp
 ```
 
-### Build site
+#### Build site
 ```
 hugo
 ```
+
+### Deployment
+All files generated are deployed by Travis [here](https://github.com/frrrnd/frrrnd.github.io)
 ---
 
 ### Licença
