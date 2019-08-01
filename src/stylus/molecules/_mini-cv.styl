@@ -2,6 +2,9 @@
     width 100%
     padding 21px
 
+    +below(47.25rem)
+        padding 0
+
     &__title
         margin-bottom 2vh
 
@@ -22,7 +25,7 @@
                 height 10px
                 border-top 5px solid transparent
                 border-bottom 5px solid transparent
-                border-left 5px solid bluegreen
+                border-left 5px solid black
                 left -20px
                 top 15px
                 position absolute
@@ -43,13 +46,16 @@
         flex-direction row
         width 100%
 
+        +below(47.25rem)
+            flex-direction column
+
     &__column
         display flex
         flex-direction column
         flex-grow 1
 
         h3
-            color bluegreen
+            color text-site-color
             min-height 40px
 
         ul
@@ -65,7 +71,7 @@
                     height 10px
                     border-top 5px solid transparent
                     border-bottom 5px solid transparent
-                    border-left 5px solid bluegreen
+                    border-left 5px solid black
                     left -20px
                     top 5px
                     position absolute
