@@ -5,20 +5,17 @@
 <main class="main notes-page" role="main">
 	<div class="wrap-notes">
 		<section class="notes__list">
-		{{ range .Pages }}
-	        <article class="notes__article">
+		{{ range (.Pages.GroupByDate "2006") }}
+            <h3 class="notes__list--year">{{ .Key }}</h3>
+			{{ range (where .Pages "Type" "page") }}
+			<article class="notes__article">
 				<header role="banner" class="notes__header">
 					<h2 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 					<time class="notes__time">{{ .Date.Format "2 de Jan de 2006" }}</time>
 				</header>
-
-				<div>
-					<section class="notes__content">
-						{{ .Content }}
-					</section>
-				</div>
-	    	</article>
-		{{ end }}
+			</article>
+			{{ end }}
+        {{ end }}
 		</section>
 	</div>
 </main>
