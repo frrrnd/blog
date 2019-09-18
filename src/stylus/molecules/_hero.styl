@@ -18,31 +18,16 @@
 		position relative
 		font-family font-title
 		font-size 1.6rem
-
-		&:after
-			content "."
-			font-size 4rem
-			width auto
-			height auto
-			color black
-			display inline-block
-			margin-left 10px
-			animation scrollDown 1s ease infinite
 		a
 			color minegray
 
 	h1
-		width 90%
+		width 60%
 		position relative
 		margin-bottom 21px
 		hyphens auto
+		font-size 6rem
+		font-weight normal
 
 		+below(47.25rem)
 			font-size 3rem
-
-@keyframes scrollDown
-	0%
-		transform translateY(-10px)
-	100%
-		transform translateY(5px)
-		opacity 0

@@ -2,7 +2,7 @@ hljs.initHighlightingOnLoad();
 
 jribbble.shots({
     token: "627b0fac077b5b6f3dcafec723409a4eb98a2b09456afee83b804d54655f2967",
-    per_page: 20
+    per_page: 30
     }, function(shots) {
       const filteredShots = shots.filter(shot => shot.tags.includes('ui') && shot.animated !== true);
 

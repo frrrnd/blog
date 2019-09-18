@@ -7,14 +7,16 @@
 
 .grid-container
 	display grid
-	grid-template-columns 1fr
+	grid-template-columns 1fr 1fr 1fr
 	grid-template-rows 1fr 1fr 1fr 1fr
-	grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4" "slot-5" "slot-6" "slot-7" "slot-8"
+	grid-template-areas "slot-1 slot-2 slot-3" "slot-4 slot-5 slot-6" "slot-7 slot-8 slot-9" "slot-10 slot-11 slot-12" "slot-13 slot-14 slot-15" "slot-16 slot-17 slot-18"
 	grid-gap 50px
+	padding 10vh
 
 .slot
 	position relative
-	padding 20vh 0
+	padding 0
+	animation fadeIn 1s forwards
 
 	+below(47.25rem)
 		width 100%
@@ -22,7 +24,6 @@
 
 	a
 		display block
-		max-width 50%
 		width 100%
 		margin 0 auto
 		position relative
@@ -90,9 +91,17 @@
 	grid-area slot-8
 
 .see-more--dribbble
-	-webkit-text-stroke 1px rgba(255, 255, 255, 1)
-	-webkit-text-fill-color transparent
 	font-size 4rem
 	display block
 	margin 0 auto
 	text-align center
+	
+	a
+		color white
+
+
+@keyframes fadeIn
+	0%
+		opacity 0
+	100%
+		opacity 1
