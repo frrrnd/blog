@@ -3,100 +3,81 @@
 {{ partial "header.html" . }}
 
 <main class="main t-page t-page__about" role="main">
-
-    <div class="a-wrapflex">
-        <div class="a-wrapflex--half">
+        
+        <div class="wrap">
             <h1 class="t-page__about__headline">{{ .Title }}</h1>
-            <figure class="t-page__about__image">
-                <img src="{{ .Site.BaseURL }}images/eu.jpg" alt="">
-            </figure>
-        </div>
 
-        <div class="a-wrapflex--half">
-            <div class="page-content">
-                <p>{{ .Content }}</p>
+            <div class="article__wrap">
+                <section class="article__content">
+                    {{ .Content }}
+                </section>
             </div>
-        </div>
-
-    </div>
     
     <div class="wrap">
         <section class="mini-cv">
 
             <section class="mini-cv__timeline">
+                <div class="half">
+                    <section class="c-skills">
+                        <section class="c-skills__section">
+                            <div class="c-skills__column">
+                                <ul>
+                                    <li>HTML (jade, pug)</li>
+                                    <li>CSS (stylus, sass)</li>
+                                    <li>Experiência do Usuário</li>
+                                    <li>User Interface</li>
+                                    <li>Wordpress</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+        
+                            <div class="c-skills__column">
+                                <div class="c-skills__doubleColumn">
+                                    <ul>
+                                        <li>Hugo</li>
+                                        <li>Jekyll</li>
+                                        <li>SVG</li>
+                                        <li>Sketch</li>
+                                        <li>Photoshop</li>
+                                        <li>Animations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
 
-                <section class="mini-cv__job">
-                    <h5 class="mini-cv__job--title">Sábia Experience</h5>
-                    <span class="mini-cv__job--time">2016 - presente</span>
-
-                    <div class="content">
-                        <p class="mini-cv__job--content">User Experience - User Interface - Front End Design - Wordpress</p>
-                    </div>
-                </section>
-
-                <section class="mini-cv__job">
-                    <h5 class="mini-cv__job--title">Deon Sistemas</h5>
-                    <span class="mini-cv__job--time">2013 - 2015</span>
-
-                    <div class="content">
-                        <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
-                    </div>
-                </section>
-
-                <section class="mini-cv__job">
-                    <h5 class="mini-cv__job--title">Ação Direta Web Studio</h5>
-                    <span class="mini-cv__job--time">2012 - 2013</span>
-
-                    <div class="content">
-                        <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
-                    </div>
-                </section>
-            </section>
-
-            <section class="c-skills">
-                <section class="c-skills__section">
-                    <div class="c-skills__column">
-                        <h3>Pleno</h3>
-                        <ul>
-                            <li>HTML (jade, pug)</li>
-                            <li>CSS (stylus, sass)</li>
-                            <li>Experiência do Usuário</li>
-                            <li>User Interface</li>
-                            <li>Wordpress</li>
-                            <li>Figma</li>
-                        </ul>
-                    </div>
-
-                    <div class="c-skills__column">
-                        <h3>Intermediário</h3>
-                        <div class="c-skills__doubleColumn">
-                            <ul>
-                                <li>Hugo</li>
-                                <li>Jekyll</li>
-                                <li>SVG</li>
-                                <li>Animations</li>
-                                <li>Sketch</li>
-                            </ul>
-
-                            <ul>
-                                <li>After Effects</li>
-                                <li>Illustrator</li>
-                                <li>Photoshop</li>
-                                <li>Git</li>
-                                <li>Design System</li>
-                            </ul>
+                <div class="half">
+                    <section class="mini-cv__job">
+                        <h5 class="mini-cv__job--title">Sábia Experience</h5>
+                        <span class="mini-cv__job--time">2016 - 2019</span>
+    
+                        <div class="content">
+                            <p class="mini-cv__job--content">User Experience - User Interface - Front End Design - Wordpress</p>
                         </div>
-                    </div>
-
-                    <div class="c-skills__column">
-                        <h3>Iniciante</h3>
-                        <ul>
-                            <li>React</li>
-                            <li>Vue</li>
-                        </ul>
-                    </div>
-                </section>
+                    </section>
+    
+                    <section class="mini-cv__job">
+                        <h5 class="mini-cv__job--title">Deon Sistemas</h5>
+                        <span class="mini-cv__job--time">2013 - 2015</span>
+    
+                        <div class="content">
+                            <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
+                        </div>
+                    </section>
+    
+                    <section class="mini-cv__job">
+                        <h5 class="mini-cv__job--title">Ação Direta Web Studio</h5>
+                        <span class="mini-cv__job--time">2012 - 2013</span>
+    
+                        <div class="content">
+                            <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
+                        </div>
+                    </section>
+                </div>
             </section>
+
+            
         </section>
     </div>
     <div class="wrap">

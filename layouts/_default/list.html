@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 
 <main class="main notes-page" role="main">
-	<div class="wrap-notes">
+	<div class="wrap">
 		<section class="notes__list">
 		{{ range (.Pages.GroupByDate "2006") }}
             <h3 class="notes__list--year">{{ .Key }}</h3>

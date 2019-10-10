@@ -10,10 +10,16 @@
 
     &__timeline
         padding 5vh 0
+        width 100%
+        display flex
+
+        +below(47.25rem)
+            flex-direction column
 
     &__job
         margin-bottom 6vh
         padding-left 20px
+        border-left 2px solid bluegreen
 
         &--title
             font-size 3rem
@@ -62,19 +68,10 @@
             list-style-type none
 
             li
-                position relative
                 min-height 30px
+                margin-bottom 16px
+                padding-left 8px
 
-                &:before
-                    content ""
-                    width 10px
-                    height 10px
-                    border-top 5px solid transparent
-                    border-bottom 5px solid transparent
-                    border-left 5px solid black
-                    left -20px
-                    top 5px
-                    position absolute
     &__doubleColumn
         display flex
         flex-direction row
@@ -82,3 +79,13 @@
         ul
             max-width 50%
             width 100%
+
+
+.half
+    max-width 50%
+    width 100%
+    display flex
+    flex-direction column
+
+    +below(47.25rem)
+        max-width 100%

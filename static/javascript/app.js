@@ -9,7 +9,7 @@ jribbble.shots({
       const reducedShots = filteredShots.reduce((html, shot, item) => html + '<div class="slot"><a href="'+  shot.html_url + '" target="_blank"><figure><img data-id="' + item + '" src="' + shot.images.hidpi + '"><div class="overlay"><h3>'+ shot.title +'</h3></div></figure></a></div>', "");
 
       // put on html
-      let container = document.querySelector(".grid-container");
+      let container = document.querySelector("#grid-container");
       container.innerHTML = reducedShots;
 });
 
