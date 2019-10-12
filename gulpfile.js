@@ -9,8 +9,18 @@ let paths = {
         src: "src/stylus/**/*.styl",
         dest: "static/css"
     },
+
     html: {
-        src: "**/*html"
+        src: "**/*html",
+        dest: "./public"
+    },
+
+    js: {
+        src: "***/**/*js"
+    },
+
+    public: {
+        url: "./public"
     }
 }
 
