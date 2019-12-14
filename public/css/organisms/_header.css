@@ -1,0 +1,1 @@
+.header{width:100%;padding-top:2vw;}.header .wrap{display:flex;flex-direction:row;align-items:center;below(47.25rem)}.header__logo{display:flex;flex-grow:1}.header__name{display:flex;flex-grow:2;font-family:font-text;font-weight:bold;below(47.25rem)}.header__menu{display:flex;flex-grow:3;flex-direction:row;justify-content:flex-end}

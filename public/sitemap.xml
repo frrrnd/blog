@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://frrrnd.github.io/notes/29/</loc>
+    <lastmod>2019-12-14T10:16:48-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/</loc>
+    <lastmod>2019-12-14T10:16:48-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/notes/</loc>
+    <lastmod>2019-03-01T22:19:15-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/sobre/</loc>
+    <lastmod>2019-03-01T22:19:15-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/notes/27/</loc>
+    <lastmod>2017-12-14T12:19:15-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/notes/o-basico-do-z-index/</loc>
+    <lastmod>2017-09-17T09:55:15-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/notes/breakpoints-em-mixin-com-sass/</loc>
+    <lastmod>2017-03-24T20:04:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frrrnd.github.io/tags/</loc>
+  </url>
+  
+</urlset>
