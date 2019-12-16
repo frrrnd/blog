@@ -8,7 +8,7 @@ layout: "post"
 
 O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.
 
-![z-index](https://frrrnd.design/uploads/z-index.png)
+![z-index](/uploads/z-index.png)
 
 Somente os elementos que contém position absolute, relative ou fixed aceitam o z-index. Quanto maior for o valor, mais próximo da tela ele ficará.
 
