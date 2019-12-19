@@ -16,7 +16,7 @@
 						<time class="notes__time">{{ .Date.Format "2 de Jan de 2006" }}</time>
 					</header>
 					<section class="article__summary">
-						{{ .Summary }}
+						<p>{{ .Summary }}</p>
 						{{ if .Truncated }}
 						<a href="{{ .Permalink }}">Leia mais</a>
 						{{ end }}
