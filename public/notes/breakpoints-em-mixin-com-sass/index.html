@@ -51,77 +51,63 @@
 		<div class="article__wrap">
 			<section class="article__content">
 				<p>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços. Trago aqui uma dica pra quem se perde em meio a media queries e ajustes responsivos.</p>
-
 <p>Criaremos 1 mixin com 3 condições em SASS para ser usado no elemento que for necessário: small para smartphones, medium para tablets, e large para computadores (os valores podem ser alterados como você achar melhor).</p>
-
 <p>Veja o mixin a seguir:</p>
-
-<pre><code class="language-css">@mixin breakpoint($name) {
-    @if $name == small {
-        @media (max-width: 767px) {
-            @content;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">@<span style="color:#66d9ef">mixin</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">(</span><span style="color:#f92672">$</span><span style="color:#f92672">name</span><span style="color:#f92672">)</span> {
+    @<span style="color:#66d9ef">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#f92672">small</span> {
+        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">767px</span><span style="color:#f92672">)</span> {
+            @<span style="color:#66d9ef">content</span>;
         }
     }
 
-    @else if $name == medium {
-        @media (max-width: 1024px) {
-            @content;
+    @<span style="color:#66d9ef">else</span> <span style="color:#f92672">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#f92672">medium</span> {
+        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1024px</span><span style="color:#f92672">)</span> {
+            @<span style="color:#66d9ef">content</span>;
         }
     }
 
-    @else if $name == large {
-        @media (min-width: 1025px) {
-            @content;
+    @<span style="color:#66d9ef">else</span> <span style="color:#f92672">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#f92672">large</span> {
+        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1025px</span><span style="color:#f92672">)</span> {
+            @<span style="color:#66d9ef">content</span>;
         }
     }
 }
-</code></pre>
-
-<p>Tá bem fácil de entender.</p>
-
+</code></pre></div><p>Tá bem fácil de entender.</p>
 <p>“Mas como eu aplico esse mixin para os meus componentes?”</p>
-
 <p>A aplicação do mixin é simples:</p>
-
-<pre><code class="language-css">.elemento {
-    @include breakpoint(small) {
-        width: 100%;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">elemento</span> {
+    <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#960050;background-color:#1e0010">i</span><span style="color:#960050;background-color:#1e0010">n</span><span style="color:#960050;background-color:#1e0010">c</span><span style="color:#960050;background-color:#1e0010">l</span><span style="color:#960050;background-color:#1e0010">u</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#960050;background-color:#1e0010">e</span> <span style="color:#960050;background-color:#1e0010">b</span><span style="color:#960050;background-color:#1e0010">r</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#960050;background-color:#1e0010">a</span><span style="color:#960050;background-color:#1e0010">k</span><span style="color:#960050;background-color:#1e0010">p</span><span style="color:#960050;background-color:#1e0010">o</span><span style="color:#960050;background-color:#1e0010">i</span><span style="color:#960050;background-color:#1e0010">n</span><span style="color:#960050;background-color:#1e0010">t</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#960050;background-color:#1e0010">s</span><span style="color:#960050;background-color:#1e0010">m</span><span style="color:#960050;background-color:#1e0010">a</span><span style="color:#960050;background-color:#1e0010">l</span><span style="color:#960050;background-color:#1e0010">l</span><span style="color:#960050;background-color:#1e0010">)</span> <span style="color:#960050;background-color:#1e0010">{</span>
+        <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
     }
 
-    @include breakpoint(medium) {
-        width: 80%;
+    @<span style="color:#66d9ef">include</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">(</span><span style="color:#f92672">medium</span><span style="color:#f92672">)</span> {
+        <span style="color:#f92672">width</span><span style="color:#f92672">:</span> <span style="color:#f92672">80</span><span style="color:#f92672">%</span><span style="color:#f92672">;</span>
     }
     
-    @include breakpoint(large) {
-        width: 50%;
+    @<span style="color:#66d9ef">include</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">(</span><span style="color:#f92672">large</span><span style="color:#f92672">)</span> {
+        <span style="color:#f92672">width</span><span style="color:#f92672">:</span> <span style="color:#f92672">50</span><span style="color:#f92672">%</span><span style="color:#f92672">;</span>
     }
-}
+<span style="color:#960050;background-color:#1e0010">}</span>
 
-</code></pre>
-
-<p>Esse código será compilado para:</p>
-
-<pre><code class="language-css">    @media (max-width: 767px) { 
-	   .elemento { 
-	     width: 100%; 
+</code></pre></div><p>Esse código será compilado para:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">767px</span><span style="color:#f92672">)</span> { 
+	   .<span style="color:#a6e22e">elemento</span> { 
+	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; 
 	   } 
 	} 
 
-	@media (max-width: 1024px) { 
-	   .elemento { 
-	     width: 80%; 
+	@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1024px</span><span style="color:#f92672">)</span> { 
+	   .<span style="color:#a6e22e">elemento</span> { 
+	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">80</span><span style="color:#66d9ef">%</span>; 
 	   } 
 	}
 	 
-	@media (min-width: 1025px) { 
-	   .elemento { 
-	     width: 50%; 
+	@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1025px</span><span style="color:#f92672">)</span> { 
+	   .<span style="color:#a6e22e">elemento</span> { 
+	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>; 
 	   } 
 	} 
-</code></pre>
-
-<p>Dependendo do seu layout, você não vai precisar aplicar as 3 condições para um elemento.</p>
-
+</code></pre></div><p>Dependendo do seu layout, você não vai precisar aplicar as 3 condições para um elemento.</p>
 <p>Esse mixin facilita na hora de você fazer um ajuste, ele concentra os estilos do elemento em um lugar só e deixa tudo organizado. Ideal pra quem usa o Atomic Design como metodologia.</p>
 
 			</section>
