@@ -1,9 +1,12 @@
 #baseURL = "http://localhost:1313"
-baseURL = "https://frrrnd.github.io/"
+#baseURL = "https://frrrnd.github.io/"
 languageCode = "en-us"
 publishDir = "public"
+staticDir = "static"
 title = "Fernando Soares - UX, UI & Front End Design"
 summaryLength = 30
+canonifyURLs = true
+relativeURLs = true
 
 [Author]
     name = "Fernando Soares"
@@ -12,3 +15,9 @@ summaryLength = 30
     ghrepo = ""
     title = "Fernando Soares - UX, UI & Front End Design"
     description = "Portfolio e blog de Fernando Soares."
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
