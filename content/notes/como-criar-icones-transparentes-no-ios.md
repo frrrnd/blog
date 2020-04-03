@@ -38,4 +38,6 @@ E é isso. Você pode repetir o processo para todos os slots de aplicativos, ou 
 
 Para inspirações e ideias, visite o subreddit <a href="https://www.reddit.com/r/iOSsetups/" target="_blank">iOSsetups</a>.
 
+**Dica:** Para deixar melhor, reduza o movimento nos ajustes e use um background de cor sólida.
+
 {{< load-photoswipe >}}
