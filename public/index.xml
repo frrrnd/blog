@@ -6,10 +6,22 @@
     <description>Recent content on Fernando Soares - UX, UI &amp; Front End Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Dec 2019 10:16:48 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 00:28:19 -0300</lastBuildDate>
     
 	<atom:link href="https://frrrnd.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como criar ícones transparentes no iOS</title>
+      <link>https://frrrnd.github.io/notes/como-criar-icones-transparentes-no-ios/</link>
+      <pubDate>Fri, 03 Apr 2020 00:28:19 -0300</pubDate>
+      
+      <guid>https://frrrnd.github.io/notes/como-criar-icones-transparentes-no-ios/</guid>
+      <description>Não precisa de Jailbreak.
+  Não precisa de app.
+  100% free.
+ Para começar, precisamos tirar uma screenshot da tela sem nenhum aplicativo. Pra fazer isso, pressione e segure em um app como se fosse editar a tela de apps, e vá para a última tela, onde não tem nenhum app.</description>
+    </item>
     
     <item>
       <title>29</title>
