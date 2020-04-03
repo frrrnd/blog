@@ -36,6 +36,6 @@ E é isso. Você pode repetir o processo para todos os slots de aplicativos, ou 
 {{< figure link="uploads/ios-icons/ios-4.png" src="uploads/ios-icons/ios-4-thumb.png" caption="Resultado final" class="align-center" >}}
 
 
-Para insipirações e ideias, visite o subreddit <a href="https://www.reddit.com/r/iOSsetups/" target="_blank">iOSsetups</a>.
+Para inspirações e ideias, visite o subreddit <a href="https://www.reddit.com/r/iOSsetups/" target="_blank">iOSsetups</a>.
 
 {{< load-photoswipe >}}
