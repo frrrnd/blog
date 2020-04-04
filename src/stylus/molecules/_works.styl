@@ -134,3 +134,21 @@
 
 	+below(47.25rem)
 		center(wrap-max-width)
+
+.work-for
+	display grid
+	width 100%
+	max-width 960px
+	justify-items center
+	grid-template-columns 1fr 1fr 1fr 1fr 1fr
+	margin 0 auto
+	align-items center
+	padding-bottom 5vh
+
+	+below(47.25rem)
+		grid-template-columns 1fr 1fr
+
+	&__slot
+		img
+			filter grayscale(1)
+			opacity .4
