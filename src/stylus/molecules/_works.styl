@@ -114,3 +114,23 @@
 		opacity 0
 	100%
 		opacity 1
+
+.works
+	a[target='_blank']
+		&:after
+			content ""
+			display none
+
+.go-dribbble
+	max-width 100%
+	width 100%
+	margin 0 auto
+	text-align right
+	margin-bottom 4vh
+
+	.read-more
+		background embedurl('/images/arrow-right.svg') no-repeat left
+		padding 25px 60px 25px 25px
+
+	+below(47.25rem)
+		center(wrap-max-width)

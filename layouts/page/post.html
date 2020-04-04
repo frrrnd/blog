@@ -4,16 +4,24 @@
 
 <main class="main article__container" role="main">
 	<article class="wrap">
-		<header role="banner" class="article__header">
-			<h1>{{ .Title }}</h1>
-			<time class="">{{ .Date.Format "2 de Jan de 2006" }}</time>
-		</header>
+		<h1 class="t-page__about__headline">Notes</h1>
 		<div class="article__wrap">
+			<header role="banner" class="article__header">
+				<h1>{{ .Title }}</h1>
+				<time class="article__header--time">{{ .Date.Format "02/01/2006" }}</time>
+			</header>
+		
 			<section class="article__content">
 				{{ .Content }}
 			</section>
 		</div>
 	</article>
 </main>
+
+<div class="navigation">
+	<div class="wrap">
+		<div class="btn-back"><a href="/notes" title="voltar para a lista de notes">voltar</a></div>
+	</div>
+</div>
 
 {{ partial "footer.html" . }}

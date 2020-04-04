@@ -8,17 +8,18 @@
 		<div class="article__wrap">
 			<section class="notes__list">
 			{{ range (.Pages.GroupByDate "2006") }}
-				<h3 class="notes__list--year">{{ .Key }}</h3>
+				<h3 class="notes__list--year"><a href="/notes#{{ .Key }}">{{ .Key }}</a></h3>
+				<div id="{{ .Key }}"></div>
 				{{ range (where .Pages "Type" "page") }}
 				<article class="notes__article">
 					<header role="banner" class="notes__header">
-						<h2 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-						<time class="notes__time">{{ .Date.Format "2 de Jan de 2006" }}</time>
+						<h2 class="notes__title" data-text="{{ .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+						<time class="notes__time">{{ .Date.Format "02/01/2006" }}</time>
 					</header>
 					<section class="article__summary">
 						<p>{{ .Summary }}</p>
 						{{ if .Truncated }}
-						<a href="{{ .Permalink }}">Leia mais</a>
+						<a href="{{ .Permalink }}" class="read-more">Leia mais</a>
 						{{ end }}
 					</section>
 				</article>

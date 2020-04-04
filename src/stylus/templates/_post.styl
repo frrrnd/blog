@@ -6,25 +6,47 @@
 		position relative
 
 	&__header
+		margin-bottom 8vh
+
 		h1
 			margin-bottom 10px
 
+		&--time
+			color #666666
+			font-weight normal
+			font-size 1.6rem
+			font-family monospace
+
+			&:after
+				content ""
+				width 5px
+				height 8px
+				background-color white
+				display inline-block
+				margin-left 4px
+				animation .8s blink infinite
+
 	&__wrap
-		max-width 780px
+		max-width 900px
 		width 100%
 		margin 0 auto
-		padding 20vh 0
+		padding 2vh 0 2vh 0
 
 		+below(47.25rem)
 			center(wrap-max-width)
+			padding 0 0 2vh 0
 
 	&__summary
 		max-width 780px
 		width 100%
-		margin 21px auto 0
+		margin 23px 0 0 0
 
 		+below(47.25rem)
 			center(wrap-max-width)
+
+		.read-more
+			background embedurl('/images/arrow-right.svg') no-repeat left
+			padding 25px 0 25px 25px
 
 	&__content,
 	&__summary
@@ -40,7 +62,8 @@
 
 		pre
 			width 100%
-			padding 16px
+			background-color transparent
+			border-radius 5px
 
 		p
 			margin-bottom 6vh
@@ -79,3 +102,21 @@
 
 			p
 				font-size 14px
+
+
+.navigation
+	width 100%
+	padding 2vh 0
+	.wrap
+		border-top 1px solid #111
+
+.btn-back
+	a
+		background embedurl('/images/arrow-right.svg') no-repeat
+		padding 25px
+		display block
+		margin 0 auto
+		transform rotate(-180deg)
+		max-width 50px
+		width 100%
+		text-indent -9999px

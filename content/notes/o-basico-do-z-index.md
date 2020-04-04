@@ -18,18 +18,15 @@ Basicamente, não existem limitações para o valor do z-index. Mas a maioria do
 .box {
     position: absolute;
     z-index: 1;
-    ...
 }
 
 .box-2 {
     position: absolute;
     z-index: 2;
-    ...
 }
 
 .box-3 {
     position: absolute;
     z-index: 3;
-    ...
 }
 ```

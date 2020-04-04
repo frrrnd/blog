@@ -1,9 +1,20 @@
 .notes
 	&-page
-		padding-top 5vh
+		padding-top 10vh
+
+	&__list
+		border-right 1px solid #111
+
 
 	&__article
 		margin-bottom 15vh
+		padding-bottom 7vh
+		border-bottom 1px solid #111
+		position relative
+		transition .4s
+
+		&:last-child
+			border-bottom 0
 	
 	&__header
 		width 100%
@@ -14,6 +25,19 @@
 		font-size 2rem
 		width 100%
 		text-align right
+		font-weight normal
+		font-family monospace
+		padding-right 20px
+		position relative
+
+		&:after
+			content ""
+			display block
+			width 20px
+			height 1px
+			position absolute
+			right 0
+			background-color #111
 	
 	&__title
 		color text-site-color
@@ -25,8 +49,22 @@
 	&__time
 		color #666666
 		font-weight normal
-		font-size 1.3rem
+		font-size 1.6rem
+		font-family monospace
+
+		&:after
+			content ""
+			width 5px
+			height 8px
+			background-color white
+			display inline-block
+			margin-left 4px
+			animation .8s blink infinite
 	
 	&__content
 		p
 			margin 0 0 20px 0
+
+.cursor-delay
+	&:after
+		animation-delay .14s

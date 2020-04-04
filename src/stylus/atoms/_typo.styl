@@ -1,4 +1,5 @@
 @import url('https://rsms.me/inter/inter.css')
+@import url('https://use.typekit.net/yhf5biv.css')
 
 @font-face
 	font-family 'bluu_nextbold'
@@ -6,7 +7,7 @@
 	font-weight normal
 	font-style normal
 
-font-title = 'bluu_nextbold'
+font-title = 'nimbus-sans-extended', sans-serif
 font-text = 'Inter', sans-serif
 font-link = font-text
 
@@ -48,3 +49,20 @@ a
 	&:hover
 		opacity .5
 		transition color .4s ease, opacity .4s ease
+
+.t-page__about__headline
+	font-size 20rem
+	position absolute
+	z-index -1
+	text-transform uppercase
+	color #111
+	background -webkit-linear-gradient(-95deg,#111 0%,#040404 100%)
+	background-size cover
+	-webkit-background-clip text
+	-webkit-text-fill-color transparent
+	background-clip text
+	text-fill-color transparent
+	font-weight 900
+
+	+below(47.25rem)
+		font-size 6rem
