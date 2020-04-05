@@ -1,6 +1,6 @@
 .mini-cv
     width 100%
-    padding 21px
+    //padding 21px
 
     +below(47.25rem)
         padding 0
@@ -18,12 +18,11 @@
 
     &__job
         margin-bottom 6vh
-        padding-left 20px
-        border-left 2px solid bluegreen
 
         &--title
-            font-size 3rem
+            font-size 5rem
             position relative
+            text-transform lowercase
 
             &:before
                 content ""
@@ -46,6 +45,7 @@
 
 .c-skills
     width 100%
+    background-color #0c0c0c
 
     &__section
         display flex
@@ -59,6 +59,7 @@
         display flex
         flex-direction column
         flex-grow 1
+        text-transform uppercase
 
         h3
             color text-site-color
@@ -71,6 +72,12 @@
                 min-height 30px
                 margin-bottom 16px
                 padding-left 8px
+                font-family font-title
+                font-size 2em
+                display inline-block
+
+                &:nth-child(odd)
+                    color bluegreen
 
     &__doubleColumn
         display flex
@@ -82,7 +89,7 @@
 
 
 .half
-    max-width 50%
+    max-width 100%
     width 100%
     display flex
     flex-direction column
