@@ -15,4 +15,4 @@ Nas minhas interfaces, sempre busco balancear funcionalidade com visual. HTML se
 Como hobby, crio posters e experimentos que você pode conferir [aqui](https://instagram.com/frrrnd.design).
 
 {{< load-photoswipe >}}
-{{< gallery dir="uploads/fotos" caption-position="center" caption-effect="fade" />}}
+{{< gallery dir="/uploads/fotos" caption-position="center" caption-effect="fade" />}}

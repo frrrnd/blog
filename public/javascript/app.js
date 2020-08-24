@@ -21,7 +21,7 @@ if (container) {
 var btn = $('#button');
 
 
-$(window).scroll(function() {
+$(window).scroll(function() { 
 
   // go to top
   if ($(window).scrollTop() > 500) {
@@ -35,3 +35,17 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+// cursors delay
+let cursors = $('.notes__time:odd');
+cursors.addClass('cursor-delay');
+
+// smooth scroll anchor
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
+});
+

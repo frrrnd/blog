@@ -9,35 +9,54 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
-    max-width: 768px;
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-column-gap: 3em;
+}
+
+.gallery .box:nth-child(even) {
+    margin-top: 10vh;
+}
+
+@media only screen and (max-width: 47.25rem) {
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-row-gap: 5em;
+    }
+
+    .gallery .box:nth-child(even) {
+        margin-top: 0;
+    }
+
+    .gallery .box {
+        padding: 20px;
+    }
 }
 .gallery .box {
-    float: left;
-    position: relative;
-    /* Default: 1 tile wide */
     width: 100%;
-    padding-bottom: 100%; 
 }
+
+
+
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
     .gallery .box {
-        width: 50%;
-        padding-bottom: 50%;
+       
     }
 }
 @media only screen and (min-width : 480px) {
     /* Small desktop / ipad view: 3 tiles */
     .gallery .box {
-        width: 33.3%;
-        padding-bottom: 33.3%; /*  */
+       
     }
 }
 @media only screen and (min-width : 9999px) {
    /* Medium desktop: 4 tiles */
    .box {
-      width: 25%;
-      padding-bottom: 25%;
+     
    }
 }
 
@@ -56,16 +75,10 @@ Transition styles
 /*
 figure styles
 */
-figure {
-    position:relative; /* purely to allow absolution positioning of figcaption */
-    overflow: hidden;
-}
 .gallery figure {
-    position: absolute;
-    left: 5px;
-    right: 5px;
-    top: 5px;
-    bottom: 5px;
+   margin: 0;
+   padding: 0;
+   display: block;
 }
 .gallery.hover-effect-grow figure:hover {
     transform: scale(1.05);
@@ -85,21 +98,21 @@ img / a styles
 */
 
 .gallery .img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    position: relative;
+    
 }
 .gallery.hover-effect-zoom figure:hover .img {
     transform: scale(1.05);
 }
 .gallery img {
-    display: none; /* only show the img if not inside a gallery */
+    display: block;
 }
+
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
 figure a {
     position: absolute;
     left: 0;

@@ -25,7 +25,11 @@ let paths = {
 }
 
 function sync(done) {
-    browserSync.init();
+    browserSync.init({
+        server: {
+            baseDir: "./public"
+        }
+    });
     done();
 }
 
