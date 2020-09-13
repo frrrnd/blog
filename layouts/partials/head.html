@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ .Title | default .Site.Title}} {{ if not .IsHome }} &nbsp; - &nbsp; {{ .Site.Title }} {{ end }}</title>
+	<title>{{ .Title | default .Site.Title}} {{ if not .IsHome }} - {{ .Site.Title }} {{ end }}</title>
 	<base href="{{ .Site.BaseURL }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="{{ .Title | default .Params.Title }}">
@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/hugo-easy-gallery.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/atom-one-dark.css">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/jquery.fancybox.css">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.png" type="image/x-icon">
 </head>
 <body>

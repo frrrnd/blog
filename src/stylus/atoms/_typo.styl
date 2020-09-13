@@ -27,11 +27,20 @@ h6
 h1
 	font-size 5rem
 	line-height 120%
+	
 	+below(47.25rem)
 		font-size 3rem
 
 h2
 	font-size 4rem
+
+h3
+	color black
+	-webkit-text-stroke 1px #444
+	-webkit-text-fill-color transparent
+	font-weight normal
+	font-size 3em
+	padding 1em 0
 
 p
 	font-family font-text
@@ -42,12 +51,13 @@ p
 a 
 	text-decoration none
 	outline none
-	color link-color
+	color white
 	opacity 1
 	transition color .4s ease, opacity .4s ease
+	cursor embedurl('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPQAAAH8AAAD/gAAB6oAAAerAAAPqwAAHf8AABn/AAABtQAAAbEAAAGBAAABgQAAAYAAAAAAAAAAAAA///////////////////////////////////////////////////////////////////////////////////////4J///+Af///AH///gA///wAP//8AB//+AAf//AAH//wAB//+QAf//8AH///AR/3/w8f8/8Pv/H/n//w////8='), auto
 
 	&:hover
-		opacity .5
+		color link-color
 		transition color .4s ease, opacity .4s ease
 
 .t-page__about__headline

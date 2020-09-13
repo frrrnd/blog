@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main project__container" role="main">
+	<article class="">
+		<div class="project__wrap">
+			<header role="banner" class="project__header">
+				<div class="wrap wrap--title">
+					<h1>{{ .Title }}</h1>
+					{{ partial "tags.html" .}}
+				</div>
+			</header>
+		
+			<section class="project__content">
+				{{ .Content }}
+			</section>
+		</div>
+	</article>
+</main>
+
+{{ partial "footer.html" . }}

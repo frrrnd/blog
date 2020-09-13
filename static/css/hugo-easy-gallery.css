@@ -10,11 +10,11 @@ Grid Layout Styles
 .gallery {
     overflow: hidden;
     max-width: 900px;
+    margin: 0 auto;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    grid-column-gap: 3em;
+    grid-column-gap: 10em;
 }
 
 .gallery .box:nth-child(even) {

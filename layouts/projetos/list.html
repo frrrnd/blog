@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<h3>Projetos</h3>
+
+
+
+<main class="main t-page notes-page" role="main">
+	<div class="wrap">
+		<h1 class="t-page__about__headline">{{ .Title }}</h1>
+		<div class="article__wrap">
+			
+      <ul class="posts">
+        {{ range where .Site.RegularPages "Section" .Section }}
+        <li>{{ .Params.Name }}</li>
+        {{ end }}
+      </ul>
+		
+    </div>
+	</div>
+</main>
+
+
+{{ partial "footer.html" . }}

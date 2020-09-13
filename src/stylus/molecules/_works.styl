@@ -8,9 +8,9 @@
 .grid-container
 	display grid
 	grid-template-columns 1fr 1fr 1fr
-	grid-template-rows 1fr 1fr 1fr 1fr
-	grid-template-areas "slot-1 slot-2 slot-3" "slot-4 slot-5 slot-6" "slot-7 slot-8 slot-9" "slot-10 slot-11 slot-12" "slot-13 slot-14 slot-15" "slot-16 slot-17 slot-18"
-	grid-gap 30px
+	grid-template-rows 1fr 1fr
+	grid-template-areas "slot-1 slot-2 slot-3" "slot-4 slot-5 slot-6"
+	grid-gap 60px
 	max-width wrap-max-width
 	width 100%
 	margin 0 auto
@@ -19,7 +19,7 @@
 		display grid
 		grid-template-columns 1fr
 		grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr
-		grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4" "slot-5" "slot-6" "slot-7" "slot-8" "slot-9" "slot-10" "slot-11" "slot-12" "slot-13" "slot-14" "slot-15" "slot-16" "slot-17" "slot-18"
+		grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4" "slot-5" "slot-6"
 		grid-gap 30px
 
 .slot
@@ -66,13 +66,12 @@
 		opacity 0
 		transition .4s
 
-	h3
+	h4
 		text-align center
 		position absolute
 		top 50%
 		left 0
 		right 0
-		font-size 3rem
 		color white
 
 .slot:nth-child(1)
@@ -93,20 +92,6 @@
 .slot:nth-child(6)
 	grid-area slot-6
 
-.slot:nth-child(7)
-	grid-area slot-7
-
-.slot:nth-child(8)
-	grid-area slot-8
-
-.see-more--dribbble
-	font-size 2rem
-	display block
-	margin 0 auto 2em
-	text-align center
-	
-	a
-		color white
 
 
 @keyframes fadeIn
@@ -124,31 +109,99 @@
 .go-dribbble
 	max-width 100%
 	width 100%
-	margin 0 auto
-	text-align right
+	margin 5vh auto
+	text-align center
 	margin-bottom 4vh
 
-	.read-more
-		background embedurl('/images/arrow-right.svg') no-repeat left
-		padding 25px 60px 25px 25px
+.rotate
+	animation 5s rotate ease infinite
 
-	+below(47.25rem)
-		center(wrap-max-width)
+@keyframes rotate
+	100%
+		transform rotate(-360deg)
 
-.work-for
-	display grid
-	width 100%
-	max-width 960px
-	justify-items center
-	grid-template-columns 1fr 1fr 1fr 1fr 1fr
-	margin 0 auto
-	align-items center
-	padding-bottom 5vh
+// Projects
 
-	+below(47.25rem)
-		grid-template-columns 1fr 1fr
+.projects,
+.other-projects
 
-	&__slot
+	&__list
+		list-style-type none
+		padding-left 0
+		width 100%
+		max-width 100%
+		margin 0 auto
+		transition .4s
+
+		&:hover
+			transition .4s
+
+			li:not(:hover)
+				opacity .5
+				transition .4s
+				
+				h4
+					-webkit-text-stroke 1px #666
+					-webkit-text-fill-color transparent
+					font-weight normal
+					transition .4s
+				
+				p, em
+					color #222
+					transition .4s
+
+
+
+		h4
+			font-size 2.8em
+			text-transform lowercase
+			transition .4s
+			position relative
+			z-index 9999
+		
+		p,
+		em
+			transition .4s
+
+		em
+			font-style normal
+			display inline-block
+			color mineviolet
+
 		img
-			filter grayscale(1)
-			opacity .4
+			position absolute
+			top 0
+			right 0
+			opacity 0
+			transition .4s
+			z-index 99
+
+		li
+			position relative
+			transition .4s
+			z-index 9999
+
+			&:hover
+				h4,
+				p,
+				em
+					transform translateX(15px)
+					transition .4s
+
+		a
+			padding 53px 0
+			display block
+
+			&:hover
+				opacity 1
+				color white
+
+				img
+					opacity 1
+					transition .4s
+
+		a[href="#!"]
+			cursor default
+
+.other-projects
+	padding-top 10em

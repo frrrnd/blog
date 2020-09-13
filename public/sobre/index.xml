@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sobre on Fernando Soares - UX, UI &amp; Front End Design</title>
-    <link>http://localhost:3000/sobre/</link>
+    <link>http://localhost:1313/sobre/</link>
     <description>Recent content in Sobre on Fernando Soares - UX, UI &amp; Front End Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 22:19:15 -0300</lastBuildDate>
     
-	<atom:link href="http://localhost:3000/sobre/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/sobre/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

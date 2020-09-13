@@ -1,6 +1,7 @@
 .header
 	width 100%
 	padding-top 2vw
+	font-family font-title
 
 	.wrap
 		display flex
@@ -9,15 +10,21 @@
 		
 		+below(47.25rem)
 			align-items flex-start
+			flex-direction column
 	
 	&__logo
 		display flex
 		flex-grow 1
+
+		+below(64em)
+			width 100%
+			align-items center
+			justify-content center
+			margin-bottom 21px
 	
 	&__name
 		display flex
 		flex-grow 2
-		font-family font-text
 		font-weight bold
 
 		+below(47.25rem)
@@ -29,3 +36,7 @@
 		flex-grow 3
 		flex-direction row
 		justify-content flex-end
+
+		+below(64em)
+			width 100%
+			justify-content center

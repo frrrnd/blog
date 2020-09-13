@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sobre  &nbsp; - &nbsp; Fernando Soares - UX, UI &amp; Front End Design </title>
-	<base href="http://localhost:3000">
+	<title>Sobre  - Fernando Soares - UX, UI &amp; Front End Design </title>
+	<base href="http://localhost:1313">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Sobre">
 	<meta property="og:description" content="">
-	<meta property="og:image" content="http://localhost:3000/images/meta-image.jpg">
-	<meta property="og:url" content="http://localhost:3000/sobre/">
+	<meta property="og:image" content="http://localhost:1313/images/meta-image.jpg">
+	<meta property="og:url" content="http://localhost:1313/sobre/">
 	<meta property="og:site_name" content="Fernando Soares - UX, UI &amp; Front End Design">
-	<meta name="twitter:card" content="http://localhost:3000/images/meta-image.jpg">
+	<meta name="twitter:card" content="http://localhost:1313/images/meta-image.jpg">
 	<meta name="twitter:image:alt" content="Fernando Soares - UX, UI &amp; Front End Design">
 	<meta name="twitter:site" content="@frrrnd">
-	<link rel="stylesheet" href="http://localhost:3000/css/main.css">
-	<link rel="stylesheet" href="http://localhost:3000/css/hugo-easy-gallery.css">
-	<link rel="stylesheet" href="http://localhost:3000/css/atom-one-dark.css">
-	<link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="http://localhost:1313/css/main.css">
+	<link rel="stylesheet" href="http://localhost:1313/css/hugo-easy-gallery.css">
+	<link rel="stylesheet" href="http://localhost:1313/css/atom-one-dark.css">
+	<link rel="stylesheet" href="http://localhost:1313/css/jquery.fancybox.css">
+	<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
 </head>
 <body>
 	<div class="container">
@@ -24,7 +25,7 @@
 <header class="header" role="banner">
 	<div class="wrap">
 		<div class="header__logo">
-			<a href="http://localhost:3000">
+			<a href="http://localhost:1313">
 				<svg width="29" height="45" viewBox="0 0 49 45" fill="none">
 					<path d="M10.8944 13.5076L2 22.5807L10.8944 31.6537L19.7887 22.5807L10.8944 13.5076Z" fill="white" stroke-width="2" stroke-miterlimit="10"/>
 					<path d="M7.59636 1.516L28.0783 22.3827L7.11658 43.7655H17.5967L38.5583 22.3827L24.5849 8.12706H38.5583L45.6431 1L7.11658 1.01095L7.59636 1.516Z" fill="white" stroke-width="2" stroke-miterlimit="10"/>
@@ -35,8 +36,8 @@
 		<div class="header__menu">
 			<nav class="top-nav" role="navigation">
 				<ul>
-					<li><a href="http://localhost:3000/sobre">Sobre</a></li>
-					<li><a href="http://localhost:3000/notes">Notes</a></li>
+					<li><a href="http://localhost:1313/sobre">Sobre</a></li>
+					<li><a href="http://localhost:1313/notes">Notes</a></li>
 					<li><a href="https://dribbble.com/fernando" target="_blank">Trabalhos</a></li>
 				</ul>
 			</nav>
@@ -45,17 +46,31 @@
 </header>
 
 <main class="main t-page t-page__about" role="main">
-    <div class="wrap">
-        <h1 class="t-page__about__headline">Sobre</h1>
+    <section class="about">
+        <div class="wrap">
+            <div class="half half--left">
+                <p>Meu nome é Fernando Soares e trabalho há 8 anos com design e desenvolvimento de interfaces.</p>
 
-        <div class="article__wrap">
-            <section class="article__content">
-                <p>Meu nome é <strong>Fernando Soares</strong>.
-Sou <strong>UX, UI, Front End, e Visual Designer</strong>.
-Trabalho desenvolvendo sites, landing pages, sistemas e design de interfaces há 8 anos.</p>
-<p>Nas minhas interfaces, sempre busco balancear funcionalidade com visual. HTML semântico, acessível e CSS limpo. Performance é primordial para uma boa experiência do usuário.</p>
-<p>Como hobby, crio posters e experimentos que você pode conferir <a href="https://instagram.com/frrrnd.design">aqui</a>.</p>
-<p>
+                <p>Desde landing pages à interfaces para óculus VR, meu foco é no design de interfaces inteligentes, balanceando funcionalidade com visual.
+                Alio muito meu conhecimento em desenvolvimento front end com minha paixão por design, resultando em interfaces consistentes e focadas no usuário.</p>
+
+                <p>Gosto muito de testar novas ideias e conceitos mas, principalmente, estudar o comportamento do usuário.</p>
+
+                <p><strong>Considerado o melhor designer de interfaces da família há 8 anos consecutivos.</strong></p>
+
+                <p>Já trabalhei com variados segmentos e para empresas como Massey Fergusson, Valtra, RIC Record, Figueirense FC e Imobiliária Brognoli na grande Florianópolis.</p>
+
+                <p>No meu tempo livre eu gosto muito de fazer barulho com o meu baixo e um pedal de fuzz e arrisco umas pequenas ilustrações em 3D.</p>
+                
+                <a href="" title="baixar currículo">baixe meu currículo</a>
+            </div>
+
+            <div class="half">
+                <img src="../images/eu.jpg" alt="Eu">
+            </div>
+        </div>
+        <div class="wrap">
+            <p>
 
 
 
@@ -122,245 +137,210 @@ Trabalho desenvolvendo sites, landing pages, sistemas e design de interfaces há
 <div class="gallery caption-position-center caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/01.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/01.jpg" alt="1st" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/01.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/01.jpg" alt="1st" />
 				    </div>
 			      <figcaption>
 		          <p>1st</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/01.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/01.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/02.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/02.jpg" alt="2nd" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/02.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/02.jpg" alt="2nd" />
 				    </div>
 			      <figcaption>
 		          <p>2nd</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/02.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/02.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/03.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/03.jpg" alt="3rd" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/03.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/03.jpg" alt="3rd" />
 				    </div>
 			      <figcaption>
 		          <p>3rd</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/03.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/03.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/04.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/04.jpg" alt="4th" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/04.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/04.jpg" alt="4th" />
 				    </div>
 			      <figcaption>
 		          <p>4th</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/04.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/04.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/05.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/05.jpg" alt="5th" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/05.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/05.jpg" alt="5th" />
 				    </div>
 			      <figcaption>
 		          <p>5th</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/05.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/05.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/06.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/06.jpg" alt="6th" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/06.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/06.jpg" alt="6th" />
 				    </div>
 			      <figcaption>
 		          <p>6th</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/06.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/06.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/07.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/07.jpg" alt="7th" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/07.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/07.jpg" alt="7th" />
 				    </div>
 			      <figcaption>
 		          <p>7th</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/07.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/07.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/08.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/08.jpg" alt="8th" />
+				    <div class="img" style="background-image: url('http://localhost:1313/uploads/fotos/08.jpg');" >
+				      <img itemprop="thumbnail" src="http://localhost:1313/uploads/fotos/08.jpg" alt="8th" />
 				    </div>
 			      <figcaption>
 		          <p>8th</p>
 			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/08.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/09.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/09.jpg" alt="9th" />
-				    </div>
-			      <figcaption>
-		          <p>9th</p>
-			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/09.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('http://localhost:3000/uploads/fotos/10.jpg');" >
-				      <img itemprop="thumbnail" src="http://localhost:3000/uploads/fotos/10.jpg" alt="10th" />
-				    </div>
-			      <figcaption>
-		          <p>10th</p>
-			      </figcaption>
-				    <a href="http://localhost:3000/uploads/fotos/10.jpg" itemprop="contentUrl"></a>
+				    <a href="http://localhost:1313/uploads/fotos/08.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
 </p>
 
-            </section>
         </div>
-    </div>
+    </section>
     
+    <section class="c-skills">
+        <section class="c-skills__section">
+            <div class="c-skills__column">
+                <ul class="marquee">
+                    <li>Figma</li>
+                    <li>Wordpress</li>
+                    <li>User Interface</li>
+                    <li>HTML (jade, pug)</li>
+                    <li>CSS (stylus, sass)</li>
+                    <li>Experiência do Usuário</li>
+                </ul>
 
-    <section class="mini-cv">
-        <section class="mini-cv__timeline">
-            <div class="half">
-                <section class="c-skills">
-                    <section class="c-skills__section">
-                        <div class="c-skills__column">
-                            <ul>
-                                <li>HTML (jade, pug)</li>
-                                <li>CSS (stylus, sass)</li>
-                                <li>Experiência do Usuário</li>
-                                <li>User Interface</li>
-                                <li>Wordpress</li>
-                                <li>Figma</li>
-                                <li>Hugo</li>
-                                <li>Jekyll</li>
-                                <li>SVG</li>
-                                <li>Sketch</li>
-                                <li>Photoshop</li>
-                                <li>Animations</li>
-                            </ul>
-                        </div>
-                    </section>
-                </section>
-            </div>
-        </section>
-
-        <section class="mini-cv__timeline">
-            <div class="wrap">
-                <div class="half">
-                    <section class="mini-cv__job">
-                        <h5 class="mini-cv__job--title">Sábia Experience</h5>
-                        <span class="mini-cv__job--time">2016 - 2019</span>
-
-                        <div class="content">
-                            <p class="mini-cv__job--content">User Experience - User Interface - Front End Design - Wordpress</p>
-                        </div>
-                    </section>
-
-                    <section class="mini-cv__job">
-                        <h5 class="mini-cv__job--title">Deon Sistemas</h5>
-                        <span class="mini-cv__job--time">2013 - 2015</span>
-
-                        <div class="content">
-                            <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
-                        </div>
-                    </section>
-
-                    <section class="mini-cv__job">
-                        <h5 class="mini-cv__job--title">Ação Direta Web Studio</h5>
-                        <span class="mini-cv__job--time">2012 - 2013</span>
-
-                        <div class="content">
-                            <p class="mini-cv__job--content">Criação de Layouts - Front End - Wordpress</p>
-                        </div>
-                    </section>
-                </div>
+                <ul class="marquee-2">
+                    <li>SVG</li>
+                    <li>Hugo</li>
+                    <li>Jekyll</li>
+                    <li>Sketch</li>
+                    <li>Photoshop</li>
+                    <li>Animations</li>
+                </ul>
             </div>
         </section>
     </section>
 
-    <div class="wrap">
-        <ul class="a-emoji-list">
-            <li><i title="longboard & skates">🛹</i></li>
-            <li><i title="comida mexicana">🌮</i></li>
-            <li><i title="sci-fi">🤖</i></li>
-            <li><i title="ufologia">👽</i></li>
-            <li><i title="ilustrações">🎨</i></li>
-            <li><i title="baixo com fuzz">🎸</i></li>
-        </ul>
-    </div>
+    <section class="mini-cv__timeline">
+        <div class="wrap">
+            <div class="half">
+                <h3>experiência</h3>
+                <ul class="static--list">
+                    <li>
+                        <h4>mint_lab</h4>
+                        <p>2019 - 2020</p>
+                        <p>UX - UI - Front End - Wordpress</p>
+                    </li>
+                    <li>
+                        <h4>Sábia Experience</h4>
+                        <p>2016 - 2019</p>
+                        <p>UX - UI - Front End Design - Wordpress</p>
+                    </li>
+
+                    <li>
+                        <h4>Deon Sistemas</h4>
+                        <p>2013 - 2015</p>
+                        <p>UI Design - Front End - Wordpress</p>
+                    </li>
+
+                    <li>
+                        <h4>Ação Direta Web Studio</h4>
+                        <p>2012 - 2013</p>
+                        <p>UI Design - Front End - Wordpress</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 			</div>
-		<a href="" id="button" class="gotop">
-			<svg x="0px" y="0px" width="72px" height="72px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;" xml:space="preserve">
-				<g>
-					<path fill="white" d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564
-						L10.848,208.708C3.615,215.94,0,224.604,0,234.692c0,9.897,3.619,18.459,10.848,25.693l21.411,21.409
-						c6.854,7.231,15.42,10.855,25.697,10.855c10.278,0,18.842-3.624,25.697-10.855l83.939-83.651v200.998
-						c0,9.89,3.567,17.936,10.706,24.126c7.139,6.184,15.752,9.273,25.837,9.273h36.545c10.089,0,18.698-3.09,25.837-9.273
-						c7.139-6.188,10.712-14.236,10.712-24.126V198.144l83.938,83.651c6.848,7.231,15.413,10.855,25.7,10.855
-						c10.082,0,18.747-3.624,25.975-10.855l21.409-21.409c7.043-7.426,10.567-15.988,10.567-25.693
-						C444.819,224.795,441.295,216.134,434.252,208.708z"/>
-				</g>
-			</svg>
-		</a>
-		<footer class="footer" role="contentinfo">
-			<div class="footer-infos">
-				<div class="wrap">
-					<div class="col">
-						<h4>vamos trabalhar juntos</h4>
-						<a class="txt-r" href="mailto:dotfernando@gmail.com">dotfernando @ gmail</a>
-					</div>
-	
-					<div class="col">
-						<ul>
-							<li><a href="https://dribbble.com/fernando" target="_blank" title="Dribbble">Dribbble</a></li>
-							<li><a href="https://codepen.io/frrrnd" target="_blank" title="Codepen">Codepen</a></li>
-							<li><a href="https://github.com/frrrnd" target="_blank" title="Github">Github</a></li>
-						</ul>
+			<a href="#!" id="button" class="gotop">
+				<svg x="0px" y="0px" width="72px" height="72px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;" xml:space="preserve">
+					<g>
+						<path fill="white" d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564
+							L10.848,208.708C3.615,215.94,0,224.604,0,234.692c0,9.897,3.619,18.459,10.848,25.693l21.411,21.409
+							c6.854,7.231,15.42,10.855,25.697,10.855c10.278,0,18.842-3.624,25.697-10.855l83.939-83.651v200.998
+							c0,9.89,3.567,17.936,10.706,24.126c7.139,6.184,15.752,9.273,25.837,9.273h36.545c10.089,0,18.698-3.09,25.837-9.273
+							c7.139-6.188,10.712-14.236,10.712-24.126V198.144l83.938,83.651c6.848,7.231,15.413,10.855,25.7,10.855
+							c10.082,0,18.747-3.624,25.975-10.855l21.409-21.409c7.043-7.426,10.567-15.988,10.567-25.693
+							C444.819,224.795,441.295,216.134,434.252,208.708z"/>
+					</g>
+				</svg>
+			</a>
+			<footer class="footer" role="contentinfo">
+				<div class="footer-infos">
+					<div class="wrap">
+						<div class="col">
+							<ul>
+								<li><a href="" target="_blank" title="Meu perfil no Dribbble">Dribbble</a></li>
+								<li><a href="" target="_blank" title="Meu perfil no Behance">Behance</a></li>
+							</ul>
+						</div>
+		
+						<div class="col">
+							<ul>
+								<li><a href="https://github.com/frrrnd" target="_blank" title="Meu perfil no Github">Github</a></li>
+								<li><a href="https://codepen.io/frrrnd" target="_blank" title="Meu perfil no Codepen">Codepen</a></li>
+							</ul>
+						</div>
+
+						<div class="col">
+							<ul>
+								<li><a href="https://github.com/frrrnd/blog" target="_blank" title="Código do site">Source Code.</a></li>
+							</ul>
+						</div>
+
+						<div class="col">
+							<ul>
+								<li>Copyright © 2020 Fernando Soares</li>
+							</ul>
+						</div>
 					</div>
 
-					<div class="col">
-						<ul>
-							<li><a href="https://instagram.com/frrrnd.jpg" target="_blank" title="Instagram">Instagram</a></li>
-							<li><a href="https://linkedin.com/in/frrrnd" target="_blank" title="Linkedin">Linkedin</a></li>
-							<li><a href="https://instagram.com/frrrnd.design" target="_blank" title="Instagram dos Posters">Posters</a></li>
-						</ul>
-					</div>
 				</div>
-
-				<div class="footer-bottom">
-					<p>Copyright © 2019 Fernando Soares - <a href="https://github.com/frrrnd/blog" target="_blank" title="Source Code on Github">Source Code.</a></p>
-				</div>
-
-			</div>
-		</footer>
+			</footer>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="http://localhost:3000/javascript/jribbble.min.js"></script>
-		<script src="http://localhost:3000/javascript/load-photoswipe.js"></script>
+		<script src="http://localhost:1313/javascript/jribbble.min.js"></script>
+		<script src="http://localhost:1313/javascript/load-photoswipe.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-		<script src="http://localhost:3000/javascript/app.js"></script>
+		<script src="http://localhost:1313/javascript/jquery.marquee.min.js"></script>
+		<script src="http://localhost:1313/javascript/fancybox.js"></script>
+		<script src="http://localhost:1313/javascript/app.js"></script>
 
 		<script id="__bs_script__">
 			document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.5'><\/script>".replace("HOST", location.hostname));

@@ -1,3 +1,21 @@
+.static--list
+    list-style-type none
+    padding-left 0
+    width 100%
+    max-width 90%
+    margin 0 auto
+        
+    p
+        color #666
+
+    h4
+        font-size 3em
+        text-transform lowercase
+
+    li
+        position relative
+
+
 .mini-cv
     width 100%
     //padding 21px
@@ -9,43 +27,19 @@
         margin-bottom 2vh
 
     &__timeline
-        padding 5vh 0
         width 100%
         display flex
 
         +below(47.25rem)
             flex-direction column
 
-    &__job
-        margin-bottom 6vh
-
-        &--title
-            font-size 5rem
-            position relative
-            text-transform lowercase
-
-            &:before
-                content ""
-                width 10px
-                height 10px
-                border-top 5px solid transparent
-                border-bottom 5px solid transparent
-                border-left 5px solid black
-                left -20px
-                top 15px
-                position absolute
-        &--time
-            font-size 1.4rem
-            display inline-block
-            margin-bottom 1vh
-
-        &--content
-            font-size 1.4rem
-            color #666
+        li
+            padding 0 0 53px 0
 
 .c-skills
     width 100%
-    background-color #0c0c0c
+    background-color mineviolet
+    overflow hidden
 
     &__section
         display flex
@@ -56,28 +50,40 @@
             flex-direction column
 
     &__column
-        display flex
-        flex-direction column
-        flex-grow 1
-        text-transform uppercase
+        position relative
+        overflow hidden
+        white-space nowrap
+
 
         h3
             color text-site-color
             min-height 40px
 
-        ul
-            list-style-type none
+    
+        .marquee, 
+        .marquee-2
+            display block
+            list-style none
+            overflow hidden
+            width 100%
+            padding 1% 0 1% 0
+            text-align center
+            
+
+            &:hover
+                animation-play-state paused
 
             li
-                min-height 30px
-                margin-bottom 16px
-                padding-left 8px
-                font-family font-title
-                font-size 2em
                 display inline-block
-
+                font-size 8rem
+                font-family font-title
+                margin 0 10px
+                
                 &:nth-child(odd)
-                    color bluegreen
+                    color black
+                    -webkit-text-stroke 1px white
+                    -webkit-text-fill-color transparent
+                    font-weight normal
 
     &__doubleColumn
         display flex
@@ -87,6 +93,12 @@
             max-width 50%
             width 100%
 
+
+@keyframes marquee
+    0%
+        transform translate(0, 0)
+    100%
+        transform translate(-100%, 0)
 
 .half
     max-width 100%

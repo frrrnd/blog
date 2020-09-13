@@ -7,9 +7,6 @@
 	height 100%
 	display flex
 	align-items center
-	background embedurl('/images/hero.jpg') no-repeat
-	background-size cover
-	background-position top left
 
 	+below(47.25rem)
 		padding 0
@@ -25,16 +22,44 @@
 			color minegray
 
 	h1
-		width 75%
+		width 65%
 		position relative
 		margin-bottom 21px
 		hyphens auto
 		font-size 5rem
 		font-weight normal
+		padding-top 20px
+		min-height 240px
 
-		+below(47.25rem)
+		+below(64em)
 			font-size 3rem
 			width 100%
+			padding 0 12px
 
 		span
 			color white
+
+		&:after
+			content attr(data-title)
+			font-size 4em
+			position absolute
+			top -50px
+			left 0
+			display block
+			z-index 0
+			color black
+			-webkit-text-stroke 3px rgba(255,255,255,.1)
+			-webkit-text-fill-color transparent
+			text-transform uppercase
+			overflow hidden
+			white-space nowrap
+			width max-content
+			animation type 2s steps(80, end)
+			height 100%
+			padding-top 90px
+
+@keyframes type
+	from
+		width 0
+	to
+		width 100%
