@@ -1,5 +1,5 @@
 			</div><!-- container -->
-			<a href="#!" id="button" class="gotop">
+			<button aria-label="Ir para o topo" type="button" id="button" class="gotop">
 				<svg x="0px" y="0px" width="72px" height="72px" viewBox="0 0 444.819 444.819" xml:space="preserve">
 					<g>
 						<path d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564
@@ -11,7 +11,7 @@
 							C444.819,224.795,441.295,216.134,434.252,208.708z"/>
 					</g>
 				</svg>
-			</a>
+			</button>
 			<footer class="footer" role="contentinfo">
 				<div class="footer-infos">
 					<div class="wrap">
@@ -35,15 +35,16 @@
 				</div>
 			</footer>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		<script src="{{ .Site.BaseURL }}/javascript/jribbble.min.js"></script>
-		<!--<script src="{{ .Site.BaseURL }}/javascript/load-photoswipe.js"></script>-->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
-		<!--<script src="{{ .Site.BaseURL }}/javascript/fancybox.js"></script>-->
 		<script src="{{ .Site.BaseURL }}/javascript/app.js"></script>
-
+		
+		<!--
 		<script id="__bs_script__">//<![CDATA[
 			document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.5'><\/script>".replace("HOST", location.hostname));
 		//]]></script>
+
+		-->
 	</body>
 </html>

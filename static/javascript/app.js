@@ -12,7 +12,6 @@ if (container) {
 
     const reducedShots = filteredShots.reduce((html, shot, item) => html + '<div class="slot"><a href="'+  shot.html_url + '" target="_blank"><figure><img width="400" height="300" loading="lazy" alt="'+ shot.title +'" data-id="' + item + '" src="' + shot.images.normal + '"></figure></a></div>', "");
 
-    console.log(filteredShots)
     // put on html
     container.innerHTML = reducedShots;
 });
@@ -52,21 +51,26 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 let switcher = document.querySelector(".sw");
 let root = document.getElementsByTagName('html')[0];
+let metaColor = document.querySelector('meta[name="theme-color"]');
 
 if (localStorage.getItem("theme") == 'dark') {
   root.classList.add("dark-theme");
+  metaColor.setAttribute("content", "#161821")
 } else {
   root.classList.add("light-theme");
+  metaColor.setAttribute("content", "#E8E9EC")
 }
 
 switcher.addEventListener("click", function () {
   if (root.classList.contains('dark-theme')) {
     root.classList.remove("dark-theme");
     root.classList.add("light-theme");
+    metaColor.setAttribute("content", "#E8E9EC")
     localStorage.setItem("theme", "light");
   } else {
     root.classList.remove("light-theme");
     root.classList.add("dark-theme");
     localStorage.setItem("theme", "dark");
+    metaColor.setAttribute("content", "#161821")
   }
 });

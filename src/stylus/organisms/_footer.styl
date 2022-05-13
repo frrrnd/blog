@@ -1,4 +1,4 @@
-#button
+.gotop
 	opacity 0
 	visibility hidden
 	transition .4s
@@ -6,13 +6,16 @@
 	bottom 10%
 	right 5%
 	z-index 50
+	border none
+	background-color transparent
+	cursor pointer
 
-#button.show
+.gotop.show
 	opacity 1
 	visibility visible
 	transition .4s
 
-#button svg
+.gotop svg
 	max-width 30px
 
 	path
@@ -46,6 +49,9 @@
 		&:last-child
 			ul
 				text-align right
+
+				+below(47.25rem)
+					text-align center
 
 				li
 					&:last-child
