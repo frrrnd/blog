@@ -1,7 +1,7 @@
 ---
 title: "Como criar ícones transparentes no iOS"
 date: 2020-04-03T00:28:19-03:00
-draft: false
+draft: true
 type: "page"
 layout: "post"
 ---

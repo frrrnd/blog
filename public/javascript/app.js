@@ -1,24 +1,24 @@
-hljs.initHighlightingOnLoad();
+//hljs.initHighlightingOnLoad();
+
+hljs.highlightAll();
 
 let container = document.querySelector("#grid-container");
 
 if (container) {
 
-  jribbble.shots({token: "627b0fac077b5b6f3dcafec723409a4eb98a2b09456afee83b804d54655f2967", per_page: 11}, 
+  jribbble.shots({token: "627b0fac077b5b6f3dcafec723409a4eb98a2b09456afee83b804d54655f2967", per_page: 12}, 
   function(shots) {
     const filteredShots = shots.filter(shot => shot.tags.includes('ui') && shot.animated !== true);
 
-      const reducedShots = filteredShots.reduce((html, shot, item) => html + '<div class="slot"><a href="'+  shot.html_url + '" target="_blank"><figure><img data-id="' + item + '" src="' + shot.images.hidpi + '"><div class="overlay"><h4>'+ shot.title +'</h4></div></figure></a></div>', "");
+    const reducedShots = filteredShots.reduce((html, shot, item) => html + '<div class="slot"><a href="'+  shot.html_url + '" target="_blank"><figure><img width="400" height="300" loading="lazy" alt="'+ shot.title +'" data-id="' + item + '" src="' + shot.images.normal + '"></figure></a></div>', "");
 
-      // put on html
-      container.innerHTML = reducedShots;
+    console.log(filteredShots)
+    // put on html
+    container.innerHTML = reducedShots;
 });
 }
 
-
 var btn = $('#button');
-
-
 $(window).scroll(function() {
   // go to top
   if ($(window).scrollTop() > 500) {
@@ -47,50 +47,26 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
 
+// themes
 
-// boo
+let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+let switcher = document.querySelector(".sw");
+let root = document.getElementsByTagName('html')[0];
 
-let els = document.querySelectorAll('[data-appear]')
-
-const isVisible = (elem) => {
-    let coords = elem.getBoundingClientRect()
-    let windowHeight = document.documentElement.clientHeight
-    let topVisible = coords.top + elem.clientHeight > 0 && coords.top < windowHeight
-
-    return topVisible
+if (localStorage.getItem("theme") == 'dark') {
+  root.classList.add("dark-theme");
+} else {
+  root.classList.add("light-theme");
 }
 
-const showVisible = () => {
-    for (const el of els) {
-        if (isVisible(el)) {
-            el.classList.add('space-animation')
-        }
-    }
-}
-
-const apply = () => {
-  showVisible()
-}
-
-window.addEventListener('scroll', apply)
-apply()
-
-$('.marquee').marquee({
-  duration: 20000,
-  gap: 10,
-  delayBeforeStart: 0,
-  direction: 'left',
-  duplicated: true,
-  startVisible: true
+switcher.addEventListener("click", function () {
+  if (root.classList.contains('dark-theme')) {
+    root.classList.remove("dark-theme");
+    root.classList.add("light-theme");
+    localStorage.setItem("theme", "light");
+  } else {
+    root.classList.remove("light-theme");
+    root.classList.add("dark-theme");
+    localStorage.setItem("theme", "dark");
+  }
 });
-
-$('.marquee-2').marquee({
-  duration: 20000,
-  gap: 10,
-  delayBeforeStart: 0,
-  direction: 'right',
-  duplicated: true,
-  startVisible: true
-});
-
-$(".fancybox").fancybox();

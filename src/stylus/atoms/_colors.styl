@@ -11,11 +11,66 @@ minegray = #606060
 mineviolet = #7545FF
 linkhover = #49f767
 
-
-// Variables
-
-link-color = mineviolet
-background-site-color = #040404
+background-site-color = #E8E9EC
 background-footer-color = mine-shaft
-text-site-color = white
+text-site-color = #33374C
 ghost-color = ghost-color
+
+// Dark Theme
+
+dark-bg = #161821
+dark-text = #C6C8D1
+dark-accent = #84A0C6
+dark-meta = #8c90a3
+dark-invert = #df5dff
+
+// Light Theme
+
+light-bg = #E8E9EC
+light-text = #33374C
+light-accent = #2D539E
+light-meta = #595e74
+light-invert = #2079ff
+
+
+@media (prefers-color-scheme: light)
+    html
+        --background-color = light-bg
+        --text-color = light-text
+        --logo-color = light-accent
+        --link-color = light-accent
+        --title-color = light-text
+        --background-accent-color = light-accent 
+        --menu-color = light-meta
+        --code-inline-color = light-invert
+    
+    html.dark-theme
+        --background-color = dark-bg
+        --text-color = dark-text
+        --logo-color = dark-accent
+        --link-color = dark-accent
+        --title-color = dark-text
+        --background-accent-color = dark-accent 
+        --menu-color = dark-meta
+        --code-inline-color = dark-invert
+
+@media (prefers-color-scheme: dark)
+    html
+        --background-color: dark-bg
+        --text-color: dark-text
+        --logo-color: dark-accent
+        --link-color: dark-accent
+        --title-color: dark-text
+        --background-accent-color: dark-accent 
+        --menu-color: dark-meta
+        --code-inline-color: dark-invert
+
+    html.light-theme
+        --background-color: light-bg
+        --text-color: light-text
+        --logo-color: light-accent
+        --link-color: light-accent
+        --title-color: light-text
+        --background-accent-color: light-accent 
+        --menu-color: light-meta
+        --code-inline-color: light-invert

@@ -1,19 +1,27 @@
-@import url('https://rsms.me/inter/inter.css')
-@import url('https://use.typekit.net/yhf5biv.css')
-
 @font-face
-	font-family 'bluu_nextbold'
-	src url('../fonts/bluunext-bold-webfont.woff') format('woff')
-	font-weight normal
-	font-style normal
+    font-family 'Circular Std'
+    src url('../fonts/CircularStd-Book.eot')
+    src url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('../fonts/CircularStd-Book.woff') format('woff'),
+        url('../fonts/CircularStd-Book.ttf') format('truetype'),
+        url('../fonts/CircularStd-Book.svg#CircularStd-Medium') format('svg');
+    font-weight 500
+    font-style normal
+    font-display swap
 
-font-title = 'nimbus-sans-extended', sans-serif
-font-text = 'Inter', sans-serif
+font-serif = 'Libre Baskerville', serif
+font-sans-serif = 'Circular Std', sans-serif
+
+font-title = 'Libre Baskerville', serif
+font-text = 'Circular Std', sans-serif 
 font-link = font-text
 
-@supports(font-variation-settings: normal)
-	html
-		font-family 'Inter var', sans-serif
+set-font-size(_size)
+	if unit(_size) == 'px'
+		font-size (_size/16)rem
+	else
+		font-size _size
 
 h1,
 h2,
@@ -22,57 +30,37 @@ h4,
 h5,
 h6
 	margin 0
-	font-family font-title
+	font-family font-serif
+	font-weight normal
+	color var(--text-color)
 
 h1
-	font-size 5rem
+	set-font-size 80px
 	line-height 120%
 	
 	+below(47.25rem)
-		font-size 3rem
+		set-font-size 48px
 
 h2
-	font-size 4rem
+	set-font-size 64px
 
 h3
-	color black
-	-webkit-text-stroke 1px #444
-	-webkit-text-fill-color transparent
-	font-weight normal
-	font-size 3em
-	padding 1em 0
+	set-font-size 48px
 
 p
-	font-family font-text
-	font-size 1.6rem
+	font-family font-serif
+	set-font-size 16px
 	line-height 140%
 	margin 0
 
 a 
 	text-decoration none
-	outline none
-	color white
-	opacity 1
-	transition color .4s ease, opacity .4s ease
-	cursor embedurl('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPQAAAH8AAAD/gAAB6oAAAerAAAPqwAAHf8AABn/AAABtQAAAbEAAAGBAAABgQAAAYAAAAAAAAAAAAA///////////////////////////////////////////////////////////////////////////////////////4J///+Af///AH///gA///wAP//8AB//+AAf//AAH//wAB//+QAf//8AH///AR/3/w8f8/8Pv/H/n//w////8='), auto
+	color var(--link-color)
+	transition .4s
 
 	&:hover
-		color link-color
-		transition color .4s ease, opacity .4s ease
+		color var(--code-inline-color)
+		transition .4s
 
-.t-page__about__headline
-	font-size 20rem
-	position absolute
-	z-index -1
-	text-transform uppercase
-	color #111
-	background -webkit-linear-gradient(-95deg,#111 0%,#040404 100%)
-	background-size cover
-	-webkit-background-clip text
-	-webkit-text-fill-color transparent
-	background-clip text
-	text-fill-color transparent
-	font-weight 900
-
-	+below(47.25rem)
-		font-size 6rem
+pre
+	margin-bottom 40px

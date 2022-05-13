@@ -4,24 +4,17 @@
 
 <main class="main t-page notes-page" role="main">
 	<div class="wrap">
-		<h1 class="t-page__about__headline">{{ .Title }}</h1>
 		<div class="article__wrap">
 			<section class="notes__list">
 			{{ range (.Pages.GroupByDate "2006") }}
-				<h3 class="notes__list--year"><a href="/notes#{{ .Key }}">{{ .Key }}</a></h3>
+				<!--<h3 class="notes__list--year"><a href="/notes#{{ .Key }}">{{ .Key }}</a></h3>-->
 				<div id="{{ .Key }}"></div>
 				{{ range (where .Pages "Type" "page") }}
 				<article class="notes__article">
 					<header role="banner" class="notes__header">
 						<h2 class="notes__title" data-text="{{ .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-						<time class="notes__time">{{ .Date.Format "02/01/2006" }}</time>
+						<time class="notes__time">em {{ .Date.Format "02/01/2006" }}</time>
 					</header>
-					<section class="article__summary">
-						<p>{{ .Summary }}</p>
-						{{ if .Truncated }}
-						<a href="{{ .Permalink }}" class="read-more">Leia mais</a>
-						{{ end }}
-					</section>
 				</article>
 				{{ end }}
 			{{ end }}

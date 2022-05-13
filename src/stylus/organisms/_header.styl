@@ -10,16 +10,16 @@
 		
 		+below(47.25rem)
 			align-items flex-start
-			flex-direction column
+			flex-direction row
 	
 	&__logo
 		display flex
 		flex-grow 1
 
-		+below(64em)
+		+below(47.25rem)
 			width 100%
 			align-items center
-			justify-content center
+			justify-content flex-start
 			margin-bottom 21px
 	
 	&__name
@@ -40,3 +40,9 @@
 		+below(64em)
 			width 100%
 			justify-content center
+
+.logo--detail
+	fill var(--logo-color)
+
+.logo--letter
+	fill var(--text-color)

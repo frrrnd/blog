@@ -1,11 +1,20 @@
 
-wrap-max-width = 1280px
+wrap-max-width = 1080px
+
+:root
+	--space-xxs  4px
+	--space-xs   8px
+	--space-sm   12px
+	--space-md   20px
+	--space-lg   32px
+	--space-xl   52px
+	--space-xxl  84px
 
 html
 	box-sizing border-box
 	-webkit-font-smoothing antialiased
 	-moz-osx-font-smoothing grayscale
-	font-size 62.5%
+	font-size 100%
 
 *,
 *:before,
@@ -13,19 +22,19 @@ html
 	box-sizing border-box
 
 ::selection
-	background-color mineviolet
-	color black
+	background-color hsl(81, 95%, 57%)
+	color #333
 
 html,
 body
 	min-height 100%
+	background-color var(--background-color)
 
 body
-	background-color background-site-color
-	color text-site-color
+	color var(--text-color)
 	margin 0
-	font-family font-text
-	font-size 1.6rem
+	font-family font-serif
+	set-font-size 16px
 
 .container
 	width 100%
@@ -39,15 +48,15 @@ body
 	margin 0 auto
 	padding 21px
 
-	+below(1024px)
-		padding 10px
+	+below(47.25rem)
+		padding 32px
 
 .wrap-notes
 	max-width 800px
 	width 100%
 	margin 0 auto
 
-	+below(1024px)
+	+below(47.25rem)
 		padding 22px
 
 img
@@ -64,9 +73,6 @@ img
 	margin 0 auto
 	display flex
 	flex-direction row
-		
-		+below(47.25rem)
-			max-width 100%
 
 	+below(47.25rem)
 		flex-direction column

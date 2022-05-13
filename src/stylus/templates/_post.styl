@@ -7,27 +7,21 @@
 
 	&__header
 		margin-bottom 8vh
+		max-width 75%
+		width 100%
 
 		h1
 			margin-bottom 10px
+			set-font-size 44px
+			font-weight lighter
 
 		&--time
-			color #666666
+			color var(--menu-color)
 			font-weight normal
-			font-size 1.6rem
-			font-family monospace
-
-			&:after
-				content ""
-				width 5px
-				height 8px
-				background-color white
-				display inline-block
-				margin-left 4px
-				animation .8s blink infinite
+			set-font-size 15px
+			font-family font-sans-serif
 
 	&__wrap
-		max-width 900px
 		width 100%
 		margin 0 auto
 		padding 2vh 0 2vh 0
@@ -62,46 +56,57 @@
 
 		pre
 			width 100%
-			background-color transparent
+			background-color transparent!important
 			border-radius 5px
 
 		p
-			margin-bottom 6vh
-			font-size 1.8rem
+			margin-bottom 3vh
+			set-font-size 18px
+			font-family font-title
 
 			code
 				padding 0
-				color coral
-				font-size 2.4rem
+				color var(--code-inline-color)
+				set-font-size 18px
 				margin 0 5px
+				font-weight bold
 
 		a
-			color link-color
 			font-weight bold
 
 			&[target='_blank']:after
 				content embedurl('/images/external-link.svg')
 				margin 0 3px 0 5px
-				color white
+				opacity .4
 
 		blockquote
-			border-left 5px solid #ccc
 			padding 20px
 			width 100%
-			background-color #333
 			margin-left 0
 			margin-bottom 6vh
 			font-style italic
+			position relative
+			
+			&:before
+				content "\201E"
+				display inline-block
+				position absolute
+				left 10px
+				top -50px
+				set-font-size 80px
+				color var(--menu-color)
+				z-index -1
 
 			p
 				margin-bottom 0
+				set-font-size 24px
 
 		figcaption
 			font-style italic
-			color #ccc
+			color var(--menu-color)
 
 			p
-				font-size 14px
+				set-font-size 14px
 
 
 .navigation
@@ -120,3 +125,6 @@
 		max-width 50px
 		width 100%
 		text-indent -9999px
+
+pre code
+	padding 2em!important

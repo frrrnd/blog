@@ -5,6 +5,7 @@
 	<title>Como criar ícones transparentes no iOS  - Fernando Soares - UX, UI &amp; Front End Design </title>
 	<base href="https://frrrnd.github.io/">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=""/>
 	<meta property="og:title" content="Como criar ícones transparentes no iOS">
 	<meta property="og:description" content="">
 	<meta property="og:image" content="https://frrrnd.github.io//images/meta-image.jpg">
@@ -13,11 +14,18 @@
 	<meta name="twitter:card" content="https://frrrnd.github.io//images/meta-image.jpg">
 	<meta name="twitter:image:alt" content="Fernando Soares - UX, UI &amp; Front End Design">
 	<meta name="twitter:site" content="@frrrnd">
-	<link rel="stylesheet" href="https://frrrnd.github.io//css/main.css">
-	<link rel="stylesheet" href="https://frrrnd.github.io//css/hugo-easy-gallery.css">
-	<link rel="stylesheet" href="https://frrrnd.github.io//css/atom-one-dark.css">
-	<link rel="stylesheet" href="https://frrrnd.github.io//css/jquery.fancybox.css">
+	<meta name="theme-color" content="#161821" media="(prefers-color-scheme: dark)">
+	<meta name="theme-color" content="#E8E9EC" media="(prefers-color-scheme: light)">
+	<link rel="stylesheet" href="https://frrrnd.github.io/css/main.css">
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css">
+	
+	
+	
 	<link rel="shortcut icon" href="https://frrrnd.github.io//images/favicon.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -27,18 +35,17 @@
 		<div class="header__logo">
 			<a href="https://frrrnd.github.io/">
 				<svg width="29" height="45" viewBox="0 0 49 45" fill="none">
-					<path d="M10.8944 13.5076L2 22.5807L10.8944 31.6537L19.7887 22.5807L10.8944 13.5076Z" fill="white" stroke-width="2" stroke-miterlimit="10"/>
-					<path d="M7.59636 1.516L28.0783 22.3827L7.11658 43.7655H17.5967L38.5583 22.3827L24.5849 8.12706H38.5583L45.6431 1L7.11658 1.01095L7.59636 1.516Z" fill="white" stroke-width="2" stroke-miterlimit="10"/>
+					<path class="logo--detail" d="M10.8944 13.5076L2 22.5807L10.8944 31.6537L19.7887 22.5807L10.8944 13.5076Z" stroke-width="2" stroke-miterlimit="10"/>
+					<path class="logo--letter" d="M7.59636 1.516L28.0783 22.3827L7.11658 43.7655H17.5967L38.5583 22.3827L24.5849 8.12706H38.5583L45.6431 1L7.11658 1.01095L7.59636 1.516Z" stroke-width="2" stroke-miterlimit="10"/>
 				</svg>
 			</a>
 		</div>
-		<div class="header__name">Fernando Soares</div>
 		<div class="header__menu">
 			<nav class="top-nav" role="navigation">
 				<ul>
-					<li><a href="#works">Trabalhos</a></li>
-					<li><a href="https://frrrnd.github.io//sobre">Sobre</a></li>
-					<li><a href="https://frrrnd.github.io//notes">Notes</a></li>
+					<li><a href="https://frrrnd.github.io//sobre">sobre</a></li>
+					<li><a href="https://frrrnd.github.io//notes">notes</a></li>
+					<li><a class="sw"><i class="theme-icon"></i></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -47,11 +54,10 @@
 
 <main class="main article__container" role="main">
 	<article class="wrap">
-		<h1 class="t-page__about__headline">Notes</h1>
 		<div class="article__wrap">
 			<header role="banner" class="article__header">
 				<h1>Como criar ícones transparentes no iOS</h1>
-				<time class="article__header--time">03/04/2020</time>
+				<time class="article__header--time">em 03/04/2020</time>
 			</header>
 		
 			<section class="article__content">
@@ -204,17 +210,12 @@ Basicamente cada &ldquo;ícone invisível&rdquo; será uma parte do background.<
 	</article>
 </main>
 
-<div class="navigation">
-	<div class="wrap">
-		<div class="btn-back"><a href="../../notes" title="voltar para a lista de notes">voltar</a></div>
-	</div>
-</div>
 
 			</div>
 			<a href="#!" id="button" class="gotop">
-				<svg x="0px" y="0px" width="72px" height="72px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;" xml:space="preserve">
+				<svg x="0px" y="0px" width="72px" height="72px" viewBox="0 0 444.819 444.819" xml:space="preserve">
 					<g>
-						<path fill="white" d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564
+						<path d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564
 							L10.848,208.708C3.615,215.94,0,224.604,0,234.692c0,9.897,3.619,18.459,10.848,25.693l21.411,21.409
 							c6.854,7.231,15.42,10.855,25.697,10.855c10.278,0,18.842-3.624,25.697-10.855l83.939-83.651v200.998
 							c0,9.89,3.567,17.936,10.706,24.126c7.139,6.184,15.752,9.273,25.837,9.273h36.545c10.089,0,18.698-3.09,25.837-9.273
@@ -229,27 +230,17 @@ Basicamente cada &ldquo;ícone invisível&rdquo; será uma parte do background.<
 					<div class="wrap">
 						<div class="col">
 							<ul>
-								<li><a href="" target="_blank" title="Meu perfil no Dribbble">Dribbble</a></li>
-								<li><a href="" target="_blank" title="Meu perfil no Behance">Behance</a></li>
+								<li>© 2022 Fernando Soares</li>
 							</ul>
+							
 						</div>
-		
+
 						<div class="col">
 							<ul>
+								<li><a href="mailto:dotfernando@gmail.com" title="Fala comigo">Contato</a></li>
+								<li><a href="" target="_blank" title="Meu perfil no Dribbble">Dribbble</a></li>
 								<li><a href="https://github.com/frrrnd" target="_blank" title="Meu perfil no Github">Github</a></li>
 								<li><a href="https://codepen.io/frrrnd" target="_blank" title="Meu perfil no Codepen">Codepen</a></li>
-							</ul>
-						</div>
-
-						<div class="col">
-							<ul>
-								<li><a href="https://github.com/frrrnd/blog" target="_blank" title="Código do site">Source Code.</a></li>
-							</ul>
-						</div>
-
-						<div class="col">
-							<ul>
-								<li>Copyright © 2020 Fernando Soares</li>
 							</ul>
 						</div>
 					</div>
@@ -259,10 +250,9 @@ Basicamente cada &ldquo;ícone invisível&rdquo; será uma parte do background.<
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://frrrnd.github.io//javascript/jribbble.min.js"></script>
-		<script src="https://frrrnd.github.io//javascript/load-photoswipe.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-		<script src="https://frrrnd.github.io//javascript/jquery.marquee.min.js"></script>
-		<script src="https://frrrnd.github.io//javascript/fancybox.js"></script>
+		
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+		
 		<script src="https://frrrnd.github.io//javascript/app.js"></script>
 
 		<script id="__bs_script__">

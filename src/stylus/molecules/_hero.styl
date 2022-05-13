@@ -1,9 +1,7 @@
-@import '../atoms/_glitch'
-
 .hero
 	width 100%
 	min-height 45vh
-	padding 20vh 0
+	padding 10vh 0
 	height 100%
 	display flex
 	align-items center
@@ -17,49 +15,19 @@
 	p
 		position relative
 		font-family font-title
-		font-size 1.6rem
-		a
-			color minegray
+		set-font-size 16px
 
 	h1
-		width 65%
+		width 75%
 		position relative
 		margin-bottom 21px
 		hyphens auto
-		font-size 5rem
-		font-weight normal
+		set-font-size 32px
 		padding-top 20px
 		min-height 240px
+		font-family font-text
 
-		+below(64em)
-			font-size 3rem
+		+below(47.25rem)
+			set-font-size 26px
 			width 100%
 			padding 0 12px
-
-		span
-			color white
-
-		&:after
-			content attr(data-title)
-			font-size 4em
-			position absolute
-			top -50px
-			left 0
-			display block
-			z-index 0
-			color black
-			-webkit-text-stroke 3px rgba(255,255,255,.1)
-			-webkit-text-fill-color transparent
-			text-transform uppercase
-			overflow hidden
-			white-space nowrap
-			width max-content
-			animation type 2s steps(80, end)
-			height 100%
-			padding-top 90px
-
-@keyframes type
-	from
-		width 0
-	to
-		width 100%
