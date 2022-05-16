@@ -13,10 +13,6 @@
 font-serif = 'Libre Baskerville', serif
 font-sans-serif = 'Circular Std', sans-serif
 
-font-title = 'Libre Baskerville', serif
-font-text = 'Circular Std', sans-serif 
-font-link = font-text
-
 set-font-size(_size)
 	if unit(_size) == 'px'
 		font-size (_size/16)rem
@@ -35,32 +31,36 @@ h6
 	color var(--text-color)
 
 h1
-	set-font-size 80px
+	set-font-size 55px
 	line-height 120%
 	
 	+below(47.25rem)
 		set-font-size 48px
 
 h2
-	set-font-size 64px
+	set-font-size 34px
 
 h3
-	set-font-size 48px
+	set-font-size 21px
 
 p
 	font-family font-serif
 	set-font-size 16px
-	line-height 140%
+	line-height 170%
 	margin 0
 
 a 
 	text-decoration none
 	color var(--link-color)
-	transition .4s
 
 	&:hover
 		color var(--code-inline-color)
-		transition .4s
 
 pre
 	margin-bottom 40px
+
+time
+	color var(--menu-color)
+	font-weight normal
+	set-font-size 15px
+	font-family font-sans-serif

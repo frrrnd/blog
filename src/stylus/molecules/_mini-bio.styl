@@ -1,5 +1,5 @@
 .minibio
-    background-color mineviolet
+    background-color inherit
 
 .minibio, .about
     a
@@ -18,7 +18,7 @@
         width 100%
         flex-direction row
 
-        +below(64em)
+        +below(47.25rem)
             flex-direction column
     
     .half
@@ -26,7 +26,7 @@
         padding 4em 0
         justify-content center
 
-        +below(64em)
+        +below(47.25rem)
             padding 2em 0
 
         p
@@ -39,7 +39,7 @@
         &--left
             ul
                 list-style-type none
-                font-family font-title
+                font-family font-sans-serif
 
                 li
                     font-size 2.8em
@@ -51,31 +51,9 @@
                         font-weight normal
                         position relative
 
-@keyframes space
-    0%
-        opacity 0
-        transform translateY(-20px)
-    100%
-        opacity 1
-        transform translateY(0)
-
-.space-animation
-    opacity 0
-    animation 1s space ease forwards
-
-    &:nth-child(1)
-        animation-delay .5s
-    
-    &:nth-child(2)
-        animation-delay 1s
-    
-    &:nth-child(3)
-        animation-delay 2s
-
-
 .about
     .half
         strong
-            font-family font-title
+            font-family font-sans-serif
             font-size 2.5rem
-            color mineviolet
+            color inherit

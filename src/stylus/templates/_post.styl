@@ -15,12 +15,6 @@
 			set-font-size 44px
 			font-weight lighter
 
-		&--time
-			color var(--menu-color)
-			font-weight normal
-			set-font-size 15px
-			font-family font-sans-serif
-
 	&__wrap
 		width 100%
 		margin 0 auto
@@ -62,7 +56,6 @@
 		p
 			margin-bottom 3vh
 			set-font-size 18px
-			font-family font-title
 
 			code
 				padding 0
@@ -78,6 +71,12 @@
 				content embedurl('/images/external-link.svg')
 				margin 0 3px 0 5px
 				opacity .4
+
+		img[src$='#ilustra']
+			display block
+			margin 0 auto
+			width 21%
+			max-width 100%
 
 		blockquote
 			padding 20px
@@ -128,3 +127,10 @@
 
 pre code
 	padding 2em!important
+
+
+.dark-theme .article__content img[src$='#ilustra']
+	filter contrast(0) brightness(1.6)
+
+.light-theme .article__content img[src$='#ilustra']
+	filter contrast(1)
