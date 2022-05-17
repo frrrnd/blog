@@ -3,7 +3,30 @@
 hljs.highlightAll();
 
 let container = document.querySelector("#grid-container");
+let html = '';
 
+fetch('https://api.dribbble.com/v2/user/shots?access_token=627b0fac077b5b6f3dcafec723409a4eb98a2b09456afee83b804d54655f2967')
+.then(response => response.json())
+.then(data => {
+  data.forEach(shot => {
+    console.log(shot)
+    let shotHtml = `
+      <div class="slot">
+        <a href="${shot.html_url}" target="_blank" title="${shot.title}">
+          <figure>
+            <img src="${shot.images.normal}" alt="${shot.title}" loading="lazy" width="400" height="300" data-id="">
+          </figure>
+        </a>
+      </div>
+    `;
+
+    html += shotHtml;
+  });
+
+  container.innerHTML = html;
+});
+
+/*
 if (container) {
 
   jribbble.shots({token: "627b0fac077b5b6f3dcafec723409a4eb98a2b09456afee83b804d54655f2967", per_page: 12}, 
@@ -14,37 +37,8 @@ if (container) {
 
     // put on html
     container.innerHTML = reducedShots;
-});
-}
-
-var btn = $('#button');
-$(window).scroll(function() {
-  // go to top
-  if ($(window).scrollTop() > 500) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
-
-// cursors delay
-let cursors = $('.notes__time:odd');
-cursors.addClass('cursor-delay');
-
-// smooth scroll anchor
-$(document).on('click', 'a[href^="#"]', function (event) {
-  event.preventDefault();
-
-  $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-  }, 500);
-});
-
+  });
+}*/
 
 // themes
 

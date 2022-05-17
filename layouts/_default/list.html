@@ -12,8 +12,8 @@
 				{{ range (where .Pages "Type" "page") }}
 				<article class="notes__article">
 					<header role="banner" class="notes__header">
-						<h2 class="notes__title" data-text="{{ .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-						<time class="notes__time">em {{ .Date.Format "02/01/2006" }}</time>
+						<h2 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+						<time>em {{ .Date.Format "02/01/2006" }}</time>
 					</header>
 				</article>
 				{{ end }}
