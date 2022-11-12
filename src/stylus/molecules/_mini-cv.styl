@@ -9,7 +9,7 @@
         color #666
 
     h4
-        font-size 3em
+        font-size 2em
         text-transform lowercase
 
     li
@@ -36,70 +36,6 @@
         li
             padding 0 0 53px 0
 
-.c-skills
-    width 100%
-    background-color inherit
-    overflow hidden
-
-    &__section
-        display flex
-        flex-direction row
-        width 100%
-
-        +below(47.25rem)
-            flex-direction column
-
-    &__column
-        position relative
-        overflow hidden
-        white-space nowrap
-
-
-        h3
-            color red
-            min-height 40px
-
-    
-        .marquee, 
-        .marquee-2
-            display block
-            list-style none
-            overflow hidden
-            width 100%
-            padding 1% 0 1% 0
-            text-align center
-            
-
-            &:hover
-                animation-play-state paused
-
-            li
-                display inline-block
-                font-size 8rem
-                font-family font-sans-serif
-                margin 0 10px
-                
-                &:nth-child(odd)
-                    color black
-                    -webkit-text-stroke 1px white
-                    -webkit-text-fill-color transparent
-                    font-weight normal
-
-    &__doubleColumn
-        display flex
-        flex-direction row
-
-        ul
-            max-width 50%
-            width 100%
-
-
-@keyframes marquee
-    0%
-        transform translate(0, 0)
-    100%
-        transform translate(-100%, 0)
-
 .half
     max-width 100%
     width 100%
@@ -108,3 +44,11 @@
     
     +below(47.25rem)
             max-width 100%
+
+    h2
+        margin-bottom 12px
+
+    h3
+        set-font-size 24px
+        margin-bottom 20px
+        opacity .7

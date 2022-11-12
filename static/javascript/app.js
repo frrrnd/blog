@@ -37,10 +37,10 @@ let metaColor = document.querySelector('meta[name="theme-color"]');
 
 if (localStorage.getItem("theme") == 'dark') {
   root.classList.add("dark-theme");
-  metaColor.setAttribute("content", "#161821")
+  metaColor.setAttribute("content", "#161616")
 } else {
   root.classList.add("light-theme");
-  metaColor.setAttribute("content", "#E8E9EC")
+  metaColor.setAttribute("content", "#e3e3e3")
 }
 
 switcher.addEventListener("click", function () {
