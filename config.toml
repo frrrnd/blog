@@ -3,6 +3,7 @@ baseURL = "https://frrrnd.github.io/"
 languageCode = "en-us"
 publishDir = "public"
 staticDir = "static"
+uploadDir = "static/uploads"
 title = "Fernando Soares - Designer e Desenvolvedor de Interfaces"
 summaryLength = 30
 canonifyURLs = true

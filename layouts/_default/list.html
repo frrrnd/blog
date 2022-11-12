@@ -4,7 +4,7 @@
 
 <main class="main t-page notes-page" role="main">
 	<div class="wrap">
-		<div class="article__wrap">
+
 			<section class="notes__list">
 			{{ range (.Pages.GroupByDate "2006") }}
 				<!--<h3 class="notes__list--year"><a href="/notes#{{ .Key }}">{{ .Key }}</a></h3>-->
@@ -19,7 +19,7 @@
 				{{ end }}
 			{{ end }}
 			</section>
-		</div>
+
 	</div>
 </main>
 

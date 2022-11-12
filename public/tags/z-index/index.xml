@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>z-index on Fernando Soares - Designer e Desenvolvedor de Interfaces</title>
+    <link>https://frrrnd.github.io/tags/z-index/</link>
+    <description>Recent content in z-index on Fernando Soares - Designer e Desenvolvedor de Interfaces</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 09:55:15 -0300</lastBuildDate><atom:link href="https://frrrnd.github.io/tags/z-index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O básico do z-index</title>
+      <link>https://frrrnd.github.io/notes/o-basico-do-z-index/</link>
+      <pubDate>Sun, 17 Sep 2017 09:55:15 -0300</pubDate>
+      
+      <guid>https://frrrnd.github.io/notes/o-basico-do-z-index/</guid>
+      <description>O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.</description>
+    </item>
+    
+  </channel>
+</rss>

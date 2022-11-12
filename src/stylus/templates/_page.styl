@@ -3,7 +3,6 @@
         margin-bottom 30px
     a
         color link-color
-        font-weight bold
 
 .a-emoji-list
     list-style-type none
@@ -53,3 +52,20 @@
 
         +below(47.25rem)
             padding-top 4vh
+
+
+// links
+
+.t-page__links
+    a
+        font-weight normal
+        margin-bottom 10px
+        display block
+        color var(--link-color)
+
+        &:hover
+            color var(--code-inline-color)
+
+    ul
+        list-style-type none
+        padding-left 10px

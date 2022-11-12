@@ -3,7 +3,7 @@
 		padding-top 10vh
 
 	&__article
-		margin-bottom 10vh
+		margin-bottom 5vh
 		position relative
 
 		&:last-child
@@ -14,15 +14,19 @@
 	
 	&__title
 		color var(--text-color)
-		font-weight normal
+		font-weight 500
 		width 75%
+		set-font-size 24px
+
+		a
+			color inherit
+
+			&:hover
+				color var(--link-color)
 
 		+below(47.25rem)
 			set-font-size 34px
 			width 100%
-
-		a
-			color inherit
 	
 	&__content
 		p

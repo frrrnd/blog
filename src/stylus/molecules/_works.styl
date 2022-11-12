@@ -6,8 +6,6 @@
 	grid-template-columns 1fr 1fr 1fr
 	grid-template-rows 1fr 1fr 1fr
 	grid-template-areas "slot-1 slot-2 slot-3" "slot-4 slot-5 slot-6" "slot-7 slot-8 slot-9"
-	grid-gap 21px
-	max-width wrap-max-width
 	width 100%
 	margin 0 auto
 
@@ -16,7 +14,7 @@
 		grid-template-columns 1fr
 		grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr
 		grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4" "slot-5" "slot-6"
-		grid-gap 30px
+		grid-gap 21px
 
 .slot
 	position relative
@@ -24,23 +22,18 @@
 	animation fadeIn 1s forwards
 	max-width 400px
 	width 100%
-	margin 0 auto
+	padding 15px
 
 	+below(47.25rem)
 		width 100%
-		padding 0
+		padding 15px
+		margin 0
 
 	a
 		display block
 		width 100%
 		margin 0 auto
 		position relative
-
-		&:hover
-			.overlay
-				opacity 1
-				transition .4s
-
 
 	figure
 		width 100%
@@ -51,6 +44,11 @@
 		margin 0 auto
 		transition .4s
 		max-width 100%
+		border-radius 3px
+
+		&:hover
+			opacity .8
+			transition .4s
 
 .slot:nth-child(1)
 	grid-area slot-1
@@ -95,7 +93,12 @@
 		fill var(--menu-color)
 
 .rotate
-	animation 5s rotate ease infinite
+	animation 5s rotate ease
+	transition .4s
+
+	&:hover
+		transform rotate(-180deg)
+		transition .4s
 
 @keyframes rotate
 	100%
@@ -106,7 +109,8 @@
 .projects,
 .other-projects
 	.wrap
-		max-width 1200px
+		max-width wrap-max-width
+		padding 0
 
 	&__list
 		list-style-type none
@@ -132,7 +136,6 @@
 				p, em
 					color #222
 					transition .4s
-
 
 
 		h4

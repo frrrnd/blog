@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main t-page t-page__links" role="main">
+    <section class="">
+        <div class="wrap">
+            <h2>Links</h2>
+        </div>
+        
+        <div class="wrap">
+            {{ .Content }}
+        </div>
+    </section>
+</main>
+
+{{ partial "footer.html" . }}
