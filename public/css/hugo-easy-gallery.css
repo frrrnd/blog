@@ -24,7 +24,7 @@ Grid Layout Styles
 @media only screen and (max-width: 47.25rem) {
     .gallery {
         grid-template-columns: 1fr;
-        grid-row-gap: 5em;
+        grid-row-gap: 1em;
     }
 
     .gallery .box:nth-child(even) {
@@ -32,7 +32,7 @@ Grid Layout Styles
     }
 
     .gallery .box {
-        padding: 20px;
+        padding: 12px;
     }
 }
 .gallery .box {
