@@ -27,7 +27,7 @@
 	padding 2vw 0 0 0
 	
 	.wrap
-		padding 10px 0
+		padding 0 21px
 		display flex
 		flex-direction row
 
@@ -37,23 +37,22 @@
 
 .footer-infos
 	width 100%
-	set-font-size 14px
+	set-font-size 16px
 
 	.col
 		display flex
 		flex-direction column
 		flex 1 1 auto
 		justify-content flex-end
-		padding 0 21px
+		padding 0
+		text-align left
 
 		&:last-child
 			ul
 				text-align right
 
-				+below(47.25rem)
-					text-align center
-
 				li
+					margin 0 25px
 					&:last-child
 						margin-right 0
 
@@ -65,12 +64,8 @@
 			list-style-type none
 			padding-left 0
 
-			+below(47.25rem)
-				text-align center
-
 			li
 				display inline-block
-				margin 0 21px 28px 0
 				color var(--menu-color)
 				font-family font-sans-serif
 
