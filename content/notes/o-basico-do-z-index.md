@@ -14,7 +14,7 @@ O z-index é a propriedade do CSS que define o posicionamento dos elementos no e
 
 Somente os elementos que contém position absolute, relative ou fixed aceitam o z-index. Quanto maior for o valor, mais próximo da tela ele ficará.
 
-Basicamente, não existem limitações para o valor do z-index. Mas a maioria dos browsers trabalha com os valores de 32 bits (−2147483648 para +2147483647). Sim, ele aceita valores negativos.
+Basicamente, não existem limitações para o valor do z-index. Mas a maioria dos browsers trabalha com os valores de 32 bits (− 2147483648 para + 2147483647). Sim, ele aceita valores negativos.
 
 ```css
 .box {

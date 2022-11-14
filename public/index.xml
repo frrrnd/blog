@@ -6,7 +6,17 @@
     <description>Recent content on Fernando Soares - Designer e Desenvolvedor de Interfaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2022 16:39:15 -0300</lastBuildDate><atom:link href="https://frrrnd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 21:06:19 -0300</lastBuildDate><atom:link href="https://frrrnd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nth-of-type</title>
+      <link>https://frrrnd.github.io/notes/nth-of-type/</link>
+      <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
+      
+      <guid>https://frrrnd.github.io/notes/nth-of-type/</guid>
+      <description>nth-of-type é uma [pseudo-classe] que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
+Syntaxe :nth-of-type( &amp;lt;an -plus- b&amp;gt; | even | odd )</description>
+    </item>
+    
     <item>
       <title>Boom Sistemas - Template</title>
       <link>https://frrrnd.github.io/projetos/boom-sistemas-template/</link>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pseudo-class on Fernando Soares - Designer e Desenvolvedor de Interfaces</title>
+    <link>https://frrrnd.github.io/tags/pseudo-class/</link>
+    <description>Recent content in pseudo-class on Fernando Soares - Designer e Desenvolvedor de Interfaces</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 21:06:19 -0300</lastBuildDate><atom:link href="https://frrrnd.github.io/tags/pseudo-class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nth-of-type</title>
+      <link>https://frrrnd.github.io/notes/nth-of-type/</link>
+      <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
+      
+      <guid>https://frrrnd.github.io/notes/nth-of-type/</guid>
+      <description>nth-of-type é uma [pseudo-classe] que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
+Syntaxe :nth-of-type( &amp;lt;an -plus- b&amp;gt; | even | odd )</description>
+    </item>
+    
+  </channel>
+</rss>
