@@ -8,19 +8,18 @@
 	<meta name="description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}"/>
 	<meta property="og:title" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} - {{ .Site.Title }} {{ end }}">
 	<meta property="og:description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}">
-	<meta property="og:image" content="{{ .Site.BaseURL }}/images/meta-image.jpg">
+	<meta property="og:image" content="{{ .Site.BaseURL }}images/meta-image.jpg">
 	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
-	<meta name="twitter:card" content="{{ .Site.BaseURL }}/images/meta-image.jpg">
+	<meta name="twitter:card" content="{{ .Site.BaseURL }}images/meta-image.jpg">
 	<meta name="twitter:image:alt" content="{{ .Site.Title }}">
 	<meta name="twitter:site" content="@frrrnd">
-	<meta name="theme-color" content="#161821">
+	<meta name="theme-color" content="#6350D1">
 	<link rel="preload stylesheet" href="{{ .Site.BaseURL }}css/main.css" as="style">
 	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/x-icon">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="preload stylesheet" as="style">
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/logo-vector.svg"/>
+	<link rel="mask-icon" href="{{ .Site.BaseURL }}images/logo-vector.svg">
+	<link rel="manifest" href="/manifest.json">
 </head>
 <body>

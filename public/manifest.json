@@ -1,0 +1,14 @@
+{
+    "name": "Fernando Soares - Designer/Dev",
+    "short_name": "FRND",
+    "description": "Designer e Desenvolvedor de Interfaces Digitais",
+    "start_url": "/",
+    "background_color": "#6350D1",
+    "theme_color": "#6350D1",
+    "icons": [{
+      "src": "/images/logo-vector.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }]
+  }
