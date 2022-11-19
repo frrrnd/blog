@@ -13,8 +13,9 @@
       <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
       
       <guid>https://frrrnd.github.io/notes/nth-of-type/</guid>
-      <description>nth-of-type é uma [pseudo-classe] que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
-Syntaxe :nth-of-type( &amp;lt;an -plus- b&amp;gt; | even | odd )</description>
+      <description>nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
+Syntaxe :nth-of-type(&amp;lt;an + b&amp;gt; | even | odd)
+Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description>
     </item>
     
   </channel>

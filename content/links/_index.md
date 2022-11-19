@@ -13,7 +13,7 @@ layout: "links"
 
 ### Social
 - <a target="_blank" title="Twitter" href="https://twitter.com/frrrnd">Twitter</a>
-- <a target="_blank" title="Mastodon" href="https://mastodon.social/@frnd">Mastodon</a>
+- <a target="_blank" rel="me" title="Mastodon" href="https://mastodon.social/@frnd">Mastodon</a>
 
 ### Gaming
 - <a target="_blank" title="Twitch" href="https://twitch.com/frnd">Twitch</a>

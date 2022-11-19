@@ -7,11 +7,11 @@ layout: "post"
 tags: ['css', 'nth-of-type', 'pseudo-class']
 ---
 
-nth-of-type é uma [pseudo-classe] que identifica os elementos baseados em sua posição entre *irmãos* do mesmo tipo. (nome da tag)
+nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre *irmãos* do mesmo tipo. (nome da tag)
 
 ### Syntaxe
 
-`:nth-of-type( <an -plus- b> | even | odd )`
+`:nth-of-type(<an + b> | even | odd)`
 
 ### Exemplo
 
