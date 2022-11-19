@@ -1,7 +1,7 @@
 // Service Work
-let cacheName = 'v1.0';
+var cacheName = 'v1.0';
 
-let cacheAssets = [
+var cacheAssets = [
     '/index.html',
     '/sobre/index.html',
     '/links/index.html',
