@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nth-of-type on Fernando Soares - Designer e Desenvolvedor de Interfaces</title>
-    <link>https://frrrnd.github.io/tags/nth-of-type/</link>
+    <link>https://frnd.design/tags/nth-of-type/</link>
     <description>Recent content in nth-of-type on Fernando Soares - Designer e Desenvolvedor de Interfaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Nov 2022 21:06:19 -0300</lastBuildDate><atom:link href="https://frrrnd.github.io/tags/nth-of-type/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 21:06:19 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/nth-of-type/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nth-of-type</title>
-      <link>https://frrrnd.github.io/notes/nth-of-type/</link>
+      <link>https://frnd.design/notes/nth-of-type/</link>
       <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
       
-      <guid>https://frrrnd.github.io/notes/nth-of-type/</guid>
+      <guid>https://frnd.design/notes/nth-of-type/</guid>
       <description>nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
 Syntaxe :nth-of-type(&amp;lt;an + b&amp;gt; | even | odd)
 Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description>

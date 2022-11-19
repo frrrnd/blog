@@ -1,5 +1,5 @@
 #baseURL = "http://localhost:1313"
-baseURL = "https://frrrnd.github.io"
+baseURL = "https://frnd.design/"
 languageCode = "en-us"
 publishDir = "public"
 staticDir = "static"
