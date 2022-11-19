@@ -3,6 +3,7 @@
     "short_name": "FRND",
     "description": "Designer e Desenvolvedor de Interfaces Digitais",
     "start_url": "/",
+    "scope": ".",
     "background_color": "#6350D1",
     "theme_color": "#6350D1",
     "display": "fullscreen",
