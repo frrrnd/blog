@@ -7,10 +7,7 @@ var cacheAssets = [
     '/links/index.html',
     '/notes/index.html',
     '/javascript/app.js',
-    '/css/main.css',
-    '/uploads/',
-    '/images/',
-    '/fonts/'
+    '/css/main.css'
 ]
 
 // installation
