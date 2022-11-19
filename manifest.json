@@ -5,10 +5,11 @@
     "start_url": "/",
     "background_color": "#6350D1",
     "theme_color": "#6350D1",
+    "display": "fullscreen",
     "icons": [{
-      "src": "/images/logo-vector.svg",
+      "src": "/images/favicon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }]
   }
