@@ -13,7 +13,7 @@
     "browser-sync": "^2.26.5",
     "gulp": "^4.0.2",
     "gulp-stylus": "^2.7.0",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.4.1",
     "rupture": "^0.7.1"
   }
 }
