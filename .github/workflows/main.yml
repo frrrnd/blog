@@ -1,0 +1,30 @@
+name: CI
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+
+      - name: Build
+        # remove --minify tag if you do not need it
+        # docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: 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
+          external_repository: frrrnd/frrrnd.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: frrrnd
+          user_email: dotfernando@gmail.com
+          publish_branch: master
+          cname: frnd.design
