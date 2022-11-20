@@ -2,6 +2,7 @@
 var cacheName = 'v1.0';
 
 var cacheAssets = [
+    '/',
     '/index.html',
     '/sobre/index.html',
     '/links/index.html',
