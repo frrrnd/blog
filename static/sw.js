@@ -7,7 +7,9 @@ var cacheAssets = [
     '/links/index.html',
     '/notes/index.html',
     '/javascript/app.js',
-    '/css/main.css'
+    '/sw.js',
+    '/css/main.css',
+    '/fonts/CircularStd-Book.woff2'
 ]
 
 // installation

@@ -12,7 +12,7 @@ if (container) {
         <div class="slot">
           <a href="${shot.html_url}" target="_blank" title="${shot.title}">
             <figure>
-              <img src="${shot.images.normal}" alt="${shot.title}" loading="lazy" width="400" height="300" data-id="${shot.id}">
+              <img src="${shot.images.normal}" alt="${shot.title}" width="400" height="300" data-id="${shot.id}">
             </figure>
           </a>
         </div>
