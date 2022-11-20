@@ -2,4 +2,4 @@ themes/frrrnd2019/node_modules
 themes/frrrnd2019/.cache
 node_modules
 .cache
-public/
+./public
