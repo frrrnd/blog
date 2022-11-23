@@ -74,3 +74,43 @@
 
         li
             display flex
+
+// entities
+.t-page__entities
+    table
+        padding 0
+        border-collapse collapse
+        width 100%
+        margin 1rem auto
+
+        caption
+            text-align left
+            set-font-size 14px
+            font-weight bold
+
+        thead th
+            background-color var(--background-color)
+            color var(--text-color)
+            border none
+
+        tbody tr:nth-child(even)
+            background-color var(--background-color)
+            color var(--text-color)
+
+        tbody tr:nth-child(odd)
+            background-color var(--zebra-color)
+            color var(--text-color)
+        
+        tbody tr th
+            background-color var(--background-color)
+            color var(--link-color)
+            border none
+            set-font-size(20px)
+
+        tbody td
+            border none
+            padding 18px 0 18px 10px
+
+        tbody tr > th
+            padding 44px 0
+            text-align left

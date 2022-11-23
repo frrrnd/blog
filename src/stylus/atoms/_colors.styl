@@ -6,6 +6,7 @@ html
     --dark-accent: #6350D1
     --dark-meta: #8c90a3
     --dark-invert: #ACCC43
+    --dark-zebra-color: #333
 
 // Light Theme
 
@@ -15,6 +16,7 @@ html
     --light-accent: #4A37B8
     --light-meta: #595e74
     --light-invert: #89A91F
+    --light-zebra-color: #CCC
 
 
 // Use this variables across the website
@@ -29,6 +31,7 @@ html
         --background-accent-color: var(--light-accent)
         --menu-color: var(--light-meta)
         --code-inline-color: var(--light-text)
+        --zebra-color: var(--light-zebra-color)
     
     html.dark-theme
         --background-color: var(--dark-bg)
@@ -39,6 +42,7 @@ html
         --background-accent-color: var(--dark-accent) 
         --menu-color: var(--dark-meta)
         --code-inline-color: var(--dark-text)
+        --zebra-color: var(--dark-zebra-color)
 
 @media (prefers-color-scheme: dark)
     html
@@ -50,6 +54,7 @@ html
         --background-accent-color: var(--dark-accent) 
         --menu-color: var(--dark-meta)
         --code-inline-color: var(--dark-text)
+        --zebra-color: var(--dark-zebra-color)
 
     html.light-theme
         --background-color: var(--light-bg)
@@ -60,3 +65,4 @@ html
         --background-accent-color: var(--light-accent) 
         --menu-color: var(--light-meta)
         --code-inline-color: var(--light-text)
+        --zebra-color: var(--light-zebra-color)
