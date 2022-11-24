@@ -6,6 +6,7 @@
 		padding 0 21px
 		display flex
 		flex-direction row
+		align-items center
 
 		+below(47.25rem)
 			padding 0 12px
@@ -15,10 +16,13 @@
 	width 100%
 	set-font-size 16px
 
+	+below(47.25rem)
+		set-font-size 11px
+
 	.col
 		display flex
 		flex-direction column
-		flex 1 1 auto
+		flex 1
 		justify-content flex-end
 		padding 0
 		text-align left
@@ -63,3 +67,10 @@
 	+below(47.25rem)
 		width 100%
 		padding 12px
+
+.atlas-logo
+	display block
+	margin 0 auto
+	
+	svg path
+		fill var(--menu-color)
