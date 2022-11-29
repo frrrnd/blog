@@ -11,7 +11,7 @@
 
 		h1
 			set-font-size 44px
-			font-weight 500
+			font-family font-sans-serif-bolder
 
 	&__wrap
 		max-width 800px
@@ -53,7 +53,7 @@
 			border-radius 5px
 
 		p
-			margin-bottom 3vh
+			margin-bottom 5vh
 
 			code
 				padding 0
@@ -63,15 +63,18 @@
 
 		a
 			font-weight bold
+			font-family font-sans-serif-bolder
 
 			&[target='_blank']:after
 				content embedurl('/images/external-link.svg')
 				margin 0 3px 0 5px
 				opacity .4
 
-		h3
+		h2
 			margin-bottom 10px
 			color var(--light-meta)
+			font-family font-sans-serif-bolder
+			set-font-size 32px
 
 		img[src$='#ilustra']
 			display block
@@ -84,22 +87,22 @@
 			width 100%
 			margin-left 0
 			margin-bottom 6vh
-			font-style italic
 			position relative
 			
 			&:before
-				content "\201E"
+				content ""
 				display inline-block
 				position absolute
-				left 10px
-				top -50px
-				set-font-size 80px
-				color var(--menu-color)
-				z-index -1
+				left 0
+				top 0
+				z-index 0
+				width 4px
+				height 100%
+				background-color var(--link-color)
 
 			p
 				margin-bottom 0
-				set-font-size 24px
+				set-font-size 20px
 
 		figcaption
 			font-style italic

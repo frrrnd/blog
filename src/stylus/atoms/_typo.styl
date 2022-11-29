@@ -10,8 +10,21 @@
     font-style normal
     font-display swap
 
+@font-face
+    font-family 'Circular Std Bold'
+    src url('../fonts/CircularStd-Bold.eot')
+    src url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('../fonts/CircularStd-Bold.woff') format('woff'),
+        url('../fonts/CircularStd-Bold.ttf') format('truetype'),
+        url('../fonts/CircularStd-Bold.svg#CircularStd-Medium') format('svg');
+    font-weight 600
+    font-style normal
+    font-display swap
+
 
 font-sans-serif = 'Circular Std', sans-serif
+font-sans-serif-bolder = 'Circular Std Bold', sans-serif
 font-serif = font-sans-serif
 
 set-font-size(_size)
@@ -69,3 +82,6 @@ time
 
 [loading=lazy]
 	transition opacity 0.5s
+
+strong
+	font-family font-sans-serif-bolder
