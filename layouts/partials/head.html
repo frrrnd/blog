@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ .Title | default .Site.Title}} {{ if not .IsHome }} - {{ .Site.Title }} {{ end }}</title>
+	<title>{{ .Site.Title }}{{ if not .IsHome }}: {{ .Title | default .Site.Title}}{{ end }}</title>
 	<base href="{{ .Site.BaseURL }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}"/>
