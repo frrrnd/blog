@@ -61,7 +61,7 @@ h1 {
 }
 ```
 
-Existem ferramentas pra ajudar na conversão, como essa [calculadora]([https://nekocalc.com/px-to-rem-converter](https://nekocalc.com/px-to-rem-converter)) e até uma [extensão]([https://marketplace.visualstudio.com/items?itemName=sainoba.px-to-rem](https://marketplace.visualstudio.com/items?itemName=sainoba.px-to-rem)) para VS Code.
+Existem ferramentas pra ajudar na conversão, como essa <a target="_blank" href="https://nekocalc.com/px-to-rem-converter">calculadora</a> e até uma <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=sainoba.px-to-rem">extensão</a> para VS Code.
 
 ## EM
 
