@@ -2,7 +2,7 @@
 title: "nth-of-type"
 date: 2022-11-13T21:06:19-03:00
 draft: false
-type: "page"
+type: "post"
 layout: "post"
 tags: ['css', 'nth-of-type', 'pseudo-class']
 ---

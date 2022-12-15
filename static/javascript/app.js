@@ -27,7 +27,7 @@ if (container) {
 
 
 // themes
-
+/*
 let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 let switcher = document.querySelector(".sw");
 let root = document.getElementsByTagName('html')[0];
@@ -54,6 +54,7 @@ switcher.addEventListener("click", function () {
     metaColor.setAttribute("content", "#161821")
   }
 });
+*/
 
 // register service work
 

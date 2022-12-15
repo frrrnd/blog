@@ -2,7 +2,7 @@
 title: "Tipografia com PX, EM e REM"
 date: 2022-11-29T13:29:45-03:00
 draft: false
-type: "page"
+type: "post"
 layout: "post"
 tags: ['css', 'tipografia']
 ---

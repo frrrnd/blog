@@ -12,7 +12,7 @@ if (container) {
         <div class="slot">
           <a href="${shot.html_url}" target="_blank" title="${shot.title}">
             <figure>
-              <img src="${shot.images.normal}" alt="${shot.title}" loading="lazy" width="400" height="300" data-id="${shot.id}">
+              <img src="${shot.images.normal}" alt="${shot.title}" width="400" height="300" data-id="${shot.id}">
             </figure>
           </a>
         </div>
@@ -27,7 +27,7 @@ if (container) {
 
 
 // themes
-
+/*
 let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 let switcher = document.querySelector(".sw");
 let root = document.getElementsByTagName('html')[0];
@@ -54,6 +54,7 @@ switcher.addEventListener("click", function () {
     metaColor.setAttribute("content", "#161821")
   }
 });
+*/
 
 // register service work
 

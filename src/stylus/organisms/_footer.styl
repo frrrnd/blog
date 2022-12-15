@@ -1,72 +1,52 @@
 .footer
 	width 100%
-	padding 2vw 0 0 0
 	
 	.wrap
 		padding 0 21px
 		display flex
 		flex-direction row
-		align-items center
-
-		+below(47.25rem)
-			padding 0 12px
-			flex-direction row
 
 .footer-infos
 	width 100%
 	set-font-size 14px
 
-	+below(47.25rem)
-		set-font-size 11px
-
 	.col
 		display flex
 		flex-direction column
-		flex 1
-		justify-content flex-end
 		padding 0
 		text-align left
+		margin-top 31px
 
-		&:last-child
-			ul
-				text-align right
-
-				li
-					margin 0 25px
-					&:last-child
-						margin-right 0
-
-		+below(47.25rem)
-			width 50%
-			padding 5px
+		&:before
+			content ""
+			width 30px
+			height 1px
+			background-color rgba(255,255,255,.1)
+			margin-left 31px
 
 		ul
 			list-style-type none
-			padding-left 0
+			padding-left 31px
+			padding-bottom 21px
+
+			+below(47.25rem)
+				padding-left 0
 
 			li
 				display inline-block
 				color var(--menu-color)
 				font-family font-sans-serif
+				margin 0 21px
 
-				+below(47.25rem)
-					margin 0
+				&:nth-child(1)
+					margin-left 0
 			
 		a
 			font-family font-sans-serif
-			color inherit
+			color var(--link-color)
 
 			&:hover
-				color var(--link-color)
-
-.txt-r
-	text-align right
-	width 50%
-	font-size 2rem
-
-	+below(47.25rem)
-		width 100%
-		padding 12px
+				color var(--menu-color)
 
 .atlas-logo
 	display block

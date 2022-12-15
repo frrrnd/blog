@@ -2,8 +2,9 @@
 title: "Breakpoints em mixin com Sass"
 date: 2017-03-24T20:04:43-03:00
 draft: false
-type: "page"
+type: "post"
 layout: "post"
+tags: ['css', 'sass', 'responsivo']
 ---
 Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços. Trago aqui uma dica pra quem se perde em meio a media queries e ajustes responsivos.
 

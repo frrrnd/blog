@@ -1,0 +1,19 @@
+<main class="main" role="main">
+	<div class="wrap">
+		<section class="notes__list notes__home">
+			<h4>Notes</h4>
+			{{ range first 5 (where .Site.Pages "Params.type" "post") }}
+
+			<article class="notes__article">
+				<header role="banner" class="notes__header">
+					<h3 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+					<time>{{ .Date.Format "02.01.2006" }}</time>
+					{{ partial "tags.html" . }}
+				</header>
+			</article>
+			{{ end }}
+
+			<a href="/notes" title="veja todas">Todas ›</a>
+		</section>
+	</div>
+</main>

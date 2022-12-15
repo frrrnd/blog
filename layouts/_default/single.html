@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main article__container" role="main">
+	<article class="wrap">
+		<div class="article__wrap">
+			<header role="banner" class="article__header">
+				<h1>{{ .Title }}</h1>
+				<time>{{ .Date.Format "02.01.2006" }}</time>
+				{{ partial "tags.html" . }}
+			</header>
+		
+			<section class="article__content">
+				{{ .Content }}
+			</section>
+
+			<!-- <footer class="article__footer">
+				<a href="/notes" title="Ver todas" class="btn btn--primary">&#8592; Todas notas</a>
+			</footer> -->
+		</div>
+	</article>
+</main>
+
+{{ partial "footer.html" . }}

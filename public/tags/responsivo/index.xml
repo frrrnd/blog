@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>responsivo on frnd</title>
+    <link>https://frnd.design/tags/responsivo/</link>
+    <description>Recent content in responsivo on frnd</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 20:04:43 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/responsivo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakpoints em mixin com Sass</title>
+      <link>https://frnd.design/notes/breakpoints-em-mixin-com-sass/</link>
+      <pubDate>Fri, 24 Mar 2017 20:04:43 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/breakpoints-em-mixin-com-sass/</guid>
+      <description>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços.</description>
+    </item>
+    
+  </channel>
+</rss>
