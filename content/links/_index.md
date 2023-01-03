@@ -23,5 +23,4 @@ layout: "simple-static"
 ### Connect
 - <a target="_blank" title="Discord" href="https://discordapp.com/users/Fernando%20Soares#0001">Discord</a>
 - <a target="_blank" title="Telegram" href="https://t.me/frrrnd">Telegram</a>
-- <a target="_blank" title="Onlyfans" href="https://bit.ly/3TxBC7w">Onlyfans</a>
 - <a href="mailto:frnd@null.net">Email</a>
