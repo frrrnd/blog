@@ -5,13 +5,19 @@ draft: false
 type: "page"
 layout: "simple-static"
 ---
-
+![Eu](/uploads/pixel-photo.jpg)
 
 UX/UI Designer e Front End Dev. Com mais de 10 anos de experiência na indústria, sou apaixonado por criar experiências digitais que resolvem problemas reais. Com um sólido conhecimento dos príncipios de design e desenvolvimento, sou capaz de transformar experiências em design limpo e fácil de usar.
 
 Trabalhei em vários tipos de projetos, de pequenas startups à empresas de grande escala, desde landing pages à interfaces para óculos de realidade virtual. Tenho vasto conhecimento em ferramentas de design, como Adobe Suíte, Sketch e principalmente Figma. Proeficiência em tecnologias front-end, apaixonado por HTML e CSS.
 
-Quando não estou trabalhando, gosto de me atualizar das últimas tendências de design em UI e tecnologias. Gosto de novos desafios e trabalhar com o time para dar vida ao produto da melhor forma possível.
+Como um T-Shape designer, minhas especialidades são: arquitetura de informação, wireframes, protótipos e visual.
+
+Me mantenho sempre atualizado das últimas tendências de design em UI, tecnologias e processos. Gosto de novos desafios e trabalhar com o time para dar vida ao produto da melhor forma possível.
+
+No meu tempo livre gosto de desenhar em [pixel art](https://instagram.com/frnd.pixels), [ler](/leituras), games, arranhar no contra-baixo e atividades fora do mundo digital.
+
+Veja meu currículo [aqui](https://read.cv/fer).
 
 <!-- {{< load-photoswipe >}}
 {{< gallery dir="/uploads/fotos" caption-position="center" caption-effect="fade" />}} -->
