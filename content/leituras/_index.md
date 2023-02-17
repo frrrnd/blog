@@ -6,16 +6,18 @@ type: "page"
 layout: "simple-static"
 ---
 
+### 2023
+
+
+- [ ] Do Androids Dream of Electric Sheeps, Phillip K. Dick (versão inglês)
+- [ ] Mental Models - Aligning Design Strategy with Human Behavior, Indi Young
+
+
 ### 2022
 
-#### Lendo
-- Blame!, Tsutomu Nihei
-- Do Androids Dream of Electric Sheeps, Phillip K. Dick (versão inglês)
-- Mental Models - Aligning Design Strategy with Human Behavior, Indi Young
-
-#### Lidos
-- Cyberpunk 2077: Trauma Team, Cullen Bunn
-- Neuromancer, William Gibson
-- Fundação, Isaac Asimov
-- Kafka à Beira-Mar, Haruki Murakami
-- Minhas Invenções, Nikola Tesla
+- [x] Blame!, Tsutomu Nihei
+- [x] Cyberpunk 2077: Trauma Team, Cullen Bunn
+- [x] Neuromancer, William Gibson
+- [x] Fundação, Isaac Asimov
+- [x] Kafka à Beira-Mar, Haruki Murakami
+- [x] Minhas Invenções, Nikola Tesla

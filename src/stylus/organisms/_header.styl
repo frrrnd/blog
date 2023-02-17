@@ -7,11 +7,18 @@
 		display flex
 		flex-direction row
 		align-items center
+
+		+below(47.25rem)
+			flex-direction column
+			align-items flex-start
 	
 	&__logo
 		display flex
 		flex-grow 1
 		align-items center
+
+		+below(47.25rem)
+			margin-bottom 20px
 
 		a
 			display flex
@@ -36,10 +43,7 @@
 		flex-grow 3
 		flex-direction row
 		justify-content flex-end
-
-		+below(47.25rem)
-			width 100%
-			justify-content center
+			
 
 .logo--detail
 	fill var(--logo-color)

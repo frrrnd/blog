@@ -64,3 +64,17 @@
         tbody tr > th
             padding 44px 0
             text-align left
+
+
+// checkbox da pagina /leituras
+
+input[type="checkbox"]
+    filter invert(1)
+
+.page__wrap
+    ul
+        padding-left 0
+        list-style-type none
+
+    li:has(input[type="checkbox"]:checked)
+        color gray

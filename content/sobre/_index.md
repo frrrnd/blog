@@ -7,16 +7,11 @@ layout: "simple-static"
 ---
 
 
-Meu nome é Fernando Soares e trabalho há 10 anos com design e desenvolvimento de interfaces.
+UX/UI Designer e Front End Dev. Com mais de 10 anos de experiência na indústria, sou apaixonado por criar experiências digitais que resolvem problemas reais. Com um sólido conhecimento dos príncipios de design e desenvolvimento, sou capaz de transformar experiências em design limpo e fácil de usar.
 
-Desde landing pages à interfaces para óculus VR, meu foco é no design de interfaces inteligentes, balanceando funcionalidade com visual.
-Alio muito meu conhecimento em desenvolvimento front end com minha paixão por design, resultando em interfaces consistentes e focadas no usuário.
+Trabalhei em vários tipos de projetos, de pequenas startups à empresas de grande escala, desde landing pages à interfaces para óculos de realidade virtual. Tenho vasto conhecimento em ferramentas de design, como Adobe Suíte, Sketch e principalmente Figma. Proeficiência em tecnologias front-end, apaixonado por HTML e CSS.
 
-Gosto muito de testar novas ideias e conceitos mas, principalmente, estudar o comportamento do usuário.
+Quando não estou trabalhando, gosto de me atualizar das últimas tendências de design em UI e tecnologias. Gosto de novos desafios e trabalhar com o time para dar vida ao produto da melhor forma possível.
 
-Já trabalhei com variados segmentos e para empresas como Massey Fergusson, Valtra, RIC Record, Figueirense FC e Imobiliária Brognoli na grande Florianópolis.
-
-No meu tempo livre eu gosto muito de fazer barulho com o meu baixo e um pedal de fuzz e arrisco umas pequenas ilustrações em 3D.
-
-{{< load-photoswipe >}}
-{{< gallery dir="/uploads/fotos" caption-position="center" caption-effect="fade" />}}
+<!-- {{< load-photoswipe >}}
+{{< gallery dir="/uploads/fotos" caption-position="center" caption-effect="fade" />}} -->
