@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>links on frnd</title>
+    <title>Links on frnd</title>
     <link>https://frnd.design/links/</link>
-    <description>Recent content in links on frnd</description>
+    <description>Recent content in Links on frnd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Sep 2022 16:39:15 -0300</lastBuildDate><atom:link href="https://frnd.design/links/index.xml" rel="self" type="application/rss+xml" />

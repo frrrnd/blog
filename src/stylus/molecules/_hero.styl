@@ -1,12 +1,12 @@
 .hero
 	width 100%
-	padding-top 3vh
 	height 100%
 	display flex
 	align-items center
 	
 	.wrap
 		position relative
+		padding-top 0
 	
 	p
 		position relative
@@ -15,13 +15,16 @@
 		color var(--link-color)
 
 	h2
-		width 70%
+		width 100%
 		position relative
 		margin-bottom 21px
 		set-font-size 22px
 		font-family font-sans-serif
 		line-height 1.6
 		margin-left 31px
+
+		a
+			color var(--menu-color)
 
 		+below(47.25rem)
 			width 100%
@@ -38,4 +41,4 @@
 		margin-bottom 2vw
 
 	h3
-		set-font-size 18px
+		set-font-size 16px

@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://frnd.design/tags/css/</loc>
-    <lastmod>2022-11-29T13:29:45-03:00</lastmod>
-  </url><url>
     <loc>https://frnd.design/</loc>
-    <lastmod>2022-11-29T13:29:45-03:00</lastmod>
+    <lastmod>2023-02-27T16:39:15-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/lab/</loc>
+    <lastmod>2023-02-27T16:39:15-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/notes/como-a-memoria-funciona-para-ux-designers/</loc>
+    <lastmod>2023-02-17T13:07:42-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/memoria/</loc>
+    <lastmod>2023-02-17T13:07:42-03:00</lastmod>
   </url><url>
     <loc>https://frnd.design/tags/</loc>
+    <lastmod>2023-02-17T13:07:42-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/ux/</loc>
+    <lastmod>2023-02-17T13:07:42-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/metas/</loc>
+    <lastmod>2023-01-17T19:48:04-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/notes/ola-2023/</loc>
+    <lastmod>2023-01-17T19:48:04-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/pessoal/</loc>
+    <lastmod>2023-01-17T19:48:04-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/design/</loc>
+    <lastmod>2022-12-29T19:50:43-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/psicologia/</loc>
+    <lastmod>2022-12-29T19:50:43-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/notes/psicologia-aplicada-em-ux/</loc>
+    <lastmod>2022-12-29T19:50:43-03:00</lastmod>
+  </url><url>
+    <loc>https://frnd.design/tags/css/</loc>
     <lastmod>2022-11-29T13:29:45-03:00</lastmod>
   </url><url>
     <loc>https://frnd.design/tags/tipografia/</loc>
@@ -29,26 +59,14 @@
     <loc>https://frnd.design/entities/</loc>
     <lastmod>2022-09-09T16:39:15-03:00</lastmod>
   </url><url>
+    <loc>https://frnd.design/leituras/</loc>
+    <lastmod>2022-09-09T16:39:15-03:00</lastmod>
+  </url><url>
     <loc>https://frnd.design/links/</loc>
     <lastmod>2022-09-09T16:39:15-03:00</lastmod>
   </url><url>
     <loc>https://frnd.design/now/</loc>
     <lastmod>2022-09-09T16:39:15-03:00</lastmod>
-  </url><url>
-    <loc>https://frnd.design/projetos/boom-sistemas-template/</loc>
-    <lastmod>2020-08-25T19:04:54-03:00</lastmod>
-  </url><url>
-    <loc>https://frnd.design/tags/frontend/</loc>
-    <lastmod>2020-08-25T19:04:54-03:00</lastmod>
-  </url><url>
-    <loc>https://frnd.design/projetos/</loc>
-    <lastmod>2020-08-25T19:04:54-03:00</lastmod>
-  </url><url>
-    <loc>https://frnd.design/tags/ui/</loc>
-    <lastmod>2020-08-25T19:04:54-03:00</lastmod>
-  </url><url>
-    <loc>https://frnd.design/tags/ux/</loc>
-    <lastmod>2020-08-25T19:04:54-03:00</lastmod>
   </url><url>
     <loc>https://frnd.design/notes/</loc>
     <lastmod>2019-03-01T22:19:15-03:00</lastmod>

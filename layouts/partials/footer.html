@@ -1,20 +1,20 @@
 	<footer class="footer" role="contentinfo">
-		<div class="footer-infos">
-			<div class="wrap">
-				<nav class="col">
-					<ul>
-						<li><a href="https://atlasnesos.space/" target="_blank" class="atlas-logo" title="Atlas" rel="noopener">
-							<svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M20.5395 0.273743H4.61232V3.6867H8.47977L0.0617065 12.1048L2.47504 14.5181L12.5309 4.46227L22.5867 14.5181L25 12.1048L16.5819 3.6867H20.5395V0.273743Z" fill="#DCDCDC"/>
-								</svg>
-						</a></li>
-						<li><a href="/leituras">leituras</a></li>
-						<li><a href="/links">links</a></li>
-						<li><a href="https://read.cv/fer" target="_blank">cv</a></li>
-						<li><a target="_blank" rel="me" title="Mastodon" href="https://mastodon.social/@frnd">mastodon</a></li>
-					</ul>
-				</nav>
-			</div>
+		<div class="dock-component">
+			<nav aria-label="Main Navigation">
+				<ul>
+					{{ $current := . }}
+					{{ range .Site.Menus.main }}
+					{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+					{{ $active = or $active (eq .Name $current.Title) }}
+					{{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
+					<li>
+						<a href="{{ .URL }}" data-tooltip="{{ .Name }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
+							{{ .Pre }}
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+			</nav>
 		</div>
 	</footer>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>

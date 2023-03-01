@@ -1,0 +1,1 @@
+.gallery-wrapper{padding:.3em;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));grid-auto-flow:dense;grid-gap:5px;}.gallery-wrapper .big{grid-row:span 3;grid-column:span 3}.gallery-wrapper .wide{grid-column:span 4}.gallery-wrapper .tall{grid-row:span 2}

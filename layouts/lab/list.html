@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main t-page lab-page" role="main">
+    <div class="wrap-wide">
+        <section class="lab__list">
+            {{ range where .Site.RegularPages "Type" "lab" }}
+            <article class="lab__article">
+                <a href="{{ .Permalink }}">
+                    <figure>
+                        <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
+                    </figure>
+                    <h2>{{ .Title }}</h2>
+                </a>
+            </article>
+            {{ end }}
+        </section>
+    </div>
+</main>
+
+
+{{ partial "footer.html" . }}

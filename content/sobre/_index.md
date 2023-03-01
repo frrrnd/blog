@@ -7,7 +7,7 @@ layout: "simple-static"
 ---
 ![Eu](/uploads/pixel-photo.jpg)
 
-UX/UI Designer e Front End Dev. Com mais de 10 anos de experiência na indústria, sou apaixonado por criar experiências digitais que resolvem problemas reais. Com um sólido conhecimento dos príncipios de design e desenvolvimento, sou capaz de transformar experiências em design limpo e fácil de usar.
+UX Designer especialiazado em UI. Com mais de 10 anos de experiência na indústria, sou apaixonado por criar experiências digitais que resolvem problemas reais. Com um sólido conhecimento dos princípios de design e desenvolvimento, sou capaz de transformar experiências em design limpo e fáceis de usar.
 
 Trabalhei em vários tipos de projetos, de pequenas startups à empresas de grande escala, desde landing pages à interfaces para óculos de realidade virtual. Tenho vasto conhecimento em ferramentas de design, como Adobe Suíte, Sketch e principalmente Figma. Proeficiência em tecnologias front-end, apaixonado por HTML e CSS.
 

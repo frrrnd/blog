@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on frnd</title>
+    <link>https://frnd.design/tags/design/</link>
+    <description>Recent content in design on frnd</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Dec 2022 19:50:43 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Psicologia aplicada em UX</title>
+      <link>https://frnd.design/notes/psicologia-aplicada-em-ux/</link>
+      <pubDate>Thu, 29 Dec 2022 19:50:43 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/psicologia-aplicada-em-ux/</guid>
+      <description>A psicologia tem um papel muito importante no design da experiência do usuário.
+Como designers, podemos usar alguns princípios para influenciar (do jeito certo) o comportamento do usuário para que os produtos atinjam de forma efetiva os seus objetivos.</description>
+    </item>
+    
+  </channel>
+</rss>
