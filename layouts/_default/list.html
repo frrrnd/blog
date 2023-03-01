@@ -4,6 +4,7 @@
 
 <main class="main t-page notes-page" role="main">
 	<div class="wrap">
+		<h2 data-title="{{ .Title }}">{{ .Title }}</h2>
 			<section class="notes__list">
 				{{ range (where .Site.Pages "Params.type" "post") }}
 				<article class="notes__article">

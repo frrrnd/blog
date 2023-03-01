@@ -4,6 +4,7 @@
 
 <main class="main t-page lab-page" role="main">
     <div class="wrap-wide">
+        <h2 data-title="{{ .Title }}">{{ .Title }}</h2>
         <section class="lab__list">
             {{ range where .Site.RegularPages "Type" "lab" }}
             <article class="lab__article">

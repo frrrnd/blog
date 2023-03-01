@@ -3,7 +3,7 @@
     display grid
     grid-template-columns 1fr 1fr 1fr
     grid-gap 21px
-    margin 0 auto
+    margin 1vh auto 0
     padding-bottom 2vh
 
 .lab__article
@@ -41,6 +41,9 @@
             border-radius 10px
             height 100%
             transition .4s
+
+            +below(47.25rem)
+                height auto
 
     h2
         font-size 16px
