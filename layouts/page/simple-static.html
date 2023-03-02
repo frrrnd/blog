@@ -4,8 +4,10 @@
 
 <main class="main" role="main">
 	<div class="page__wrap">
-		<h2 data-title="{{ .Title }}">{{ .Title }}</h2>
-		<article>{{ .Content }}</article>
+		<h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2>
+		<section class="content__wrap">
+			<article>{{ .Content }}</article>
+		</section>
 	</div>
 </main>
 

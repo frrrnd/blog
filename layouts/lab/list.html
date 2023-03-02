@@ -4,7 +4,7 @@
 
 <main class="main t-page lab-page" role="main">
     <div class="wrap-wide">
-        <h2 data-title="{{ .Title }}">{{ .Title }}</h2>
+        <h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2>
         <section class="lab__list">
             {{ range where .Site.RegularPages "Type" "lab" }}
             <article class="lab__article">
@@ -12,7 +12,7 @@
                     <figure>
                         <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
                     </figure>
-                    <h2>{{ .Title }}</h2>
+                    <h3>{{ .Title }}</h3>
                 </a>
             </article>
             {{ end }}

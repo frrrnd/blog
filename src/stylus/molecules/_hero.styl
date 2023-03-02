@@ -17,7 +17,6 @@
 	h2
 		width 100%
 		position relative
-		margin-bottom 21px
 		set-font-size 22px
 		font-family font-sans-serif
 		line-height 1.6
@@ -42,3 +41,40 @@
 
 	h3
 		set-font-size 16px
+
+.btn
+	background-color #1a1a1a
+	display block
+	width max-content
+	padding 10px 15px
+	border-radius 5px
+	margin 20px 0
+
+	&:hover
+			color var(--link-color)
+			transition .4s
+
+			svg
+				path
+					fill var(--link-color)
+					transition .4s
+
+	svg
+		max-width 16px
+		margin-right 10px
+		
+		path
+			fill var(--dark-meta)
+			transition .4s
+
+.btn-group
+	width 100%
+	display flex
+	padding 0 31px
+
+	a
+		margin-right 21px
+		color var(--dark-meta)
+		transition .4s
+		display flex
+		align-items center
