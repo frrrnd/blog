@@ -9,7 +9,9 @@
   </div>
 
   <div class="page__wrap">
-      <table cellspacing="0">
+    <!-- <div id="myData"></div>   -->
+    
+    <table cellspacing="0">
           <thead>
             <tr class="">
               <th>HTML</th>
@@ -2623,8 +2625,20 @@
               <td>\u2666</td>
             </tr>
           </tbody>
-        </table>
+      </table>
   </div>
 </main>
+
+<!-- <script>
+  fetch("/entities/symbols.json")
+  .then((response) => response.json())
+  .then((data) => {
+    
+    let specials = data.filter(special => special.category == "specials");
+    for (var i = 0; i < specials.length; i++) {
+      console.log(`${specials[i].description}`)
+    }
+  });
+</script> -->
 
 {{ partial "footer.html" . }}
