@@ -1,15 +1,23 @@
 <header class="header" role="banner">
-	<div class="wrap">
-		<div class="header__logo">
-			<a href="{{ .Site.BaseURL }}" title="Fernando Soares">
-				<svg width="16" height="16" viewBox="0 0 19 19" fill="none" >
-					<path class="logo--letter" d="M3.96827 5.47394L0 9.4292L3.96827 13.3845L7.93654 9.4292L3.96827 5.47394Z" fill="white"/>
-					<path class="logo--letter" d="M1.59292 0.246366L10.7292 9.34292L1.37891 18.6644H6.05372L15.404 9.34292L9.17095 3.12836H15.404L18.5643 0.0214233L1.37891 0.0261949L1.59292 0.246366Z" fill="white"/>
-					</svg>
-					
+	<h1>
+		<a href="{{ .Site.BaseURL }}" title="Fernando Soares">
+			Fernando Soares
+		</a>
+	</h1>
 
-				<h1 class="header__name">Fernando Soares</h1>
-			</a>
-		</div>
-	</div>
+	<nav aria-label="Main Navigation" class="navigation">
+		<ul>
+			{{ $current := . }}
+			{{ range .Site.Menus.main }}
+			{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+			{{ $active = or $active (eq .Name $current.Title) }}
+			{{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
+			<li>
+				<a href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
+					{{ .Name }}
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</nav>
 </header>

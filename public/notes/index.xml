@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on frnd</title>
+    <title>Notes on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/notes/</link>
-    <description>Recent content in notes on frnd</description>
+    <description>Recent content in Notes on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 22:19:15 -0300</lastBuildDate><atom:link href="https://frnd.design/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX de sites</title>
+      <link>https://frnd.design/notes/ux-de-sites/</link>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/ux-de-sites/</guid>
+      <description>Alguns pontos sobre erros comuns em ux de sites e como melhorar.
+Erros comuns PowerPoint Layouts Sliders com imagem que ocupam a tela toda. Alguns podem achar criativo e divertido, mas na verdade tem várias complicações.</description>
+    </item>
+    
+    <item>
+      <title>Espaço negativo na tipografia</title>
+      <link>https://frnd.design/notes/espaco-negativo-tipografia/</link>
+      <pubDate>Wed, 08 Mar 2023 21:39:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/espaco-negativo-tipografia/</guid>
+      <description>Espaço negativo na tipografia tem que ser feito com muita atenção. Os títulos são lidos sempre primeiros e geralmente são maiores em relação ao texto que acompanha.
+Na imagem abaixo, o título parece fazer parte igualmente dos dois parágrafos, o de cima e o de baixo.</description>
+    </item>
+    
+    <item>
+      <title>Card ou Lista</title>
+      <link>https://frnd.design/notes/card-ou-lista/</link>
+      <pubDate>Wed, 01 Mar 2023 18:45:14 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/card-ou-lista/</guid>
+      <description>Tudo depende do contexto das informações.
+Cards (ou cartões) e listas são dois modos comuns de organizar informações em uma página. O uso de cada um vai da situação em que cada se encaixa pra uma melhor experiência.</description>
+    </item>
+    
     <item>
       <title>Como a memória funciona - para UX Designers</title>
       <link>https://frnd.design/notes/como-a-memoria-funciona-para-ux-designers/</link>

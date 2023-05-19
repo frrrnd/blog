@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ux on frnd</title>
+    <title>ux on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/tags/ux/</link>
-    <description>Recent content in ux on frnd</description>
+    <description>Recent content in ux on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 13:07:42 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 11:28:33 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX de sites</title>
+      <link>https://frnd.design/notes/ux-de-sites/</link>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/ux-de-sites/</guid>
+      <description>Alguns pontos sobre erros comuns em ux de sites e como melhorar.
+Erros comuns PowerPoint Layouts Sliders com imagem que ocupam a tela toda. Alguns podem achar criativo e divertido, mas na verdade tem várias complicações.</description>
+    </item>
+    
     <item>
       <title>Como a memória funciona - para UX Designers</title>
       <link>https://frnd.design/notes/como-a-memoria-funciona-para-ux-designers/</link>

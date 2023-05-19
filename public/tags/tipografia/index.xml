@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tipografia on frnd</title>
+    <title>tipografia on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/tags/tipografia/</link>
-    <description>Recent content in tipografia on frnd</description>
+    <description>Recent content in tipografia on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 13:29:45 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/tipografia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 21:39:42 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/tipografia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Espaço negativo na tipografia</title>
+      <link>https://frnd.design/notes/espaco-negativo-tipografia/</link>
+      <pubDate>Wed, 08 Mar 2023 21:39:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/espaco-negativo-tipografia/</guid>
+      <description>Espaço negativo na tipografia tem que ser feito com muita atenção. Os títulos são lidos sempre primeiros e geralmente são maiores em relação ao texto que acompanha.
+Na imagem abaixo, o título parece fazer parte igualmente dos dois parágrafos, o de cima e o de baixo.</description>
+    </item>
+    
     <item>
       <title>Tipografia com PX, EM e REM</title>
       <link>https://frnd.design/notes/tipografia-com-px-em-rem/</link>

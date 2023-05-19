@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>design on frnd</title>
+    <title>design on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/tags/design/</link>
-    <description>Recent content in design on frnd</description>
+    <description>Recent content in design on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Dec 2022 19:50:43 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 18:45:14 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Card ou Lista</title>
+      <link>https://frnd.design/notes/card-ou-lista/</link>
+      <pubDate>Wed, 01 Mar 2023 18:45:14 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/card-ou-lista/</guid>
+      <description>Tudo depende do contexto das informações.
+Cards (ou cartões) e listas são dois modos comuns de organizar informações em uma página. O uso de cada um vai da situação em que cada se encaixa pra uma melhor experiência.</description>
+    </item>
+    
     <item>
       <title>Psicologia aplicada em UX</title>
       <link>https://frnd.design/notes/psicologia-aplicada-em-ux/</link>

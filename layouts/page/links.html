@@ -2,11 +2,18 @@
 
 {{ partial "header.html" . }}
 
-<main class="main t-page__links" role="main">
-	<div class="wrap">
-		<h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2>
-		<section class="links__wrap">
-			<article>
+<main class="main article__container" role="main">
+	<article class="wrap">
+        <ul class="bread">
+			<li><a href="/">Home</a></li>
+			<li><a href="/notes">Notes</a></li>
+			<li>{{ .Title }}</li>
+		</ul>
+        <div class="wrap--left">
+            <header role="banner" class="article__header">
+                <h1>{{ .Title }}</h1>
+            </header>
+            <section class="article__content links__wrap">
                 <a rel="me" target="_blank" title="Dribbble" href="https://dribbble.com/fernando">Dribbble</a>
                 <a rel="me" target="_blank" title="Github" href="https://github.com/frrrnd">Github</a>
 
@@ -25,9 +32,9 @@
                 <a rel="me" target="_blank" title="Telegram" href="https://t.me/frrrnd">Telegram</a>
 
                 <a rel="me" href="mailto:frnd@null.net">Email</a>
-            </article>
-		</section>
-	</div>
+            </section>
+        </div>
+	</article>
 </main>
 
 {{ partial "footer.html" . }}

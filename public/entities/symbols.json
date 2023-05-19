@@ -1,0 +1,2832 @@
+[
+  {
+      "html_code": "&quot;",
+      "symbol": "\"",
+      "numeric": "&#34;",
+      "description": "quotation mark",
+      "hex": "u+0022 ISOnum",
+      "css": "\\0022",
+      "js": "\\42",
+      "category": "specials"
+    },
+    {
+      "html_code": "&num;",
+      "symbol": "#",
+      "numeric": "&#35;",
+      "description": "number sign",
+      "hex": "u+0023 ISOnum",
+      "css": "\\0023",
+      "js": "\\43",
+      "category": "specials"
+    },
+    {
+      "html_code": "&dollar;",
+      "symbol": "$",
+      "numeric": "&#36;",
+      "description": "dollar sign",
+      "hex": "u+0024 ISOnum",
+      "css": "\\0024",
+      "js": "\\44",
+      "category": "specials"
+    },
+    {
+      "html_code": "&percnt;",
+      "symbol": "%",
+      "numeric": "&#37;",
+      "description": "percent sign",
+      "hex": "u+0025 ISOnum",
+      "css": "\\0025",
+      "js": "\\45",
+      "category": "specials"
+    },
+    {
+      "html_code": "&amp;",
+      "symbol": "&",
+      "numeric": "&#38;",
+      "description": "ampersand",
+      "hex": "u+0026 ISOnum",
+      "css": "\\0026",
+      "js": "\\46",
+      "category": "specials"
+    },
+    {
+      "html_code": "&apos;",
+      "symbol": "'",
+      "numeric": "&#39;",
+      "description": "apostrophe",
+      "hex": "u+0027 ISOnum",
+      "css": "\\0027",
+      "js": "\\47",
+      "category": "specials"
+    },
+    {
+      "html_code": "&lpar;",
+      "symbol": "(",
+      "numeric": "&#40;",
+      "description": "left parenthesis",
+      "hex": "u+0028 ISOnum",
+      "css": "\\0028",
+      "js": "\\50",
+      "category": "specials"
+    },
+    {
+      "html_code": "&rpar;",
+      "symbol": ")",
+      "numeric": "&#41;",
+      "description": "right parenthesis",
+      "hex": "u+0029 ISOnum",
+      "css": "\\0029",
+      "js": "\\51",
+      "category": "specials"
+    },
+    {
+      "html_code": "&ast;",
+      "symbol": "*",
+      "numeric": "&#42;",
+      "description": "asterisk",
+      "hex": "u+002A ISOnum",
+      "css": "\\002a",
+      "js": "\\52",
+      "category": "specials"
+    },
+    {
+      "html_code": "&plus;",
+      "symbol": "+",
+      "numeric": "&#43;",
+      "description": "plus sign",
+      "hex": "u+002B ISOnum",
+      "css": "\\002b",
+      "js": "\\53",
+      "category": "specials"
+    },
+    {
+      "html_code": "&comma;",
+      "symbol": ",",
+      "numeric": "&#44;",
+      "description": "comma",
+      "hex": "u+002C ISOnum",
+      "css": "\\002c",
+      "js": "\\54",
+      "category": "specials"
+    },
+    {
+      "html_code": "&minus;",
+      "symbol": "-",
+      "numeric": "&#45;",
+      "description": "hyphen-minus",
+      "hex": "u+002D ISOnum",
+      "css": "\\002d",
+      "js": "\\55",
+      "category": "specials"
+    },
+    {
+      "html_code": "&period;",
+      "symbol": ".",
+      "numeric": "&#46;",
+      "description": "full stop; period",
+      "hex": "u+002E ISOnum",
+      "css": "\\002e",
+      "js": "\\56",
+      "category": "specials"
+    },
+    {
+      "html_code": "&sol;",
+      "symbol": "/",
+      "numeric": "&#47;",
+      "description": "solidus; slash",
+      "hex": "u+002F ISOnum",
+      "css": "\\002f",
+      "js": "\\57",
+      "category": "specials"
+    },
+    {
+      "html_code": "&colon;",
+      "symbol": ":",
+      "numeric": "&#58;",
+      "description": "colon",
+      "hex": "u+003A ISOnum",
+      "css": "\\003a",
+      "js": "\\72",
+      "category": "specials"
+    },
+    {
+      "html_code": "&semi;",
+      "symbol": ";",
+      "numeric": "&#59;",
+      "description": "semicolon",
+      "hex": "u+003B ISOnum",
+      "css": "\\003b",
+      "js": "\\73",
+      "category": "specials"
+    },
+    {
+      "html_code": "&lt;",
+      "symbol": "<",
+      "numeric": "&#60;",
+      "description": "less-than",
+      "hex": "u+003C ISOnum",
+      "css": "\\003c",
+      "js": "\\74",
+      "category": "specials"
+    },
+    {
+      "html_code": "&equals;",
+      "symbol": "=",
+      "numeric": "&#61;",
+      "description": "equals",
+      "hex": "u+003D ISOnum",
+      "css": "\\003d",
+      "js": "\\75",
+      "category": "specials"
+    },
+    {
+      "html_code": "&gt;",
+      "symbol": ">",
+      "numeric": "&#62;",
+      "description": "greater-than sign",
+      "hex": "u+003E ISOnum",
+      "css": "\\003e",
+      "js": "\\76",
+      "category": "specials"
+    },
+    {
+      "html_code": "&quest;",
+      "symbol": "?",
+      "numeric": "&#63;",
+      "description": "question mark",
+      "hex": "u+003F ISOnum",
+      "css": "\\003f",
+      "js": "\\77",
+      "category": "specials"
+    },
+    {
+      "html_code": "&commat;",
+      "symbol": "@",
+      "numeric": "&#64;",
+      "description": "at sign; commercial at",
+      "hex": "u+0040 ISOnum",
+      "css": "\\0040",
+      "js": "\\100",
+      "category": "specials"
+    },
+    {
+      "html_code": "&lsqb;",
+      "symbol": "[",
+      "numeric": "&#91;",
+      "description": "left square bracket",
+      "hex": "u+005B ISOnum",
+      "css": "\\005b",
+      "js": "\\133",
+      "category": "specials"
+    },
+    {
+      "html_code": "&bsol;",
+      "symbol": "\\",
+      "numeric": "&#92;",
+      "description": "backslash",
+      "hex": "u+005C ISOnum",
+      "css": "\\005c",
+      "js": "\\134",
+      "category": "specials"
+    },
+    {
+      "html_code": "&rsqb;",
+      "symbol": "]",
+      "numeric": "&#93;",
+      "description": "right square bracket",
+      "hex": "u+005D ISOnum",
+      "css": "\\005d",
+      "js": "\\135",
+      "category": "specials"
+    },
+    {
+      "html_code": "&Hat;",
+      "symbol": "^",
+      "numeric": "&#94;",
+      "description": "circumflex accent",
+      "hex": "u+005E ISOnum",
+      "css": "\\005e",
+      "js": "\\136",
+      "category": "specials"
+    },
+    {
+      "html_code": "&lowbar;",
+      "symbol": "_",
+      "numeric": "&#95;",
+      "description": "low line",
+      "hex": "u+005F ISOnum",
+      "css": "\\005f",
+      "js": "\\137",
+      "category": "specials"
+    },
+    {
+      "html_code": "&grave;",
+      "symbol": "`",
+      "numeric": "&#96;",
+      "description": "grave accent",
+      "hex": "u+0060 ISOnum",
+      "css": "\\0060",
+      "js": "\\u0060",
+      "category": "specials"
+    },
+    {
+      "html_code": "&lcub;",
+      "symbol": "{",
+      "numeric": "&#123;",
+      "description": "left curly bracket",
+      "hex": "u+007b ISOnum",
+      "css": "\\007b",
+      "js": "\\173",
+      "category": "specials"
+    },
+    {
+      "html_code": "&verbar;",
+      "symbol": "|",
+      "numeric": "&#124;",
+      "description": "vertical bar",
+      "hex": "u+007c ISOnum",
+      "css": "\\007c",
+      "js": "\\174",
+      "category": "specials"
+    },
+    {
+      "html_code": "&rcub;",
+      "symbol": "}",
+      "numeric": "&#125;",
+      "description": "right curly bracket",
+      "hex": "u+007d ISOnum",
+      "css": "\\007d",
+      "js": "\\175",
+      "category": "specials"
+    },
+    {
+      "html_code": "",
+      "symbol": "~",
+      "numeric": "&#126;",
+      "description": "tilde",
+      "hex": "u+007e ISOnum",
+      "css": "\\007e",
+      "js": "\\176",
+      "category": "specials"
+    },
+    {
+      "html_code": "",
+      "symbol": "",
+      "numeric": "&#160;",
+      "description": "no-break space",
+      "hex": "%A0",
+      "css": "\\00a0",
+      "js": "\\240",
+      "category": "latin"
+    },
+    {
+      "html_code": "&iexcl;",
+      "symbol": "¡",
+      "numeric": "&#161;",
+      "description": "inverted exclamation mark",
+      "hex": "%A1",
+      "css": "\\00a1",
+      "js": "\\241",
+      "category": "latin"
+    },
+    {
+      "html_code": "&cent;",
+      "symbol": "¢",
+      "numeric": "&#162;",
+      "description": "cent sign",
+      "hex": "%A2",
+      "css": "\\00a2",
+      "js": "\\242",
+      "category": "latin"
+    },
+    {
+      "html_code": "&pound;",
+      "symbol": "£",
+      "numeric": "&#163;",
+      "description": "pound sterling sign",
+      "hex": "%A3",
+      "css": "\\00a3",
+      "js": "\\243",
+      "category": "latin"
+    },
+    {
+      "html_code": "&curren;",
+      "symbol": "¤",
+      "numeric": "&#164;",
+      "description": "general currency sign",
+      "hex": "%A4",
+      "css": "\\00a4",
+      "js": "\\244",
+      "category": "latin"
+    },
+    {
+      "html_code": "&yen;",
+      "symbol": "¥",
+      "numeric": "&#165;",
+      "description": "yen sign",
+      "hex": "%A5",
+      "css": "\\00a5",
+      "js": "\\245",
+      "category": "latin"
+    },
+    {
+      "html_code": "&#x20B9;",
+      "symbol": "₹",
+      "numeric": "&#x20B9;",
+      "description": "Indian Rupee (INR) sign",
+      "hex": "U+20B9",
+      "css": "\\20B9",
+      "js": "\\u20B9",
+      "category": "latin"
+    },
+    {
+      "html_code": "&brvbar;",
+      "symbol": "¦",
+      "numeric": "&#166;",
+      "description": "broken (vertical) bar",
+      "hex": "%A6",
+      "css": "\\00a6",
+      "js": "\\246",
+      "category": "latin"
+    },
+    {
+      "html_code": "&sect;",
+      "symbol": "§",
+      "numeric": "&#167;",
+      "description": "section sign",
+      "hex": "%A7",
+      "css": "\\00a7",
+      "js": "\\247",
+      "category": "latin"
+    },
+    {
+      "html_code": "&uml;",
+      "symbol": "¨",
+      "numeric": "&#168;",
+      "description": "umlaut (dieresis)",
+      "hex": "%A8",
+      "css": "\\00a8",
+      "js": "\\250",
+      "category": "latin"
+    },
+    {
+      "html_code": "&copy;",
+      "symbol": "©",
+      "numeric": "&#169;",
+      "description": "copyright sign",
+      "hex": "%A9",
+      "css": "\\00a9",
+      "js": "\\251",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ordf;",
+      "symbol": "ª",
+      "numeric": "&#170;",
+      "description": "ordinal indicator, feminine",
+      "hex": "%AA",
+      "css": "\\00aa",
+      "js": "\\252",
+      "category": "latin"
+    },
+    {
+      "html_code": "&laquo;",
+      "symbol": "«",
+      "numeric": "&#171;",
+      "description": "angle quotation mark, left",
+      "hex": "%AB",
+      "css": "\\00ab",
+      "js": "\\253",
+      "category": "latin"
+    },
+    {
+      "html_code": "&not;",
+      "symbol": "¬",
+      "numeric": "&#172;",
+      "description": "not sign",
+      "hex": "%AC",
+      "css": "\\00ac",
+      "js": "\\254",
+      "category": "latin"
+    },
+    {
+      "html_code": "&shy;",
+      "symbol": "­",
+      "numeric": "&#173;",
+      "description": "soft hyphen",
+      "hex": "%AD",
+      "css": "\\00ad",
+      "js": "\\255",
+      "category": "latin"
+    },
+    {
+      "html_code": "&reg;",
+      "symbol": "®",
+      "numeric": "&#174;",
+      "description": "registered sign",
+      "hex": "%AE",
+      "css": "\\00ae",
+      "js": "\\256",
+      "category": "latin"
+    },
+    {
+      "html_code": "&macr;",
+      "symbol": "¯",
+      "numeric": "&#175;",
+      "description": "macron",
+      "hex": "%AF",
+      "css": "\\00af",
+      "js": "\\257",
+      "category": "latin"
+    },
+    {
+      "html_code": "&deg;",
+      "symbol": "°",
+      "numeric": "&#176;",
+      "description": "degree sign",
+      "hex": "%B0",
+      "css": "\\00b0",
+      "js": "\\260",
+      "category": "latin"
+    },
+    {
+      "html_code": "&plusmn;",
+      "symbol": "±",
+      "numeric": "&#177;",
+      "description": "plus-or-minus sign",
+      "hex": "%B1",
+      "css": "\\00b1",
+      "js": "\\261",
+      "category": "latin"
+    },
+    {
+      "html_code": "&sup2;",
+      "symbol": "²",
+      "numeric": "&#178;",
+      "description": "superscript two",
+      "hex": "%B2",
+      "css": "\\00b2",
+      "js": "\\262",
+      "category": "latin"
+    },
+    {
+      "html_code": "&sup3;",
+      "symbol": "³",
+      "numeric": "&#179;",
+      "description": "superscript three",
+      "hex": "%B3",
+      "css": "\\00b3",
+      "js": "\\263",
+      "category": "latin"
+    },
+    {
+      "html_code": "&acute;",
+      "symbol": "´",
+      "numeric": "&#180;",
+      "description": "acute accent",
+      "hex": "%B4",
+      "css": "\\00b4",
+      "js": "\\264",
+      "category": "latin"
+    },
+    {
+      "html_code": "&micro;",
+      "symbol": "µ",
+      "numeric": "&#181;",
+      "description": "micro sign",
+      "hex": "%B5",
+      "css": "\\00b5",
+      "js": "\\265",
+      "category": "latin"
+    },
+    {
+      "html_code": "&para;",
+      "symbol": "¶",
+      "numeric": "&#182;",
+      "description": "pilcrow (paragraph sign)",
+      "hex": "%B6",
+      "css": "\\00b6",
+      "js": "\\266",
+      "category": "latin"
+    },
+    {
+      "html_code": "&middot;",
+      "symbol": "·",
+      "numeric": "&#183;",
+      "description": "middle dot",
+      "hex": "%B7",
+      "css": "\\00b7",
+      "js": "\\267",
+      "category": "latin"
+    },
+    {
+      "html_code": "&cedil;",
+      "symbol": "¸",
+      "numeric": "&#184;",
+      "description": "cedilla",
+      "hex": "%B8",
+      "css": "\\00b8",
+      "js": "\\270",
+      "category": "latin"
+    },
+    {
+      "html_code": "&sup1;",
+      "symbol": "¹",
+      "numeric": "&#185;",
+      "description": "superscript one",
+      "hex": "%B9",
+      "css": "\\00b9",
+      "js": "\\271",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ordm;",
+      "symbol": "º",
+      "numeric": "&#186;",
+      "description": "ordinal indicator, masculine",
+      "hex": "%BA",
+      "css": "\\00ba",
+      "js": "\\272",
+      "category": "latin"
+    },
+    {
+      "html_code": "&raquo;",
+      "symbol": "»",
+      "numeric": "&#187;",
+      "description": "angle quotation mark, right",
+      "hex": "%BB",
+      "css": "\\00bb",
+      "js": "\\273",
+      "category": "latin"
+    },
+    {
+      "html_code": "&frac14;",
+      "symbol": "¼",
+      "numeric": "&#188;",
+      "description": "fraction one-quarter",
+      "hex": "%BC",
+      "css": "\\00bc",
+      "js": "\\274",
+      "category": "latin"
+    },
+    {
+      "html_code": "&frac12;",
+      "symbol": "½",
+      "numeric": "&#189;",
+      "description": "fraction one-half",
+      "hex": "%BD",
+      "css": "\\00bd",
+      "js": "\\275",
+      "category": "latin"
+    },
+    {
+      "html_code": "&frac34;",
+      "symbol": "¾",
+      "numeric": "&#190;",
+      "description": "fraction three-quarters",
+      "hex": "%BE",
+      "css": "\\00be",
+      "js": "\\276",
+      "category": "latin"
+    },
+    {
+      "html_code": "&iquest;",
+      "symbol": "¿",
+      "numeric": "&#191;",
+      "description": "inverted question mark",
+      "hex": "%BF",
+      "css": "\\00bf",
+      "js": "\\277",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Agrave;",
+      "symbol": "À",
+      "numeric": "&#192;",
+      "description": "capital A, grave accent",
+      "hex": "%C0",
+      "css": "\\00c0",
+      "js": "\\300",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Aacute;",
+      "symbol": "Á",
+      "numeric": "&#193;",
+      "description": "capital A, acute accent",
+      "hex": "%C1",
+      "css": "\\00c1",
+      "js": "\\301",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Acirc;",
+      "symbol": "Â",
+      "numeric": "&#194 ;",
+      "description": "capital A, circumflex accent",
+      "hex": "%C2",
+      "css": "\\00c2",
+      "js": "\\302",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Atilde;",
+      "symbol": "Ã",
+      "numeric": "&#195;",
+      "description": "capital A, tilde",
+      "hex": "%C3",
+      "css": "\\00c3",
+      "js": "\\303",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Auml;",
+      "symbol": "Ä",
+      "numeric": "&#196;",
+      "description": "capital A, dieresis or umlaut mark",
+      "hex": "%C4",
+      "css": "\\00c4",
+      "js": "\\304",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Aring;",
+      "symbol": "Å",
+      "numeric": "&#197;",
+      "description": "capital A, ring",
+      "hex": "%C5",
+      "css": "\\00c5",
+      "js": "\\305",
+      "category": "latin"
+    },
+    {
+      "html_code": "&AElig;",
+      "symbol": "Æ",
+      "numeric": "&#198;",
+      "description": "capital AE diphthong (ligature)",
+      "hex": "%C6",
+      "css": "\\00c6",
+      "js": "\\306",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ccedil;",
+      "symbol": "Ç",
+      "numeric": "&#199;",
+      "description": "capital C, cedilla",
+      "hex": "%C7",
+      "css": "\\00c7",
+      "js": "\\307",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Egrave;",
+      "symbol": "È",
+      "numeric": "&#200;",
+      "description": "capital E, grave accent",
+      "hex": "%C8",
+      "css": "\\00c8",
+      "js": "\\310",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Eacute;",
+      "symbol": "É",
+      "numeric": "&#201;",
+      "description": "capital E, acute accent",
+      "hex": "%C9",
+      "css": "\\00c9",
+      "js": "\\311",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ecirc;",
+      "symbol": "Ê",
+      "numeric": "&#202;",
+      "description": "capital E, circumflex accent",
+      "hex": "%CA",
+      "css": "\\00ca",
+      "js": "\\312",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Euml;",
+      "symbol": "Ë",
+      "numeric": "&#203;",
+      "description": "capital E, dieresis or umlaut mark",
+      "hex": "%CB",
+      "css": "\\00cb",
+      "js": "\\313",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Igrave;",
+      "symbol": "Ì",
+      "numeric": "&#204;",
+      "description": "capital I, grave accent",
+      "hex": "%CC",
+      "css": "\\00cc",
+      "js": "\\314",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Iacute;",
+      "symbol": "Í",
+      "numeric": "&#205;",
+      "description": "capital I, acute accent",
+      "hex": "%CD",
+      "css": "\\00cd",
+      "js": "\\315",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Icirc;",
+      "symbol": "Î",
+      "numeric": "&#206;",
+      "description": "capital I, circumflex accent",
+      "hex": "%CE",
+      "css": "\\00ce",
+      "js": "\\316",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Iuml;",
+      "symbol": "Ï",
+      "numeric": "&#207;",
+      "description": "capital I, dieresis or umlaut mark",
+      "hex": "%CF",
+      "css": "\\00cf",
+      "js": "\\317",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ETH;",
+      "symbol": "Ð",
+      "numeric": "&#208;",
+      "description": "capital Eth, Icelandic",
+      "hex": "%D0",
+      "css": "\\00d0",
+      "js": "\\320",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ntilde;",
+      "symbol": "Ñ",
+      "numeric": "&#209;",
+      "description": "capital N, tilde",
+      "hex": "%D1",
+      "css": "\\00d1",
+      "js": "\\321",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ograve;",
+      "symbol": "Ò",
+      "numeric": "&#210;",
+      "description": "capital O, grave accent",
+      "hex": "%D2",
+      "css": "\\00d2",
+      "js": "\\322",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Oacute;",
+      "symbol": "Ó",
+      "numeric": "&#211;",
+      "description": "capital O, acute accent",
+      "hex": "%D3",
+      "css": "\\00d3",
+      "js": "\\323",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ocirc;",
+      "symbol": "Ô",
+      "numeric": "&#212;",
+      "description": "capital O, circumflex accent",
+      "hex": "%D4",
+      "css": "\\00d4",
+      "js": "\\324",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Otilde;",
+      "symbol": "Õ",
+      "numeric": "&#213;",
+      "description": "capital O, tilde",
+      "hex": "%D5",
+      "css": "\\00d5",
+      "js": "\\325",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ouml;",
+      "symbol": "Ö",
+      "numeric": "&#214;",
+      "description": "capital O, dieresis or umlaut mark",
+      "hex": "%D6",
+      "css": "\\00d6",
+      "js": "\\326",
+      "category": "latin"
+    },
+    {
+      "html_code": "&times;",
+      "symbol": "×",
+      "numeric": "&#215;",
+      "description": "multiply sign",
+      "hex": "%D7",
+      "css": "\\00d7",
+      "js": "\\327",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Oslash;",
+      "symbol": "Ø",
+      "numeric": "&#216;",
+      "description": "capital O, slash",
+      "hex": "%D8",
+      "css": "\\00d8",
+      "js": "\\330",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ugrave;",
+      "symbol": "Ù",
+      "numeric": "&#217;",
+      "description": "capital U, grave accent",
+      "hex": "%D9",
+      "css": "\\00d9",
+      "js": "\\331",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Uacute;",
+      "symbol": "Ú",
+      "numeric": "&#218;",
+      "description": "capital U, acute accent",
+      "hex": "%DA",
+      "css": "\\00da",
+      "js": "\\332",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Ucirc;",
+      "symbol": "Û",
+      "numeric": "&#219;",
+      "description": "capital U, circumflex accent",
+      "hex": "%DB",
+      "css": "\\00db",
+      "js": "\\333",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Uuml;",
+      "symbol": "Ü",
+      "numeric": "&#220;",
+      "description": "capital U, dieresis or umlaut mark",
+      "hex": "%DC",
+      "css": "\\00dc",
+      "js": "\\334",
+      "category": "latin"
+    },
+    {
+      "html_code": "&Yacute;",
+      "symbol": "Ý",
+      "numeric": "&#221;",
+      "description": "capital Y, acute accent",
+      "hex": "%DD",
+      "css": "\\00dd",
+      "js": "\\335",
+      "category": "latin"
+    },
+    {
+      "html_code": "&THORN;",
+      "symbol": "Þ",
+      "numeric": "&#222;",
+      "description": "capital THORN, Icelandic",
+      "hex": "%DE",
+      "css": "\\00de",
+      "js": "\\336",
+      "category": "latin"
+    },
+    {
+      "html_code": "&szlig;",
+      "symbol": "ß",
+      "numeric": "&#223;",
+      "description": "small sharp s, German (sz ligature)",
+      "hex": "%DF",
+      "css": "\\00df",
+      "js": "\\337",
+      "category": "latin"
+    },
+    {
+      "html_code": "&agrave;",
+      "symbol": "à",
+      "numeric": "&#224;",
+      "description": "small a, grave accent",
+      "hex": "%E0",
+      "css": "\\00e0",
+      "js": "\\340",
+      "category": "latin"
+    },
+    {
+      "html_code": "&aacute;",
+      "symbol": "á",
+      "numeric": "&#225;",
+      "description": "small a, acute accent",
+      "hex": "%E1",
+      "css": "\\00e1",
+      "js": "\\341",
+      "category": "latin"
+    },
+    {
+      "html_code": "&acirc;",
+      "symbol": "â",
+      "numeric": "&#226;",
+      "description": "small a, circumflex accent",
+      "hex": "%E2",
+      "css": "\\00e2",
+      "js": "\\342",
+      "category": "latin"
+    },
+    {
+      "html_code": "&atilde;",
+      "symbol": "ã",
+      "numeric": "&#227;",
+      "description": "small a, tilde",
+      "hex": "%E3",
+      "css": "\\00e3",
+      "js": "\\343",
+      "category": "latin"
+    },
+    {
+      "html_code": "&auml;",
+      "symbol": "ä",
+      "numeric": "&#228;",
+      "description": "small a, dieresis or umlaut mark",
+      "hex": "%E4",
+      "css": "\\00e4",
+      "js": "\\344",
+      "category": "latin"
+    },
+    {
+      "html_code": "&aring;",
+      "symbol": "å",
+      "numeric": "&#229;",
+      "description": "small a, ring",
+      "hex": "%E5",
+      "css": "\\00e5",
+      "js": "\\345",
+      "category": "latin"
+    },
+    {
+      "html_code": "&aelig;",
+      "symbol": "æ",
+      "numeric": "&#230;",
+      "description": "small ae diphthong (ligature)",
+      "hex": "%E6",
+      "css": "\\00e6",
+      "js": "\\346",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ccedil;",
+      "symbol": "ç",
+      "numeric": "&#231;",
+      "description": "small c, cedilla",
+      "hex": "%E7",
+      "css": "\\00e7",
+      "js": "\\347",
+      "category": "latin"
+    },
+    {
+      "html_code": "&egrave;",
+      "symbol": "è",
+      "numeric": "&#232;",
+      "description": "small e, grave accent",
+      "hex": "%E8",
+      "css": "\\00e8",
+      "js": "\\350",
+      "category": "latin"
+    },
+    {
+      "html_code": "&eacute;",
+      "symbol": "é",
+      "numeric": "&#233;",
+      "description": "small e, acute accent",
+      "hex": "%E9",
+      "css": "\\00e9",
+      "js": "\\351",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ecirc;",
+      "symbol": "ê",
+      "numeric": "&#234;",
+      "description": "small e, circumflex accent",
+      "hex": "%EA",
+      "css": "\\00ea",
+      "js": "\\352",
+      "category": "latin"
+    },
+    {
+      "html_code": "&euml;",
+      "symbol": "ë",
+      "numeric": "&#235;",
+      "description": "small e, dieresis or umlaut mark",
+      "hex": "%EB",
+      "css": "\\00eb",
+      "js": "\\353",
+      "category": "latin"
+    },
+    {
+      "html_code": "&igrave;",
+      "symbol": "ì",
+      "numeric": "&#236;",
+      "description": "small i, grave accent",
+      "hex": "%EC",
+      "css": "\\00ec",
+      "js": "\\354",
+      "category": "latin"
+    },
+    {
+      "html_code": "&iacute;",
+      "symbol": "í",
+      "numeric": "&#237;",
+      "description": "small i, acute accent",
+      "hex": "%ED",
+      "css": "\\00ed",
+      "js": "\\355",
+      "category": "latin"
+    },
+    {
+      "html_code": "&icirc;",
+      "symbol": "î",
+      "numeric": "&#238;",
+      "description": "small i, circumflex accent",
+      "hex": "%EE",
+      "css": "\\00ee",
+      "js": "\\356",
+      "category": "latin"
+    },
+    {
+      "html_code": "&iuml;",
+      "symbol": "ï",
+      "numeric": "&#239;",
+      "description": "small i, dieresis or umlaut mark",
+      "hex": "%EF",
+      "css": "\\00ef",
+      "js": "\\357",
+      "category": "latin"
+    },
+    {
+      "html_code": "&eth;",
+      "symbol": "ð",
+      "numeric": "&#240;",
+      "description": "small eth, Icelandic",
+      "hex": "%F0",
+      "css": "\\00f0",
+      "js": "\\360",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ntilde;",
+      "symbol": "ñ",
+      "numeric": "&#241;",
+      "description": "small n, tilde",
+      "hex": "%F1",
+      "css": "\\00f1",
+      "js": "\\361",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ograve;",
+      "symbol": "ò",
+      "numeric": "&#242;",
+      "description": "small o, grave accent",
+      "hex": "%F2",
+      "css": "\\00f2",
+      "js": "\\362",
+      "category": "latin"
+    },
+    {
+      "html_code": "&oacute;",
+      "symbol": "ó",
+      "numeric": "&#243;",
+      "description": "small o, acute accent",
+      "hex": "%F3",
+      "css": "\\00f3",
+      "js": "\\363",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ocirc;",
+      "symbol": "ô",
+      "numeric": "&#244;",
+      "description": "small o, circumflex accent",
+      "hex": "%F4",
+      "css": "\\00f4",
+      "js": "\\364",
+      "category": "latin"
+    },
+    {
+      "html_code": "&otilde;",
+      "symbol": "õ",
+      "numeric": "&#245;",
+      "description": "small o, tilde",
+      "hex": "%F5",
+      "css": "\\00f5",
+      "js": "\\365",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ouml;",
+      "symbol": "ö",
+      "numeric": "&#246;",
+      "description": "small o, dieresis or umlaut mark",
+      "hex": "%F6",
+      "css": "\\00f6",
+      "js": "\\366",
+      "category": "latin"
+    },
+    {
+      "html_code": "&divide;",
+      "symbol": "÷",
+      "numeric": "&#247;",
+      "description": "divide sign",
+      "hex": "%F7",
+      "css": "\\00f7",
+      "js": "\\367",
+      "category": "latin"
+    },
+    {
+      "html_code": "&oslash;",
+      "symbol": "ø",
+      "numeric": "&#248;",
+      "description": "small o, slash",
+      "hex": "%F8",
+      "css": "\\00f8",
+      "js": "\\370",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ugrave;",
+      "symbol": "ù",
+      "numeric": "&#249;",
+      "description": "small u, grave accent",
+      "hex": "%F9",
+      "css": "\\00f9",
+      "js": "\\371",
+      "category": "latin"
+    },
+    {
+      "html_code": "&uacute;",
+      "symbol": "ú",
+      "numeric": "&#250;",
+      "description": "small u, acute accent",
+      "hex": "%FA",
+      "css": "\\00fa",
+      "js": "\\372",
+      "category": "latin"
+    },
+    {
+      "html_code": "&ucirc;",
+      "symbol": "û",
+      "numeric": "&#251;",
+      "description": "small u, circumflex accent",
+      "hex": "%FB",
+      "css": "\\00fb",
+      "js": "\\373",
+      "category": "latin"
+    },
+    {
+      "html_code": "&uuml;",
+      "symbol": "ü",
+      "numeric": "&#252;",
+      "description": "small u, dieresis or umlaut mark",
+      "hex": "%FC",
+      "css": "\\00fc",
+      "js": "\\374",
+      "category": "latin"
+    },
+    {
+      "html_code": "&yacute;",
+      "symbol": "ý",
+      "numeric": "&#253;",
+      "description": "small y, acute accent",
+      "hex": "%FD",
+      "css": "\\00fd",
+      "js": "\\375",
+      "category": "latin"
+    },
+    {
+      "html_code": "&thorn;",
+      "symbol": "þ",
+      "numeric": "&#254;",
+      "description": "small thorn, Icelandic",
+      "hex": "%FE",
+      "css": "\\00fe",
+      "js": "\\376",
+      "category": "latin"
+    },
+    {
+      "html_code": "&yuml;",
+      "symbol": "ÿ",
+      "numeric": "&#255;",
+      "description": "small y, dieresis or umlaut mark",
+      "hex": "%FF",
+      "css": "\\00ff",
+      "js": "\\377",
+      "category": "latin"
+    },
+    {
+      "html_code": "&OElig;",
+      "symbol": "Œ",
+      "numeric": "&#338;",
+      "description": "latin capital ligature oe",
+      "hex": "u+0152 ISOlat2",
+      "css": "\\0152",
+      "js": "\\u0152",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&oelig;",
+      "symbol": "œ",
+      "numeric": "&#339;",
+      "description": "latin small ligature oe",
+      "hex": "u+0153 ISOlat2",
+      "css": "\\0153",
+      "js": "\\u0153",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&Scaron;",
+      "symbol": "Š",
+      "numeric": "&#352;",
+      "description": "latin capital letter s with caron",
+      "hex": "u+0160 ISOlat2",
+      "css": "\\0160",
+      "js": "\\u0160",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&scaron;",
+      "symbol": "š",
+      "numeric": "&#353;",
+      "description": "latin small letter s with caron",
+      "hex": "u+0161 ISOlat2",
+      "css": "\\0161",
+      "js": "\\u0161",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&Yuml;",
+      "symbol": "Ÿ",
+      "numeric": "&#376;",
+      "description": "latin capital letter y with diaeresis",
+      "hex": "u+0178 ISOlat2",
+      "css": "\\0178",
+      "js": "\\u0178",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&fnof;",
+      "symbol": "ƒ",
+      "numeric": "&#402;",
+      "description": "latin small f with hook",
+      "hex": "u+0192 ISOtech",
+      "css": "\\0192",
+      "js": "\\u0192",
+      "category": "latin_extend"
+    },
+    {
+      "html_code": "&circ;",
+      "symbol": "ˆ",
+      "numeric": "",
+      "description": "modifier letter circumflex accent",
+      "hex": "u+02C6 ISOpub",
+      "css": "\\02c6",
+      "js": "\\u02c6",
+      "category": "spacing_modifiers"
+    },
+    {
+      "html_code": "&tilde;",
+      "symbol": "˜",
+      "numeric": "",
+      "description": "small tilde",
+      "hex": "u+02DC ISOdia",
+      "css": "\\02dc",
+      "js": "\\u02dc",
+      "category": "spacing_modifiers"
+    },
+    {
+      "html_code": "&Alpha;",
+      "symbol": "Α",
+      "numeric": "&#913;",
+      "description": "greek capital letter alpha",
+      "hex": "u+0391",
+      "css": "\\0391",
+      "js": "\\u0391",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Beta;",
+      "symbol": "Β",
+      "numeric": "&#914;",
+      "description": "greek capital letter beta",
+      "hex": "u+0392",
+      "css": "\\0392",
+      "js": "\\u0392",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Gamma;",
+      "symbol": "Γ",
+      "numeric": "&#915;",
+      "description": "greek capital letter gamma",
+      "hex": "u+0393 ISOgrk3",
+      "css": "\\0393",
+      "js": "\\u0395",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Delta;",
+      "symbol": "Δ",
+      "numeric": "&#916;",
+      "description": "greek capital letter delta",
+      "hex": "u+0394 ISOgrk3",
+      "css": "\\0394",
+      "js": "\\u0394",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Epsilon;",
+      "symbol": "Ε",
+      "numeric": "&#917;",
+      "description": "greek capital letter epsilon",
+      "hex": "u+0395",
+      "css": "\\0395",
+      "js": "\\u0395",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Zeta;",
+      "symbol": "Ζ",
+      "numeric": "&#918;",
+      "description": "greek capital letter zeta",
+      "hex": "u+0396",
+      "css": "\\0396",
+      "js": "\\u0396",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Eta;",
+      "symbol": "Η",
+      "numeric": "&#919;",
+      "description": "greek capital letter eta",
+      "hex": "u+0397",
+      "css": "\\0397",
+      "js": "\\u0397",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Theta;",
+      "symbol": "Θ",
+      "numeric": "&#920;",
+      "description": "greek capital letter theta",
+      "hex": "u+0398 ISOgrk3",
+      "css": "\\0398",
+      "js": "\\u0398",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Iota;",
+      "symbol": "Ι",
+      "numeric": "&#921;",
+      "description": "greek capital letter iota",
+      "hex": "u+0399",
+      "css": "\\0399",
+      "js": "\\u0399",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Kappa;",
+      "symbol": "Κ",
+      "numeric": "&#922;",
+      "description": "greek capital letter kappa",
+      "hex": "u+039A",
+      "css": "\\039a",
+      "js": "\\u039a",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Lambda;",
+      "symbol": "Λ",
+      "numeric": "&#923;",
+      "description": "greek capital letter lambda",
+      "hex": "u+039B ISOgrk3",
+      "css": "\\039b",
+      "js": "\\u039b",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Mu;",
+      "symbol": "Μ",
+      "numeric": "&#924;",
+      "description": "greek capital letter mu",
+      "hex": "u+039C",
+      "css": "\\039c",
+      "js": "\\u039c",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Nu;",
+      "symbol": "Ν",
+      "numeric": "&#925;",
+      "description": "greek capital letter nu",
+      "hex": "u+039D",
+      "css": "\\039d",
+      "js": "\\u039D",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Xi;",
+      "symbol": "Ξ",
+      "numeric": "&#926;",
+      "description": "greek capital letter xi",
+      "hex": "u+039E ISOgrk3",
+      "css": "\\039e",
+      "js": "\\u039e",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Omicron;",
+      "symbol": "Ο",
+      "numeric": "&#927;",
+      "description": "greek capital letter omicron",
+      "hex": "u+039F",
+      "css": "\\039f",
+      "js": "\\u039f",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Pi;",
+      "symbol": "Π",
+      "numeric": "&#928;",
+      "description": "greek capital letter pi",
+      "hex": "u+03A0 ISOgrk3",
+      "css": "\\03a0",
+      "js": "\\u03a0",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Rho;",
+      "symbol": "Ρ",
+      "numeric": "&#929;",
+      "description": "greek capital letter rho",
+      "hex": "u+03A1",
+      "css": "\\03a1",
+      "js": "\\u03a1",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Sigma;",
+      "symbol": "Σ",
+      "numeric": "&#931;",
+      "description": "greek capital letter sigma",
+      "hex": "u+03A3 ISOgrk3",
+      "css": "\\03a3",
+      "js": "\\u03A3",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Tau;",
+      "symbol": "Τ",
+      "numeric": "&#932;",
+      "description": "greek capital letter tau",
+      "hex": "u+03A4",
+      "css": "\\03a4",
+      "js": "\\u03A4",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Upsilon;",
+      "symbol": "Υ",
+      "numeric": "&#933;",
+      "description": "greek capital letter upsilon",
+      "hex": "u+03A5 ISOgrk3",
+      "css": "\\03a5",
+      "js": "\\u03A5",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Phi;",
+      "symbol": "Φ",
+      "numeric": "&#934;",
+      "description": "greek capital letter phi",
+      "hex": "u+03A6 ISOgrk3",
+      "css": "\\03a6",
+      "js": "\\u03A6",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Chi;",
+      "symbol": "Χ",
+      "numeric": "&#935;",
+      "description": "greek capital letter chi",
+      "hex": "u+03A7",
+      "css": "\\03a7",
+      "js": "\\u03A7",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Psi;",
+      "symbol": "Ψ",
+      "numeric": "&#936;",
+      "description": "greek capital letter psi",
+      "hex": "u+03A8 ISOgrk3",
+      "css": "\\03a8",
+      "js": "\\u03A8",
+      "category": "greek"
+    },
+    {
+      "html_code": "&Omega;",
+      "symbol": "Ω",
+      "numeric": "&#937;",
+      "description": "greek capital letter omega",
+      "hex": "u+03A9 ISOgrk3",
+      "css": "\\03a9",
+      "js": "\\u03A9",
+      "category": "greek"
+    },
+    {
+      "html_code": "&alpha;",
+      "symbol": "α",
+      "numeric": "&#945;",
+      "description": "greek small letter alpha",
+      "hex": "u+03B1 ISOgrk3",
+      "css": "\\03b1",
+      "js": "\\u03b1",
+      "category": "greek"
+    },
+    {
+      "html_code": "&beta;",
+      "symbol": "β",
+      "numeric": "&#946;",
+      "description": "greek small letter beta",
+      "hex": "u+03B2 ISOgrk3",
+      "css": "\\03b2",
+      "js": "\\u03b2",
+      "category": "greek"
+    },
+    {
+      "html_code": "&gamma;",
+      "symbol": "γ",
+      "numeric": "&#947;",
+      "description": "greek small letter gamma",
+      "hex": "u+03B3 ISOgrk3",
+      "css": "\\03b3",
+      "js": "\\u03b3",
+      "category": "greek"
+    },
+    {
+      "html_code": "&delta;",
+      "symbol": "δ",
+      "numeric": "&#948;",
+      "description": "greek small letter delta",
+      "hex": "u+03B4 ISOgrk3",
+      "css": "\\03b4",
+      "js": "\\u03b4",
+      "category": "greek"
+    },
+    {
+      "html_code": "&epsilon;",
+      "symbol": "ε",
+      "numeric": "&#949;",
+      "description": "greek small letter epsilon",
+      "hex": "u+03B5 ISOgrk3",
+      "css": "\\03b5",
+      "js": "\\u03b5",
+      "category": "greek"
+    },
+    {
+      "html_code": "&zeta;",
+      "symbol": "ζ",
+      "numeric": "&#950;",
+      "description": "greek small letter zeta",
+      "hex": "u+03B6 ISOgrk3",
+      "css": "\\03b6",
+      "js": "\\u03b6",
+      "category": "greek"
+    },
+    {
+      "html_code": "&eta;",
+      "symbol": "η",
+      "numeric": "&#951;",
+      "description": "greek small letter eta",
+      "hex": "u+03B7 ISOgrk3",
+      "css": "\\03b7",
+      "js": "\\u03b7",
+      "category": "greek"
+    },
+    {
+      "html_code": "&theta;",
+      "symbol": "θ",
+      "numeric": "&#952;",
+      "description": "greek small letter theta",
+      "hex": "u+03B8 ISOgrk3",
+      "css": "\\03b8",
+      "js": "\\u03b8",
+      "category": "greek"
+    },
+    {
+      "html_code": "&iota;",
+      "symbol": "ι",
+      "numeric": "&#953;",
+      "description": "greek small letter iota",
+      "hex": "u+03B9 ISOgrk3",
+      "css": "\\03b9",
+      "js": "\\u03b9",
+      "category": "greek"
+    },
+    {
+      "html_code": "&kappa;",
+      "symbol": "κ",
+      "numeric": "&#954;",
+      "description": "greek small letter kappa",
+      "hex": "u+03BA ISOgrk3",
+      "css": "\\03ba",
+      "js": "\\u03ba",
+      "category": "greek"
+    },
+    {
+      "html_code": "&lambda;",
+      "symbol": "λ",
+      "numeric": "&#955;",
+      "description": "greek small letter lambda",
+      "hex": "u+03BB ISOgrk3",
+      "css": "\\03bb",
+      "js": "\\u03bb",
+      "category": "greek"
+    },
+    {
+      "html_code": "&mu;",
+      "symbol": "μ",
+      "numeric": "&#956;",
+      "description": "greek small letter mu",
+      "hex": "u+03BC ISOgrk3",
+      "css": "\\03bc",
+      "js": "\\u03bc",
+      "category": "greek"
+    },
+    {
+      "html_code": "&nu;",
+      "symbol": "ν",
+      "numeric": "&#957;",
+      "description": "greek small letter nu",
+      "hex": "u+03BD ISOgrk3",
+      "css": "\\03bd",
+      "js": "\\u03bd",
+      "category": "greek"
+    },
+    {
+      "html_code": "&xi;",
+      "symbol": "ξ",
+      "numeric": "&#958;",
+      "description": "greek small letter xi",
+      "hex": "u+03BE ISOgrk3",
+      "css": "\\03be",
+      "js": "\\u03be",
+      "category": "greek"
+    },
+    {
+      "html_code": "&omicron;",
+      "symbol": "ο",
+      "numeric": "&#959;",
+      "description": "greek small letter omicron",
+      "hex": "u+03BF NEW",
+      "css": "\\03bf",
+      "js": "\\u03bf",
+      "category": "greek"
+    },
+    {
+      "html_code": "&pi;",
+      "symbol": "π",
+      "numeric": "&#960;",
+      "description": "greek small letter pi",
+      "hex": "u+03C0 ISOgrk3",
+      "css": "\\03c0",
+      "js": "\\u03c0",
+      "category": "greek"
+    },
+    {
+      "html_code": "&rho;",
+      "symbol": "ρ",
+      "numeric": "&#961;",
+      "description": "greek small letter rho",
+      "hex": "u+03C1 ISOgrk3",
+      "css": "\\03c1",
+      "js": "\\u03c1",
+      "category": "greek"
+    },
+    {
+      "html_code": "&sigmaf;",
+      "symbol": "ς",
+      "numeric": "&#962;",
+      "description": "greek small letter final sigma",
+      "hex": "u+03C2 ISOgrk3",
+      "css": "\\03C2",
+      "js": "\\u03c2",
+      "category": "greek"
+    },
+    {
+      "html_code": "&sigma;",
+      "symbol": "σ",
+      "numeric": "&#963;",
+      "description": "greek small letter sigma",
+      "hex": "u+03C3 ISOgrk3",
+      "css": "\\03C3",
+      "js": "\\u03c3",
+      "category": "greek"
+    },
+    {
+      "html_code": "&tau;",
+      "symbol": "τ",
+      "numeric": "&#964;",
+      "description": "greek small letter tau",
+      "hex": "u+03C4 ISOgrk3",
+      "css": "\\03C4",
+      "js": "\\u03c4",
+      "category": "greek"
+    },
+    {
+      "html_code": "&upsilon;",
+      "symbol": "υ",
+      "numeric": "&#965;",
+      "description": "greek small letter upsilon",
+      "hex": "u+03C5 ISOgrk3",
+      "css": "\\03C5",
+      "js": "\\u03c5",
+      "category": "greek"
+    },
+    {
+      "html_code": "&phi;",
+      "symbol": "φ",
+      "numeric": "&#966;",
+      "description": "greek small letter phi",
+      "hex": "u+03C6 ISOgrk3",
+      "css": "\\03C6",
+      "js": "\\03c6",
+      "category": "greek"
+    },
+    {
+      "html_code": "&chi;",
+      "symbol": "χ",
+      "numeric": "&#967;",
+      "description": "greek small letter chi",
+      "hex": "u+03C7 ISOgrk3",
+      "css": "\\03C7",
+      "js": "\\u03c7",
+      "category": "greek"
+    },
+    {
+      "html_code": "&psi;",
+      "symbol": "ψ",
+      "numeric": "&#968;",
+      "description": "greek small letter psi",
+      "hex": "u+03C8 ISOgrk3",
+      "css": "\\03C8",
+      "js": "\\u03c8",
+      "category": "greek"
+    },
+    {
+      "html_code": "&omega;",
+      "symbol": "ω",
+      "numeric": "&#969;",
+      "description": "greek small letter omega",
+      "hex": "u+03C9 ISOgrk3",
+      "css": "\\03C9",
+      "js": "\\u03c9",
+      "category": "greek"
+    },
+    {
+      "html_code": "&thetasym;",
+      "symbol": "ϑ",
+      "numeric": "&#977;",
+      "description": "greek small letter theta symbol",
+      "hex": "u+03D1 NEW",
+      "css": "\\03D1",
+      "js": "\\u03D1",
+      "category": "greek"
+    },
+    {
+      "html_code": "&upsih;",
+      "symbol": "ϒ",
+      "numeric": "&#978;",
+      "description": "greek upsilon with hook symbol",
+      "hex": "u+03D2 NEW",
+      "css": "\\03D2",
+      "js": "\\u03D2",
+      "category": "greek"
+    },
+    {
+      "html_code": "&piv;",
+      "symbol": "ϖ",
+      "numeric": "&#982;",
+      "description": "greek pi symbol",
+      "hex": "u+03D6 ISOgrk3",
+      "css": "\\03D6",
+      "js": "\\u03D6",
+      "category": "greek"
+    },
+    {
+      "html_code": "&ensp;",
+      "symbol": "",
+      "numeric": "&#8194;",
+      "description": "en space",
+      "hex": "u+2002 ISOpub",
+      "css": "\\2002",
+      "js": "\\u2002",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&emsp;",
+      "symbol": "",
+      "numeric": "&#8195;",
+      "description": "em space",
+      "hex": "u+2003 ISOpub",
+      "css": "\\2003",
+      "js": "\\u2003",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&thinsp;",
+      "symbol": "",
+      "numeric": "&#8201;",
+      "description": "thin space",
+      "hex": "u+2009 ISOpub",
+      "css": "\\2009",
+      "js": "\\u2009",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&zwnj;",
+      "symbol": "‌",
+      "numeric": "&#8204;",
+      "description": "zero width non-joiner",
+      "hex": "u+200C NEW RFC 2070",
+      "css": "\\200C",
+      "js": "\\u200C",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&zwj;",
+      "symbol": "‍",
+      "numeric": "&#8205;",
+      "description": "zero width joiner",
+      "hex": "u+200D NEW RFC 2070",
+      "css": "\\200D",
+      "js": "\\u200d",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&lrm;",
+      "symbol": "‎",
+      "numeric": "&#8206;",
+      "description": "left-to-right mark",
+      "hex": "u+200E NEW RFC 2070",
+      "css": "\\200E",
+      "js": "\\u200e",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&rlm;",
+      "symbol": "‏",
+      "numeric": "&#8207;",
+      "description": "right-to-left mark",
+      "hex": "u+200F NEW RFC 2070",
+      "css": "\\200F",
+      "js": "\\u200f",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&ndash;",
+      "symbol": "–",
+      "numeric": "&#8211;",
+      "description": "en dash",
+      "hex": "u+2013 ISOpub",
+      "css": "\\2013",
+      "js": "\\u2013",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&mdash;",
+      "symbol": "—",
+      "numeric": "&#8212;",
+      "description": "em dash",
+      "hex": "u+2014 ISOpub",
+      "css": "\\2014",
+      "js": "\\u2014",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&lsquo;",
+      "symbol": "‘",
+      "numeric": "&#8216;",
+      "description": "left single quotation mark",
+      "hex": "u+2018 ISOnum",
+      "css": "\\2018",
+      "js": "\\u2018",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&rsquo;",
+      "symbol": "’",
+      "numeric": "&#8217;",
+      "description": "right single quotation mark",
+      "hex": "u+2019 ISOnum",
+      "css": "\\2019",
+      "js": "\\u2019",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&sbquo;",
+      "symbol": "‚",
+      "numeric": "&#8218;",
+      "description": "single low-9 quotation mark",
+      "hex": "u+201A NEW",
+      "css": "\\201A",
+      "js": "\\u201a",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&ldquo;",
+      "symbol": "“",
+      "numeric": "&#8220;",
+      "description": "left double quotation mark",
+      "hex": "u+201C ISOnum",
+      "css": "\\201C",
+      "js": "\\u201c",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&rdquo;",
+      "symbol": "”",
+      "numeric": "&#8221;",
+      "description": "right double quotation mark",
+      "hex": "u+201D ISOnum",
+      "css": "\\201D",
+      "js": "\\u201d",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&bdquo;",
+      "symbol": "„",
+      "numeric": "&#8222;",
+      "description": "double low-9 quotation mark",
+      "hex": "u+201E NEW",
+      "css": "\\201E",
+      "js": "\\u201e",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&dagger;",
+      "symbol": "†",
+      "numeric": "&#8224;",
+      "description": "dagger",
+      "hex": "u+2020 ISOpub",
+      "css": "\\2020",
+      "js": "\\u2020",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&Dagger;",
+      "symbol": "‡",
+      "numeric": "&#8225;",
+      "description": "double dagger",
+      "hex": "u+2021 ISOpub",
+      "css": "\\2021",
+      "js": "\\u2021",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&permil;",
+      "symbol": "‰",
+      "numeric": "&#8240;",
+      "description": "per mille sign",
+      "hex": "u+2030 ISOtech",
+      "css": "\\2030",
+      "js": "\\u2030",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&lsaquo;",
+      "symbol": "‹",
+      "numeric": "&#8249;",
+      "description": "single left-pointing angle quotation mark",
+      "hex": "u+2039 ISO proposed",
+      "css": "\\2039",
+      "js": "\\u2039",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&rsaquo;",
+      "symbol": "›",
+      "numeric": "&#8250;",
+      "description": "single right-pointing angle quotation mark",
+      "hex": "u+203A ISO proposed",
+      "css": "\\203A",
+      "js": "\\u203a",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&bull;",
+      "symbol": "•",
+      "numeric": "&#8226;",
+      "description": "bullet, a.k.a. black small circle\nbullet is NOT the same as bullet operator — u+2219",
+      "hex": "u+2022 ISOpub",
+      "css": "\\2022",
+      "js": "\\u2219",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&hellip;",
+      "symbol": "…",
+      "numeric": "&#8230;",
+      "description": "horizontal ellipsis, a.k.a. three dot leader",
+      "hex": "u+2026 ISOpub",
+      "css": "\\2026",
+      "js": "\\u2026",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&prime;",
+      "symbol": "′",
+      "numeric": "&#8242;",
+      "description": "prime, a.k.a. minutes, a.k.a. feet",
+      "hex": "u+2032 ISOtech",
+      "css": "\\2032",
+      "js": "\\u2032",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&Prime;",
+      "symbol": "″",
+      "numeric": "&#8243;",
+      "description": "double prime, a.k.a. seconds, a.k.a. inches",
+      "hex": "u+2033 ISOtech",
+      "css": "\\2033",
+      "js": "\\u2033",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&oline;",
+      "symbol": "‾",
+      "numeric": "&#8254;",
+      "description": "overline, a.k.a. spacing overscore",
+      "hex": "u+203E NEW",
+      "css": "\\203E",
+      "js": "\\u203e",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&frasl;",
+      "symbol": "⁄",
+      "numeric": "&#8260;",
+      "description": "fraction slash",
+      "hex": "u+2044 NEW",
+      "css": "\\2044",
+      "js": "\\u8260",
+      "category": "punctuation"
+    },
+    {
+      "html_code": "&weierp;",
+      "symbol": "℘",
+      "numeric": "&#8472;",
+      "description": "script capital P, a.k.a. power set, a.k.a. Weierstrass p",
+      "hex": "u+2118 ISOamso",
+      "css": "\\2118",
+      "js": "\\u2118",
+      "category": "letter_like"
+    },
+    {
+      "html_code": "&image;",
+      "symbol": "ℑ",
+      "numeric": "&#8465;",
+      "description": "blackletter capital I, a.k.a. imaginary part",
+      "hex": "u+2111 ISOamso",
+      "css": "\\2111",
+      "js": "\\u2111",
+      "category": "letter_like"
+    },
+    {
+      "html_code": "&real;",
+      "symbol": "ℜ",
+      "numeric": "&#8476;",
+      "description": "blackletter capital R, a.k.a. real part symbol",
+      "hex": "u+211C ISOamso",
+      "css": "\\211C",
+      "js": "\\u211c",
+      "category": "letter_like"
+    },
+    {
+      "html_code": "&trade;",
+      "symbol": "™",
+      "numeric": "&#8482;",
+      "description": "trade mark sign",
+      "hex": "u+2122 ISOnum",
+      "css": "\\2122",
+      "js": "\\u2122",
+      "category": "letter_like"
+    },
+    {
+      "html_code": "&alefsym;",
+      "symbol": "ℵ",
+      "numeric": "&#8501;",
+      "description": "alef symbol",
+      "hex": "u+2135 NEW",
+      "css": "\\2135",
+      "js": "\\u",
+      "category": "letter_like"
+    },
+    {
+      "html_code": "&larr;",
+      "symbol": "←",
+      "numeric": "&#8592;",
+      "description": "leftwards arrow",
+      "hex": "u+2190 ISOnum",
+      "css": "\\2190",
+      "js": "\\u2190",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&uarr;",
+      "symbol": "↑",
+      "numeric": "&#8593;",
+      "description": "upwards arrow",
+      "hex": "u+2191 ISOnum",
+      "css": "\\2191",
+      "js": "\\u2191",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&rarr;",
+      "symbol": "→",
+      "numeric": "&#8594;",
+      "description": "rightwards arrow",
+      "hex": "u+2192 ISOnum",
+      "css": "\\2192",
+      "js": "\\u2192",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&darr;",
+      "symbol": "↓",
+      "numeric": "&#8595;",
+      "description": "downwards arrow",
+      "hex": "u+2193 ISOnum",
+      "css": "\\2193",
+      "js": "\\u2193",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&harr;",
+      "symbol": "↔",
+      "numeric": "&#8596;",
+      "description": "left right arrow",
+      "hex": "u+2194 ISOamsa",
+      "css": "\\2194",
+      "js": "\\u2194",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&crarr;",
+      "symbol": "↵",
+      "numeric": "&#8629;",
+      "description": "downwards arrow with corner leftwards, a.k.a. carriage return",
+      "hex": "u+21B5 NEW",
+      "css": "\\21B5",
+      "js": "\\u21b5",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&lArr;",
+      "symbol": "⇐",
+      "numeric": "&#8656;",
+      "description": "leftwards double arrow\ncan be used for ‘is implied by’",
+      "hex": "u+21D0 ISOtech",
+      "css": "\\21D0",
+      "js": "\\u21d0",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&uArr;",
+      "symbol": "⇑",
+      "numeric": "&#8657;",
+      "description": "upwards double arrow",
+      "hex": "u+21D1 ISOamsa",
+      "css": "\\21D1",
+      "js": "\\u21d1",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&rArr;",
+      "symbol": "⇒",
+      "numeric": "&#8658;",
+      "description": "rightwards double arrow",
+      "hex": "u+21D2 ISOtech",
+      "css": "\\21D2",
+      "js": "\\u21d2",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&dArr;",
+      "symbol": "⇓",
+      "numeric": "&#8659;",
+      "description": "downwards double arrow",
+      "hex": "u+21D3 ISOamsa",
+      "css": "\\21D3",
+      "js": "\\ud1d3",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&hArr;",
+      "symbol": "⇔",
+      "numeric": "&#8660;",
+      "description": "left right double arrow",
+      "hex": "u+21D4 ISOamsa",
+      "css": "\\21D4",
+      "js": "\\u21d4",
+      "category": "arrows"
+    },
+    {
+      "html_code": "",
+      "symbol": "◄",
+      "numeric": "&#9668;",
+      "description": "black left pointing triangle",
+      "hex": "U+25C0",
+      "css": "\\25C0",
+      "js": "\\u25c0",
+      "category": "arrows"
+    },
+    {
+      "html_code": "",
+      "symbol": "►",
+      "numeric": "&#9658;",
+      "description": "black right pointing triangle",
+      "hex": "u+25B6",
+      "css": "\\25b6",
+      "js": "\\u25b6",
+      "category": "arrows"
+    },
+    {
+      "html_code": "",
+      "symbol": "▲",
+      "numeric": "&#9650;",
+      "description": "black up pointing triangle",
+      "hex": "u+25B2",
+      "css": "\\25b2",
+      "js": "\\u25b2",
+      "category": "arrows"
+    },
+    {
+      "html_code": "",
+      "symbol": "▼",
+      "numeric": "&#9660;",
+      "description": "black down pointing triangle",
+      "hex": "u+25BC",
+      "css": "\\25bc",
+      "js": "\\u25bc",
+      "category": "arrows"
+    },
+    {
+      "html_code": "&forall;",
+      "symbol": "∀",
+      "numeric": "&#8704;",
+      "description": "for all",
+      "hex": "u+2200 ISOtech",
+      "css": "\\2200",
+      "js": "\\u2200",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&part;",
+      "symbol": "∂",
+      "numeric": "&#8706;",
+      "description": "partial differential",
+      "hex": "u+2202 ISOtech",
+      "css": "\\2202",
+      "js": "\\u2202",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&exist;",
+      "symbol": "∃",
+      "numeric": "&#8707;",
+      "description": "there exists",
+      "hex": "u+2203 ISOtech",
+      "css": "\\2203",
+      "js": "\\u2203",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&empty;",
+      "symbol": "∅",
+      "numeric": "&#8709;",
+      "description": "empty set, a.k.a. null set, a.k.a. diameter",
+      "hex": "u+2205 ISOamso",
+      "css": "\\2205",
+      "js": "\\u2205",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&nabla;",
+      "symbol": "∇",
+      "numeric": "&#8711;",
+      "description": "nabla, a.k.a. backward difference",
+      "hex": "u+2207 ISOtech",
+      "css": "\\2207",
+      "js": "\\u2207",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&isin;",
+      "symbol": "∈",
+      "numeric": "&#8712;",
+      "description": "element of",
+      "hex": "u+2208 ISOtech",
+      "css": "\\2208",
+      "js": "\\u2208",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&notin;",
+      "symbol": "∉",
+      "numeric": "&#8713;",
+      "description": "not an element of",
+      "hex": "u+2209 ISOtech",
+      "css": "\\2209",
+      "js": "\\u2209",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&ni;",
+      "symbol": "∋",
+      "numeric": "&#8715;",
+      "description": "contains as member",
+      "hex": "u+220B ISOtech",
+      "css": "\\220B",
+      "js": "\\u220b",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&prod;",
+      "symbol": "∏",
+      "numeric": "&#8719;",
+      "description": "n-ary product, a.k.a. product sign",
+      "hex": "u+220F ISOamsb",
+      "css": "\\220F",
+      "js": "\\u03a0",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sum;",
+      "symbol": "∑",
+      "numeric": "&#8721;",
+      "description": "n-ary sumation",
+      "hex": "u+2211 ISOamsb",
+      "css": "\\2211",
+      "js": "\\u03a3",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&minus;",
+      "symbol": "−",
+      "numeric": "&#8722;",
+      "description": "minus sign",
+      "hex": "u+2212 ISOtech",
+      "css": "\\2212",
+      "js": "\\u2212",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&lowast;",
+      "symbol": "∗",
+      "numeric": "&#8727;",
+      "description": "asterisk operator",
+      "hex": "u+2217 ISOtech",
+      "css": "\\2217",
+      "js": "\\u2217",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&radic;",
+      "symbol": "√",
+      "numeric": "&#8730;",
+      "description": "square root, a.k.a. radical sign",
+      "hex": "u+221A ISOtech",
+      "css": "\\221A",
+      "js": "\\u221a",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&prop;",
+      "symbol": "∝",
+      "numeric": "&#8733;",
+      "description": "proportional to",
+      "hex": "u+221D ISOtech",
+      "css": "\\221D",
+      "js": "\\u221d",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&infin;",
+      "symbol": "∞",
+      "numeric": "&#8734;",
+      "description": "infinity",
+      "hex": "u+221E ISOtech",
+      "css": "\\221E",
+      "js": "\\u221e",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&ang;",
+      "symbol": "∠",
+      "numeric": "&#8736;",
+      "description": "angle",
+      "hex": "u+2220 ISOamso",
+      "css": "\\2220",
+      "js": "\\u2220",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&and;",
+      "symbol": "∧",
+      "numeric": "&#8743;",
+      "description": "logical and (wedge)",
+      "hex": "u+2227 ISOtech",
+      "css": "\\2227",
+      "js": "\\u2227",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&or;",
+      "symbol": "∨",
+      "numeric": "&#8744;",
+      "description": "logical or (vee)",
+      "hex": "u+2228 ISOtech",
+      "css": "\\2228",
+      "js": "\\u2228",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&cap;",
+      "symbol": "∩",
+      "numeric": "&#8745;",
+      "description": "intersection, a.k.a. cap",
+      "hex": "u+2229 ISOtech",
+      "css": "\\2229",
+      "js": "\\u2229",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&cup;",
+      "symbol": "∪",
+      "numeric": "&#8746;",
+      "description": "union, a.k.a. cup",
+      "hex": "u+222A ISOtech",
+      "css": "\\222A",
+      "js": "\\u222a",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&int;",
+      "symbol": "∫",
+      "numeric": "&#8747;",
+      "description": "integral",
+      "hex": "u+222B ISOtech",
+      "css": "\\222B",
+      "js": "\\u222b",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&there4;",
+      "symbol": "∴",
+      "numeric": "&#8756;",
+      "description": "therefore",
+      "hex": "u+2234 ISOtech",
+      "css": "\\2234",
+      "js": "\\u2234",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sim;",
+      "symbol": "∼",
+      "numeric": "&#8764;",
+      "description": "tilde",
+      "hex": "u+223C ISOtech",
+      "css": "\\223C",
+      "js": "\\u223c",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&cong;",
+      "symbol": "≅",
+      "numeric": "&#8773;",
+      "description": "approximately equal to",
+      "hex": "u+2245 ISOtech",
+      "css": "\\2245",
+      "js": "\\u2245",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&asymp;",
+      "symbol": "≈",
+      "numeric": "&#8776;",
+      "description": "almost equal to, a.k.a. asymptotic to",
+      "hex": "u+2248 ISOamsr",
+      "css": "\\2248",
+      "js": "\\u2248",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&ne;",
+      "symbol": "≠",
+      "numeric": "&#8800;",
+      "description": "not equal to",
+      "hex": "u+2260 ISOtech",
+      "css": "\\2260",
+      "js": "\\u2260",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&equiv;",
+      "symbol": "≡",
+      "numeric": "&#8801;",
+      "description": "identical to",
+      "hex": "u+2261 ISOtech",
+      "css": "\\2261",
+      "js": "\\u2261",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&le;",
+      "symbol": "≤",
+      "numeric": "&#8804;",
+      "description": "less-than or equal to",
+      "hex": "u+2264 ISOtech",
+      "css": "\\2264",
+      "js": "\\u2264",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&ge;",
+      "symbol": "≥",
+      "numeric": "&#8805;",
+      "description": "greater-than or equal to",
+      "hex": "u+2265 ISOtech",
+      "css": "\\2265",
+      "js": "\\u2265",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sub;",
+      "symbol": "⊂",
+      "numeric": "&#8834;",
+      "description": "subset of",
+      "hex": "u+2282 ISOtech",
+      "css": "\\2282",
+      "js": "\\u2282",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sup;",
+      "symbol": "⊃",
+      "numeric": "&#8835;",
+      "description": "superset of",
+      "hex": "u+2283 ISOtech",
+      "css": "\\2283",
+      "js": "\\u2283",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&nsub;",
+      "symbol": "⊄",
+      "numeric": "&#8836;",
+      "description": "not a subset of",
+      "hex": "u+2284 ISOamsn",
+      "css": "\\2284",
+      "js": "\\u2284",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sube;",
+      "symbol": "⊆",
+      "numeric": "&#8838;",
+      "description": "subset of or equal to",
+      "hex": "u+2286 ISOtech",
+      "css": "\\2286",
+      "js": "\\u2286",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&supe;",
+      "symbol": "⊇",
+      "numeric": "&#8839;",
+      "description": "superset of or equal to",
+      "hex": "u+2287 ISOtech",
+      "css": "\\2287",
+      "js": "\\u2287",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&oplus;",
+      "symbol": "⊕",
+      "numeric": "&#8853;",
+      "description": "circled plus, a.k.a. direct sum",
+      "hex": "u+2295 ISOamsb",
+      "css": "\\2295",
+      "js": "\\u2295",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&otimes;",
+      "symbol": "⊗",
+      "numeric": "&#8855;",
+      "description": "circled times, a.k.a. vector product",
+      "hex": "u+2297 ISOamsb",
+      "css": "\\2297",
+      "js": "\\u2297",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&perp;",
+      "symbol": "⊥",
+      "numeric": "&#8869;",
+      "description": "up tack",
+      "hex": "u+22A5 ISOtech",
+      "css": "\\22A5",
+      "js": "\\u22a5",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&sdot;",
+      "symbol": "⋅",
+      "numeric": "&#8901;",
+      "description": "dot operator",
+      "hex": "u+22C5 ISOamsb",
+      "css": "\\22C5",
+      "js": "\\u22c5",
+      "category": "math_operators"
+    },
+    {
+      "html_code": "&lceil;",
+      "symbol": "⌈",
+      "numeric": "&#8968;",
+      "description": "left ceiling, a.k.a. apl upstile",
+      "hex": "u+2308 ISOamsc",
+      "css": "\\2308",
+      "js": "\\u2308",
+      "category": "technical"
+    },
+    {
+      "html_code": "&rceil;",
+      "symbol": "⌉",
+      "numeric": "&#8969;",
+      "description": "right ceiling",
+      "hex": "u+2309 ISOamsc",
+      "css": "\\2309",
+      "js": "\\u2309",
+      "category": "technical"
+    },
+    {
+      "html_code": "&lfloor;",
+      "symbol": "⌊",
+      "numeric": "&#8970;",
+      "description": "left floor, a.k.a. apl downstile",
+      "hex": "u+230A ISOamsc",
+      "css": "\\230A",
+      "js": "\\u230a",
+      "category": "technical"
+    },
+    {
+      "html_code": "&rfloor;",
+      "symbol": "⌋",
+      "numeric": "&#8971;",
+      "description": "right floor",
+      "hex": "u+230B ISOamsc",
+      "css": "\\230B",
+      "js": "\\u230b",
+      "category": "technical"
+    },
+    {
+      "html_code": "&lang;",
+      "symbol": "〈",
+      "numeric": "&#9001;",
+      "description": "left-pointing angle bracket",
+      "hex": "u+2329 ISOtech",
+      "css": "\\2329",
+      "js": "\\u2329",
+      "category": "technical"
+    },
+    {
+      "html_code": "&rang;",
+      "symbol": "〉",
+      "numeric": "&#9002;",
+      "description": "right-pointing angle bracket",
+      "hex": "u+232A ISOtech",
+      "css": "\\232A",
+      "js": "\\u232a",
+      "category": "technical"
+    },
+    {
+      "html_code": "&loz;",
+      "symbol": "◊",
+      "numeric": "&#9674;",
+      "description": "lozenge",
+      "hex": "u+25CA ISOpub",
+      "css": "\\25CA",
+      "js": "\\u25ca",
+      "category": "misc"
+    },
+    {
+      "html_code": "&spades;",
+      "symbol": "♠",
+      "numeric": "&#9824;",
+      "description": "black spade suit",
+      "hex": "u+2660 ISOpub",
+      "css": "\\2660",
+      "js": "\\u2660",
+      "category": "misc"
+    },
+    {
+      "html_code": "&clubs;",
+      "symbol": "♣",
+      "numeric": "&#9827;",
+      "description": "black club suit, a.k.a. shamrock",
+      "hex": "u+2663 ISOpub",
+      "css": "\\2663",
+      "js": "\\u2663",
+      "category": "misc"
+    },
+    {
+      "html_code": "&hearts;",
+      "symbol": "♥",
+      "numeric": "&#9829;",
+      "description": "black heart suit, a.k.a. valentine",
+      "hex": "u+2665 ISOpub",
+      "css": "\\2665",
+      "js": "\\u2665",
+      "category": "misc"
+    },
+    {
+      "html_code": "&diams;",
+      "symbol": "♦",
+      "numeric": "&#9830;",
+      "description": "black diamond suit",
+      "hex": "u+2666 ISOpub",
+      "css": "\\2666",
+      "js": "\\u2666",
+      "category": "misc"
+    }
+]

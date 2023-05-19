@@ -1,6 +1,6 @@
 // Dark Theme
 
-html
+:root
     --dark-bg: #161616
     --dark-text: #e3e3e3
     --dark-accent: #6F5BE4
@@ -10,11 +10,11 @@ html
 
 // Light Theme
 
-html
-    --light-bg: #e3e3e3
-    --light-text: #161616
-    --light-accent: #6F5BE4
-    --light-meta: #595e74
+:root
+    --light-bg: #F9FAFB
+    --light-text: #05042E
+    --light-accent: #2F4DEE
+    --light-meta: #646A83
     --light-invert: #89A91F
     --light-zebra-color: #CCC
 
@@ -30,6 +30,7 @@ html
         --title-color: var(--light-text)
         --background-accent-color: var(--light-accent)
         --menu-color: var(--light-meta)
+        --meta-color: var(--light-meta)
         --code-inline-color: var(--light-invert)
         --zebra-color: var(--light-zebra-color)
     
@@ -53,6 +54,7 @@ html
         --title-color: var(--dark-text)
         --background-accent-color: var(--dark-accent) 
         --menu-color: var(--dark-meta)
+        --meta-color: var(--light-meta)
         --code-inline-color: var(--dark-invert)
         --zebra-color: var(--dark-zebra-color)
 

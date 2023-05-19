@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>layout on Fernando Soares — UI Designer</title>
+    <link>https://frnd.design/tags/layout/</link>
+    <description>Recent content in layout on Fernando Soares — UI Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2023 11:28:33 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/layout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX de sites</title>
+      <link>https://frnd.design/notes/ux-de-sites/</link>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/ux-de-sites/</guid>
+      <description>Alguns pontos sobre erros comuns em ux de sites e como melhorar.
+Erros comuns PowerPoint Layouts Sliders com imagem que ocupam a tela toda. Alguns podem achar criativo e divertido, mas na verdade tem várias complicações.</description>
+    </item>
+    
+    <item>
+      <title>Card ou Lista</title>
+      <link>https://frnd.design/notes/card-ou-lista/</link>
+      <pubDate>Wed, 01 Mar 2023 18:45:14 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/card-ou-lista/</guid>
+      <description>Tudo depende do contexto das informações.
+Cards (ou cartões) e listas são dois modos comuns de organizar informações em uma página. O uso de cada um vai da situação em que cada se encaixa pra uma melhor experiência.</description>
+    </item>
+    
+  </channel>
+</rss>

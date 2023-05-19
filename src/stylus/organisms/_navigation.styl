@@ -1,4 +1,4 @@
-.top-nav
+.navigation
 	width 100%
 	display flex
 	flex-direction row
@@ -12,19 +12,14 @@
 		flex-direction row
 		justify-content flex-end
 		set-font-size 16px
-		margin-left 31px
-		
-		+below(47.25rem)
-			flex-direction row
-			width 100%
-			align-items flex-start
-			margin-left 0
+
+		+below(739px)
+			justify-content flex-start
 
 		li
 			display inline-block
-			margin 0 21px
+			margin-right spacing(24px)
 			font-family font-sans-serif
-			font-weight 500
 			color var(--menu-color)
 			
 
@@ -40,26 +35,3 @@
 				&:hover
 					color var(--link-color)
 					transition .4s
-				
-
-.theme-icon
-	margin 0 auto
-	display block
-	width 16px
-	height 32px
-	background url('../images/icons-theme.svg') no-repeat
-	transition .4s
-
-.light-theme .theme-icon
-	background-position 0 8px
-
-.dark-theme .theme-icon
-	background-position 0 -25px
-
-.sw
-	width 32px
-	height 32px
-	display block
-	cursor pointer
-	border none
-	background-color transparent

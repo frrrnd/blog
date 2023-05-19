@@ -4,7 +4,12 @@
 
 <main class="main article__container" role="main">
 	<article class="wrap">
-		<div class="article__wrap">
+		<ul class="bread">
+			<li><a href="/">Home</a></li>
+			<li><a href="/notes">Notes</a></li>
+			<li>{{ .Title }}</li>
+		</ul>
+		<div class="wrap--left">
 			<header role="banner" class="article__header">
 				<h1>{{ .Title }}</h1>
 				<time>{{ .Date.Format "02.01.2006" }}</time>

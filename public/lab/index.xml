@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lab on frnd</title>
+    <title>lab on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/lab/</link>
-    <description>Recent content in lab on frnd</description>
+    <description>Recent content in lab on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 22:19:15 -0300</lastBuildDate><atom:link href="https://frnd.design/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Texto Refletivo</title>
+      <link>https://frnd.design/lab/texto-refletivo/</link>
+      <pubDate>Thu, 09 Mar 2023 02:02:35 -0300</pubDate>
+      
+      <guid>https://frnd.design/lab/texto-refletivo/</guid>
+      <description>Efeito de texto refletivo usando a webcam.</description>
+    </item>
+    
     <item>
       <title>Menu Dock</title>
       <link>https://frnd.design/lab/menu-dock/</link>

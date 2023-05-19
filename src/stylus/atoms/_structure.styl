@@ -1,16 +1,6 @@
 
-wrap-max-width = 800px
+wrap-max-width = 1060px
 
-/*
-:root
-	--space-xxs  4px
-	--space-xs   8px
-	--space-sm   12px
-	--space-md   20px
-	--space-lg   32px
-	--space-xl   52px
-	--space-xxl  84px
-*/
 html
 	box-sizing border-box
 	-webkit-font-smoothing antialiased
@@ -51,23 +41,13 @@ body
 	max-width wrap-max-width
 	width 100%
 	margin 0 auto
-	padding 21px
 
-	+below(47.25rem)
-		padding 32px
+	&--left
+		max-width 60%
+		width 100%
 
-.wrap-wide
-	max-width 1080px
-	width 100%
-	margin 0 auto
-
-.wrap-notes
-	max-width 800px
-	width 100%
-	margin 0 auto
-
-	+below(47.25rem)
-		padding 22px
+		+below(739px)
+			max-width 100%
 
 img
 	max-width 100%
@@ -75,23 +55,6 @@ img
 
 .main
 	position relative
-
-.a-wrapflex
-	max-width wrap-max-width
-	width 100%
-	margin 0 auto
-	display flex
-	flex-direction row
-
-	+below(47.25rem)
-		flex-direction column
-
-.align-center
-	display block
-	text-align center
-	margin 0
-	padding 0
-	width 100%
-
-.align-right
-	text-align right
+	
+	+below(1108px)
+		padding 0 spacing(16px)

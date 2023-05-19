@@ -1,53 +1,24 @@
 .header
 	width 100%
-	padding 6vh 0 4vh 0
-	font-family font-sans-serif
+	display flex
+	flex-direction row
+	align-items center
+	background-color alpha(#F9FAFB, 0.7)
+	backdrop-filter blur(2px)
 
-	.wrap
-		display flex
-		flex-direction row
-		align-items center
-
-		+below(47.25rem)
-			flex-direction column
-			align-items flex-start
+	+below(739px)
+		flex-direction column
+		padding spacing(16px)
 	
-	&__logo
-		display flex
-		flex-grow 1
-		align-items center
+	+above(740px)
+		position fixed
+		bottom 0
+		padding 0 spacing(21px)
+		z-index 10
 
-		+below(47.25rem)
-			margin-bottom 20px
+	h1
+		set-font-size(16px)
+		width 100%
 
 		a
-			display flex
-			flex-direction row
-			align-items center
-		
-		svg
-			margin-right 12px
-	
-	&__name
-		display flex
-		flex-grow 2
-		// background linear-gradient(90deg, #6350D1 0%, #D993D6 100%);
-		// -webkit-background-clip text
-		// -webkit-text-fill-color transparent
-		// background-clip text-align
-		// text-fill-color transparent
-		color var(--link-color)
-		set-font-size 20px
-	
-	&__menu
-		display flex
-		flex-grow 3
-		flex-direction row
-		justify-content flex-end
-			
-
-.logo--detail
-	fill var(--logo-color)
-
-.logo--letter
-	fill var(--text-color)
+			text-decoration none

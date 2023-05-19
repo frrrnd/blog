@@ -1,27 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on frnd</title>
+    <title>Tags on Fernando Soares — UI Designer</title>
     <link>https://frnd.design/tags/</link>
-    <description>Recent content in Tags on frnd</description>
+    <description>Recent content in Tags on Fernando Soares — UI Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 13:07:42 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 11:28:33 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>memoria</title>
-      <link>https://frnd.design/tags/memoria/</link>
-      <pubDate>Fri, 17 Feb 2023 13:07:42 -0300</pubDate>
+      <title>layout</title>
+      <link>https://frnd.design/tags/layout/</link>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
       
-      <guid>https://frnd.design/tags/memoria/</guid>
+      <guid>https://frnd.design/tags/layout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>site</title>
+      <link>https://frnd.design/tags/site/</link>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ux</title>
       <link>https://frnd.design/tags/ux/</link>
-      <pubDate>Fri, 17 Feb 2023 13:07:42 -0300</pubDate>
+      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
       
       <guid>https://frnd.design/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tipografia</title>
+      <link>https://frnd.design/tags/tipografia/</link>
+      <pubDate>Wed, 08 Mar 2023 21:39:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/tipografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://frnd.design/tags/design/</link>
+      <pubDate>Wed, 01 Mar 2023 18:45:14 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memoria</title>
+      <link>https://frnd.design/tags/memoria/</link>
+      <pubDate>Fri, 17 Feb 2023 13:07:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/memoria/</guid>
       <description></description>
     </item>
     
@@ -44,15 +80,6 @@
     </item>
     
     <item>
-      <title>design</title>
-      <link>https://frnd.design/tags/design/</link>
-      <pubDate>Thu, 29 Dec 2022 19:50:43 -0300</pubDate>
-      
-      <guid>https://frnd.design/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>psicologia</title>
       <link>https://frnd.design/tags/psicologia/</link>
       <pubDate>Thu, 29 Dec 2022 19:50:43 -0300</pubDate>
@@ -67,15 +94,6 @@
       <pubDate>Tue, 29 Nov 2022 13:29:45 -0300</pubDate>
       
       <guid>https://frnd.design/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tipografia</title>
-      <link>https://frnd.design/tags/tipografia/</link>
-      <pubDate>Tue, 29 Nov 2022 13:29:45 -0300</pubDate>
-      
-      <guid>https://frnd.design/tags/tipografia/</guid>
       <description></description>
     </item>
     
