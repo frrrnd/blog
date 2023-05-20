@@ -110,3 +110,19 @@ input[type="checkbox"]
     
     h3
         margin-top 31px
+
+// about
+
+.about-items
+    display grid
+    grid-template-columns max-content 1fr
+    grid-gap 5px 10px
+    margin-bottom spacing(24px)
+
+    p
+        margin-bottom spacing(16px)
+
+    > p:nth-child(2n+1)
+        set-font-size(14px)
+        font-weight 400
+        line-height 1.8
