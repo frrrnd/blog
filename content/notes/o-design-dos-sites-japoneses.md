@@ -7,7 +7,11 @@ layout: "post"
 tags: ['ux', 'sites']
 ---
 
-<img src="/uploads/site-japones.jpg"><br>
+<figure>
+    <img src="/uploads/site-japones.jpg">
+    <figcaption><a href="https://www.hankoya.com/" target="_blank">Veja aqui</a></figcaption>
+</figure>
+<br>
 
 Na internet é comum encontrar uma variedade de estilos de design, cada um com suas características distintas feitos para serem uma experiência única. Um que chama bastante atenção é o estilo dos sites japoneses, muitas vezes parecendo ser bagunçado e mal organizado, lembrando até dos sites dos anos 90 aqui do ocidente. Mas existem alguns motivos para esse estilo ser tão único.
 
