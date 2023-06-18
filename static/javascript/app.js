@@ -39,18 +39,18 @@ for (let i = 0; i < cards.length; i++) {
 
 // themes
 
-let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-let switcher = document.querySelector(".sw");
-let root = document.getElementsByTagName('html')[0];
-let metaColor = document.querySelector('meta[name="theme-color"]');
+// let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+// let switcher = document.querySelector(".sw");
+// let root = document.getElementsByTagName('html')[0];
+// let metaColor = document.querySelector('meta[name="theme-color"]');
 
-if (localStorage.getItem("theme") == 'dark') {
-  root.classList.add("dark-theme");
-  metaColor.setAttribute("content", "#161616")
-} else {
-  root.classList.add("light-theme");
-  metaColor.setAttribute("content", "#e3e3e3")
-}
+// if (localStorage.getItem("theme") == 'dark') {
+//   root.classList.add("dark-theme");
+//   metaColor.setAttribute("content", "#161616")
+// } else {
+//   root.classList.add("dark-theme");
+//   metaColor.setAttribute("content", "#e3e3e3")
+// }
 
 // switcher.addEventListener("click", function () {
 //   if (root.classList.contains('dark-theme')) {

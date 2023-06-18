@@ -1,0 +1,39 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+
+
+<main class="main article__container" role="main">
+	<article class="wrap">
+        <ul class="bread">
+			<li><a href="/">Home</a></li>
+			<li><a href="/notes">Notes</a></li>
+			<li>{{ .Title }}</li>
+		</ul>
+		<section class="notes__list notes__home">
+            <header role="banner" class="article__header">
+			    
+                <h1> Posts com a tag '{{ .Title }}'</h1>
+                
+            </header>
+
+			{{ range .Data.Pages }}
+
+			<article class="notes__article">
+				<header role="banner" class="notes__header summary__home">
+					<time>{{ .Date.Format "02.01.2006" }}</time>
+					<h3 class="notes__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+					
+					<!-- {{ partial "tags.html" . }} -->
+				</header>
+			</article>
+			{{ end }}
+
+			<a href="/notes" class="btn-allNotes" title="veja todas">Todas ›</a>
+		</section>
+	</article>
+</main>
+
+
+{{ partial "footer.html" . }}
