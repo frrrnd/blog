@@ -13,8 +13,8 @@
 			{{ $active = or $active (eq .Name $current.Title) }}
 			{{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
 			<li>
-				<a href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
-					{{ .Name }}
+				<a data-replace="{{ .Name }}" href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
+					<span>{{ .Name }}</span>
 				</a>
 			</li>
 			{{ end }}

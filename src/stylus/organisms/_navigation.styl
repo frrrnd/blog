@@ -34,7 +34,35 @@
 				position relative
 				color inherit
 				transition .4s
+				overflow hidden
+				display inline-block
+
+				&:before,
+				&:after
+					content ""
+					position absolute
+					width 100%
+					left 0
+
+
+
+				&:after
+					content attr(data-replace)
+					height 100%
+					top 0
+					transform-origin 100% 50%
+					transform translate3d(200%, 0, 0)
+					transition transform .3s cubic-bezier(0.76, 0, 0.24, 1)
+					color var(--link-color)
 
 				&:hover
-					color var(--link-color)
-					transition .4s
+					&:after
+						transform translate3d(0,0,0)
+					
+					span
+						transform translate3d(-200%, 0, 0)
+				
+				span
+					display inline-block
+					transition transform .3s cubic-bezier(0.76, 0, 0.24, 1)
+					
