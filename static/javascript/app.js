@@ -16,7 +16,11 @@ VanillaTilt.init(document.querySelectorAll(".grid-slot"), {
   speed: 400,
   glare: true,
   "max-glare": 0.4,
-  gyroscope: true
+  gyroscope: true,
+  gyroscopeMinAngleX: -45,
+  gyroscopeMaxAngleX: 45,
+  gyroscopeMinAngleY: -45,
+  gyroscopeMaxAngleY: 45
 });
 
 let shuffleText = document.querySelectorAll('.shuffle');
