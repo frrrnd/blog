@@ -3,27 +3,16 @@
 {{ partial "header.html" . }}
 
 <main class="main article__container" role="main">
-	<article class="wrap">
-		<ul class="bread">
-			<li><a href="/">Home</a></li>
-			<li><a href="/notes">Notes</a></li>
-			<li>{{ .Title }}</li>
-		</ul>
-		
+	<article class="wrap">	
 			<header role="banner" class="article__header">
 				<h1>{{ .Title }}</h1>
 				<time>{{ .Date.Format "02.01.2006" }}</time>
-				{{ partial "tags.html" . }}
+				<!-- {{ partial "tags.html" . }} -->
 			</header>
 		
 			<section class="article__content">
 				{{ .Content }}
 			</section>
-
-			<!-- <footer class="article__footer">
-				<a href="/notes" title="Ver todas" class="btn btn--primary">&#8592; Todas notas</a>
-			</footer> -->
-		
 	</article>
 </main>
 

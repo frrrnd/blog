@@ -1,23 +1,9 @@
 	<footer class="footer" role="contentinfo">
-		<!-- <div class="dock-component">
-			<nav aria-label="Main Navigation">
-				<ul>
-					{{ $current := . }}
-					{{ range .Site.Menus.main }}
-					{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
-					{{ $active = or $active (eq .Name $current.Title) }}
-					{{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
-					<li>
-						<a href="{{ .URL }}" data-tooltip="{{ .Name }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
-							{{ .Pre }}
-						</a>
-					</li>
-					{{ end }}
-				</ul>
-			</nav>
-		</div> -->
+		{{ partial "dock-menu.html" . }}
 	</footer>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+	<script src="{{ .Site.BaseURL }}javascript/shuffle-letters.js"></script>
 	<script src="{{ .Site.BaseURL }}javascript/app.js"></script>
 	</body>
 </html>

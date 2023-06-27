@@ -1,27 +1,20 @@
 .header
-	width 100%
-	display flex
-	flex-direction row
-	align-items center
-	background-color alpha(#101010, 0.7)
-	backdrop-filter blur(4px)
+	padding spacing(104px) 0 0 0
 
-	+below(739px)
-		flex-direction column
-		padding spacing(16px)
-	
-	+above(740px)
-		position fixed
-		bottom 0
-		padding 0 spacing(21px)
-		z-index 10
+	a
+		display inline-block
+		margin-bottom spacing(21px)
 
-	h1
-		set-font-size(16px)
-		width 100%
-
-		a
-			text-decoration none
+		img
+			max-width 60px
+			width 100%
+			border-radius 100%
+			transition .4s
 
 			&:hover
-				color var(--link-color)
+				opacity .6
+				transition .4s
+	h1
+		padding-bottom spacing(16px)
+		set-font-size(18px)
+		line-height 1.6

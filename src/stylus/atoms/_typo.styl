@@ -1,6 +1,6 @@
 font-sans-serif = 'Inter', sans-serif;
 font-sans-serif-bolder = 'Inter', sans-serif;
-font-serif = font-sans-serif
+font-serif = 'Lora', serif
 
 set-font-size(_size)
 	if unit(_size) == 'px'
@@ -32,9 +32,16 @@ h2
 h3
 	set-font-size 21px
 
+h4
+	set-font-size 12px
+	color var(--text-secondary-color)
+	text-transform uppercase
+	font-weight 600
+	margin-bottom spacing(21px)
+
 p
 	font-family font-serif
-	set-font-size 16px
+	set-font-size 20px
 	line-height 170%
 	margin 0
 
@@ -44,7 +51,7 @@ a
 	transition color .4s
 
 	&:hover
-		color var(--menu-color)
+		color var(--text-secondary-color)
 
 pre
 	margin-bottom 40px

@@ -32,24 +32,29 @@ relativeURLs = true
         name = "Home"
         pageref = "/"
         weight = 1
+        pre = ''
     [[menu.main]]
         name = "Sobre"
         pageref = "/sobre/"
         weight = 2
-    # [[menu.main]]
-    #     name = "Dribbble"
-    #     url = "https://dribbble.com/fernando"
-    #     weight = 3
-    #     [menu.main.params]
-    #         external = true
+        pre = ''
+    [[menu.main]]
+        name = "Portfolio"
+        url = "https://dribbble.com/fernando"
+        weight = 3
+        pre = ''
+        [menu.main.params]
+            external = true
     [[menu.main]]
         name = "Notes"
         pageref = "/notes/"
         weight = 4
+        pre = ''
     [[menu.main]]
         name = "Links"
         pageref = "/links/"
         weight = 5
+        pre = ''
     # [[menu.main]]
     #     name = "Lab"
     #     pageref = "/lab/"

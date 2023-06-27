@@ -1,7 +1,25 @@
 .navigation
+	max-width max-content
 	width 100%
 	display flex
 	flex-direction row
+	position fixed
+	bottom 25px
+	left 0
+	right 0
+	margin auto
+	background-color alpha(#1A1A1A, 0.7)
+	backdrop-filter blur(12px)
+	border-radius 50px
+	border 1px solid #222
+	padding 5px
+	overflow hidden
+
+	+below(545px)
+		border-radius 20px
+		flex-direction column
+		transform translateY(210px)
+		height 0
 	
 	ul
 		list-style-type none
@@ -10,20 +28,32 @@
 		padding 0
 		display flex
 		flex-direction row
-		justify-content flex-end
+		justify-content center
 		set-font-size 16px
+		transition .4s
 
-		+below(739px)
-			justify-content flex-start
+		+below(545px)
+			flex-direction column
 
 		li
 			display inline-block
-			margin-right spacing(32px)
 			font-family font-sans-serif
-			color var(--menu-color)
+			color var(--text-secondary-color)
 			text-transform uppercase
 			font-weight bold
 			set-font-size(14px)
+			text-align center
+
+			.is-active
+				color var(--text-color)
+				background-color #202020
+				border-radius 50px
+
+				&:hover
+					&:after
+						transform translate3d(200%, 0, 0)
+					span
+						transform translate3d(0,0,0)
 			
 
 			&:first-child
@@ -35,7 +65,8 @@
 				color inherit
 				transition .4s
 				overflow hidden
-				display inline-block
+				display block
+				padding 10px 20px
 
 				&:before,
 				&:after
@@ -43,6 +74,7 @@
 					position absolute
 					width 100%
 					left 0
+					padding 10px 20px
 
 
 
@@ -51,18 +83,46 @@
 					height 100%
 					top 0
 					transform-origin 100% 50%
-					transform translate3d(200%, 0, 0)
+					transform translate3d(0, 200%, 0)
 					transition transform .3s cubic-bezier(0.76, 0, 0.24, 1)
-					color var(--link-color)
+					color var(--text-color)
 
 				&:hover
 					&:after
 						transform translate3d(0,0,0)
 					
 					span
-						transform translate3d(-200%, 0, 0)
+						transform translate3d(0, -200%, 0)
 				
 				span
 					display inline-block
 					transition transform .3s cubic-bezier(0.76, 0, 0.24, 1)
-					
+
+.wrapper-nav
+	position relative
+
+.open-panel
+	display none
+	margin 0 auto
+	width 40px
+	height 40px
+	position fixed
+	left 0
+	right 0
+	bottom 20px
+	padding 5px
+	border none
+	background-color alpha(#1A1A1A, 0.7)
+	backdrop-filter blur(12px)
+	color white
+	border 1px solid #222
+	border-radius 100%
+	line-height 2.2
+
+	+below(545px)
+		display block
+
+.openned
+	transform translateY(-40px)!important
+	height auto
+	transition .4s

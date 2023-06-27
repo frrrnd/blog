@@ -1,0 +1,18 @@
+<div class="wrapper-nav">
+    <nav aria-label="Main Navigation" class="navigation">
+        <ul>
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+            {{ $active = or $active (eq .Name $current.Title) }}
+            {{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
+            <li>
+                <a data-replace="{{ .Name }}" href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+    <button class="open-panel" id="open-menu">&#9776;</button>
+</div>

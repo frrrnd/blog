@@ -1,32 +1,41 @@
 .works
 	width 100%
+	padding-bottom spacing(32px)
 
 .grid-container
 	display grid
-	grid-template-columns 1fr 1fr 1fr
-	grid-template-rows 1fr 1fr 1fr
-	grid-template-areas "slot-1 slot-2 slot-3" "slot-4 slot-5 slot-6" "slot-7 slot-8 slot-9"
+	grid-template-columns 1fr 1fr
+	grid-template-rows 1fr 1fr
+	grid-template-areas "slot-1 slot-2" "slot-3 slot-4"
 	width 100%
 	margin 0 auto
+	grid-gap 21px
 
 	+below(47.25rem)
 		display grid
 		grid-template-columns 1fr
-		grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr
-		grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4" "slot-5" "slot-6"
+		grid-template-rows 1fr 1fr 1fr 1fr
+		grid-template-areas "slot-1" "slot-2" "slot-3" "slot-4"
 		grid-gap 21px
 
-.slot
+.grid-slot
 	position relative
 	padding 0
-	animation fadeIn 1s forwards
-	max-width 400px
 	width 100%
-	padding 15px
+	border-radius 10px
+	min-height 315px
+	height 100%
+	overflow hidden
+	box-shadow 0 0 20px #000
+
+	&:hover
+		.grid-overlay
+			opacity 1
+			transform translateY(-20px)
+			transition .4s
 
 	+below(47.25rem)
 		width 100%
-		padding 15px
 		margin 0
 
 	a
@@ -46,145 +55,65 @@
 		max-width 100%
 		border-radius 3px
 
-		&:hover
-			opacity .8
-			transition .4s
-
-.slot:nth-child(1)
+.grid-slot:nth-child(1)
 	grid-area slot-1
 
-.slot:nth-child(2)
+.grid-slot:nth-child(2)
 	grid-area slot-2
 
-.slot:nth-child(3)
+.grid-slot:nth-child(3)
 	grid-area slot-3
 
-.slot:nth-child(4)
+.grid-slot:nth-child(4)
 	grid-area slot-4
 
-.slot:nth-child(5)
-	grid-area slot-5
-
-.slot:nth-child(6)
-	grid-area slot-6
-
-
-
-@keyframes fadeIn
-	0%
-		opacity 0
-	100%
-		opacity 1
-
-.works
-	a[target='_blank']
-		&:after
-			content ""
-			display none
-
-.go-dribbble
-	max-width 100%
-	width 100%
-	margin 5vh auto
-	text-align center
-	margin-bottom 4vh
-
-	path
-		fill var(--menu-color)
-
-.rotate
-	animation 5s rotate ease
+.grid-overlay
+	position absolute
+	width max-content
+	height auto
+	left 0
+	right 0
+	bottom 0
+	opacity 0
+	background-color rgba(0,0,0,.8)
+	border-radius 50px
+	display block
+	margin auto
+	transform translateY(30px)
 	transition .4s
+	box-shadow 0 0 20px #222
+	border 1px solid #333
+
+	h5
+		set-font-size(18px)
+		width 100%
+		text-align center
+		padding spacing(12px)
+		text-shadow 0 0 20px #222
+
+
+
+.shiny
+	position relative
+	overflow hidden
+
+	&:after
+		content ""
+		position absolute
+		top calc(var(--y, 0) * 1px - 50px)
+		left calc(var(--x, 0) * 1px - 50px)
+		width 100px
+		height 100px
+		background radial-gradient(rgba(255,255,255,.18), rgba(255,255,255,0) 50%)
+		opacity 0
+		transition opacity .2s
 
 	&:hover
-		transform rotate(-180deg)
-		transition .4s
+		&:after
+			opacity .4
 
-@keyframes rotate
+@keyframes textShine
+	0%
+		background-position 0% 50%
 	100%
-		transform rotate(-360deg)
-
-// Projects
-
-.projects,
-.other-projects
-	.wrap
-		max-width wrap-max-width
-		padding 0
-
-	&__list
-		list-style-type none
-		padding-left 0
-		width 100%
-		max-width 100%
-		margin 0 auto
-		transition .4s
-
-		&:hover
-			transition .4s
-
-			li:not(:hover)
-				opacity .5
-				transition .4s
-				
-				h4
-					-webkit-text-stroke 1px #666
-					-webkit-text-fill-color transparent
-					font-weight normal
-					transition .4s
-				
-				p, em
-					color #222
-					transition .4s
-
-
-		h4
-			font-size 2.8em
-			text-transform lowercase
-			transition .4s
-			position relative
-			z-index 9999
-		
-		p,
-		em
-			transition .4s
-
-		em
-			font-style normal
-			display inline-block
-			color inherit
-
-		img
-			position absolute
-			top 0
-			right 0
-			opacity 0
-			transition .4s
-			z-index 99
-
-		li
-			position relative
-			transition .4s
-			z-index 9999
-
-			&:hover
-				h4,
-				p,
-				em
-					transform translateX(15px)
-					transition .4s
-
-		a
-			padding 53px 0
-			display block
-
-			&:hover
-				opacity 1
-				color white
-
-				img
-					opacity 1
-					transition .4s
-
-		a[href="#!"]
-			cursor default
+		background-position 100% 50%

@@ -1,15 +1,31 @@
 hljs.highlightAll();
 
 
-const cards = document.querySelectorAll('.shiny-btn')
+// const cards = document.querySelectorAll('.shiny')
 
-for (let i = 0; i < cards.length; i++) {
-  cards[i].addEventListener('mousemove', (e) => {
-    const { x, y } = cards[i].getBoundingClientRect()
-    cards[i].style.setProperty("--x", e.clientX - x)
-    cards[i].style.setProperty("--y", e.clientY - y)
-  });
+// for (let i = 0; i < cards.length; i++) {
+//   cards[i].addEventListener('mousemove', (e) => {
+//     const { x, y } = cards[i].getBoundingClientRect()
+//     cards[i].style.setProperty("--x", e.clientX - x)
+//     cards[i].style.setProperty("--y", e.clientY - y)
+//   });
+// }
+
+VanillaTilt.init(document.querySelectorAll(".grid-slot"), {
+  max: 5,
+  speed: 400,
+  glare: true,
+  "max-glare": 0.4,
+  gyroscope: true
+});
+
+let shuffleText = document.querySelectorAll('.shuffle');
+for (var i = 0; i < shuffleText.length; i++) {
+  shuffleText[i].hidden = false;
 }
+
+shuffleLetters(shuffleText);
+
 
 // let container = document.querySelector("#grid-container");
 // let html = '';
@@ -76,3 +92,9 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+let menu = document.querySelector('.navigation'),
+    open = document.getElementById("open-menu");
+
+    open.onclick = function() {
+        menu.classList.toggle("openned");
+      };

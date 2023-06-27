@@ -1,5 +1,5 @@
 
-wrap-max-width = 1060px
+wrap-max-width = 860px
 
 html
 	box-sizing border-box
@@ -42,6 +42,9 @@ body
 	width 100%
 	margin 0 auto
 
+	+below(1108px)
+		padding 0 spacing(16px)
+
 	&--left
 		max-width 60%
 		width 100%
@@ -55,9 +58,6 @@ img
 
 .main
 	position relative
-	
-	+below(1108px)
-		padding 0 spacing(16px)
 
 
 .about-image
