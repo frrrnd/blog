@@ -26,11 +26,12 @@
 	height 100%
 	overflow hidden
 	box-shadow 0 0 20px #000
+	transform-style preserve-3d
 
 	&:hover
 		.grid-overlay
 			opacity 1
-			transform translateY(-20px)
+			transform translateY(-20px) translateZ(30px)
 			transition .4s
 
 	+below(47.25rem)
@@ -78,13 +79,13 @@
 	border-radius 50px
 	display block
 	margin auto
-	transform translateY(30px)
+	transform translateY(30px) translateZ(30px)
 	transition .4s
 	box-shadow 0 0 20px #222
 	border 1px solid #333
 
 	h5
-		set-font-size(18px)
+		set-font-size(14px)
 		width 100%
 		text-align center
 		padding spacing(12px)
