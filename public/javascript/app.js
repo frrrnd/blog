@@ -1,15 +1,35 @@
 hljs.highlightAll();
 
 
-const cards = document.querySelectorAll('.shiny-btn')
+// const cards = document.querySelectorAll('.shiny')
 
-for (let i = 0; i < cards.length; i++) {
-  cards[i].addEventListener('mousemove', (e) => {
-    const { x, y } = cards[i].getBoundingClientRect()
-    cards[i].style.setProperty("--x", e.clientX - x)
-    cards[i].style.setProperty("--y", e.clientY - y)
-  });
+// for (let i = 0; i < cards.length; i++) {
+//   cards[i].addEventListener('mousemove', (e) => {
+//     const { x, y } = cards[i].getBoundingClientRect()
+//     cards[i].style.setProperty("--x", e.clientX - x)
+//     cards[i].style.setProperty("--y", e.clientY - y)
+//   });
+// }
+
+// VanillaTilt.init(document.querySelectorAll(".grid-slot"), {
+//   max: 5,
+//   speed: 400,
+//   glare: true,
+//   "max-glare": 0.4,
+//   gyroscope: true,
+//   gyroscopeMinAngleX: -45,
+//   gyroscopeMaxAngleX: 45,
+//   gyroscopeMinAngleY: -45,
+//   gyroscopeMaxAngleY: 45
+// });
+
+let shuffleText = document.querySelectorAll('.shuffle');
+for (var i = 0; i < shuffleText.length; i++) {
+  shuffleText[i].hidden = false;
 }
+
+shuffleLetters(shuffleText);
+
 
 // let container = document.querySelector("#grid-container");
 // let html = '';
@@ -39,18 +59,18 @@ for (let i = 0; i < cards.length; i++) {
 
 // themes
 
-let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-let switcher = document.querySelector(".sw");
-let root = document.getElementsByTagName('html')[0];
-let metaColor = document.querySelector('meta[name="theme-color"]');
+// let darkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+// let switcher = document.querySelector(".sw");
+// let root = document.getElementsByTagName('html')[0];
+// let metaColor = document.querySelector('meta[name="theme-color"]');
 
-if (localStorage.getItem("theme") == 'dark') {
-  root.classList.add("dark-theme");
-  metaColor.setAttribute("content", "#161616")
-} else {
-  root.classList.add("light-theme");
-  metaColor.setAttribute("content", "#e3e3e3")
-}
+// if (localStorage.getItem("theme") == 'dark') {
+//   root.classList.add("dark-theme");
+//   metaColor.setAttribute("content", "#161616")
+// } else {
+//   root.classList.add("dark-theme");
+//   metaColor.setAttribute("content", "#e3e3e3")
+// }
 
 // switcher.addEventListener("click", function () {
 //   if (root.classList.contains('dark-theme')) {
@@ -76,3 +96,44 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+let menu = document.querySelector('.navigation'),
+    open = document.getElementById("open-menu");
+
+    open.onclick = function() {
+        menu.classList.toggle("openned");
+    };
+
+// Fancybox
+let linkImage = document.querySelector("a[data-fancybox]");
+
+if (linkImage) {
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  });
+}
+
+let els = document.querySelectorAll('[data-appear]')
+
+const isVisible = (elem) => {
+    let coords = elem.getBoundingClientRect()
+    let windowHeight = document.documentElement.clientHeight
+    let topVisible = coords.top + elem.clientHeight > 0 && coords.top < windowHeight
+
+    return topVisible
+}
+
+const showVisible = () => {
+    for (const el of els) {
+        if (isVisible(el)) {
+            el.classList.add('makeMeAppear')
+        }
+    }
+}
+
+
+const apply = () => {
+    showVisible()
+}
+
+window.addEventListener('scroll', apply)
+apply()

@@ -6,8 +6,7 @@
 	<article class="wrap">	
 			<header role="banner" class="article__header">
 				<h1>{{ .Title }}</h1>
-				<time>{{ .Date.Format "02.01.2006" }}</time>
-				<!-- {{ partial "tags.html" . }} -->
+				<time>{{ .Date.Format "02.01.2006" }} - {{ .ReadingTime }} minuto{{ if (ne .ReadingTime 1)}}s{{ end }} de leitura </time>
 			</header>
 		
 			<section class="article__content">

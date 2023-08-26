@@ -2,12 +2,15 @@
 
 {{ partial "header.html" . }}
 
-<main class="main t-page lab-page" role="main">
-    <div class="wrap-wide">
-        <h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2>
-        <section class="lab__list">
-            {{ range where .Site.RegularPages "Type" "lab" }}
-            <article class="lab__article">
+<main class="main portfolio__container" role="main">
+    <div class="wrap">
+        <p>Últimos trabalhos/estudos selecionados.</p>
+    </div>
+
+    <div class="portfolio__wrap">
+        <section class="portfolio__list">
+            {{ range where .Site.RegularPages "Type" "portfolio" }}
+            <article class="portfolio__item">
                 <a href="{{ .Permalink }}">
                     <figure>
                         <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
@@ -19,6 +22,5 @@
         </section>
     </div>
 </main>
-
 
 {{ partial "footer.html" . }}

@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main portfolio__container" role="main">
+    <div class="wrap">
+        <p>Ícones de aplicativos que gosto de desenhar.</p>
+    </div>
+
+    <div class="portfolio__wrap">
+        <section class="portfolio__list">
+            {{ .Content }}
+        </section>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+{{ partial "footer.html" . }}

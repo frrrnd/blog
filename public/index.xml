@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fernando Soares — UI Designer</title>
+    <title>Fernando Soares — Designer de Interfaces</title>
     <link>https://frnd.design/</link>
-    <description>Recent content on Fernando Soares — UI Designer</description>
+    <description>Recent content on Fernando Soares — Designer de Interfaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 11:28:33 -0300</lastBuildDate><atom:link href="https://frnd.design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jul 2023 00:05:42 -0300</lastBuildDate><atom:link href="https://frnd.design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perf Monitor</title>
+      <link>https://frnd.design/portfolio/perf-monitor/</link>
+      <pubDate>Sun, 16 Jul 2023 00:05:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/perf-monitor/</guid>
+      <description>Software de monitoramento de performance de hardware.</description>
+    </item>
+    
+    <item>
+      <title>Glowing Icons</title>
+      <link>https://frnd.design/portfolio/glowing-icons/</link>
+      <pubDate>Sat, 15 Jul 2023 23:29:23 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/glowing-icons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spotify Vision Os</title>
+      <link>https://frnd.design/portfolio/spotify-vision-os/</link>
+      <pubDate>Sat, 15 Jul 2023 23:18:09 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/spotify-vision-os/</guid>
+      <description>Versão do Spotify para o VisionOS.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Editor</title>
+      <link>https://frnd.design/portfolio/markdown-editor/</link>
+      <pubDate>Sat, 15 Jul 2023 22:50:26 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/markdown-editor/</guid>
+      <description>Plugin WYSIWYG para edição de markdown.
+Light Mode Dark Mode </description>
+    </item>
+    
+    <item>
+      <title>Sunny</title>
+      <link>https://frnd.design/portfolio/sunny/</link>
+      <pubDate>Thu, 13 Jul 2023 11:30:00 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/sunny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symbols DB</title>
+      <link>https://frnd.design/portfolio/symbols-db/</link>
+      <pubDate>Thu, 13 Jul 2023 11:29:56 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/symbols-db/</guid>
+      <description>Pequeno web app com uma coleção de símbolos e caracteres para HTML, CSS e JS.</description>
+    </item>
+    
+    <item>
+      <title>Ícones</title>
+      <link>https://frnd.design/portfolio/icones/</link>
+      <pubDate>Thu, 13 Jul 2023 11:29:46 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/icones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neomorphic Calculator</title>
+      <link>https://frnd.design/portfolio/neomorphic-calculator/</link>
+      <pubDate>Thu, 13 Jul 2023 10:27:01 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/neomorphic-calculator/</guid>
+      <description>Calculadora no estilo de Neomorfismo.</description>
+    </item>
+    
+    <item>
+      <title>O Paradoxo da escolha</title>
+      <link>https://frnd.design/notes/o-paradoxo-da-escolha/</link>
+      <pubDate>Fri, 30 Jun 2023 17:31:52 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/o-paradoxo-da-escolha/</guid>
+      <description>Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha.</description>
+    </item>
+    
+    <item>
+      <title>O Design dos sites Japoneses</title>
+      <link>https://frnd.design/notes/o-design-dos-sites-japoneses/</link>
+      <pubDate>Mon, 12 Jun 2023 21:40:00 -0300</pubDate>
+      
+      <guid>https://frnd.design/notes/o-design-dos-sites-japoneses/</guid>
+      <description>Veja aqui Na internet é comum encontrar uma variedade de estilos de design, cada um com suas características distintas feitos para serem uma experiência única. Um que chama bastante atenção é o estilo dos sites japoneses, muitas vezes parecendo ser bagunçado e mal organizado, lembrando até dos sites dos anos 90 aqui do ocidente.</description>
+    </item>
+    
     <item>
       <title>UX de sites</title>
       <link>https://frnd.design/notes/ux-de-sites/</link>

@@ -1,1 +1,1 @@
-.hero{padding:0 0 spacing(104px) 0;}.hero h2{max-width:550px;width:100%;line-height:1.6;color:var(--text-secondary-color)}
+.hero{padding:0;}.hero h2{max-width:550px;width:100%;line-height:1.6;color:var(--text-secondary-color);margin:0 0 spacing(64px) 0}

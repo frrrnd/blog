@@ -1,1 +1,1 @@
-.footer{width:100%;position:relative;padding-top:2em}
+.footer{width:100%;position:relative;padding-top:spacing(120px);}.footer-logos{display:flex;flex-direction:row;padding:spacing(16px);}.footer-logos svg{max-height:20px;}.footer-logos svg path{fill:#444;transition:.4s}.footer-logos a{transition:.4s;}.footer-logos a:hover{transition:.4s}.footer-logos a:hover path{fill:#fff}

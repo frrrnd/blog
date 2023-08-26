@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Fernando Soares — UI Designer</title>
+    <title>Tags on Fernando Soares — Designer de Interfaces</title>
     <link>https://frnd.design/tags/</link>
-    <description>Recent content in Tags on Fernando Soares — UI Designer</description>
+    <description>Recent content in Tags on Fernando Soares — Designer de Interfaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 11:28:33 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 17:31:52 -0300</lastBuildDate><atom:link href="https://frnd.design/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>escolhas</title>
+      <link>https://frnd.design/tags/escolhas/</link>
+      <pubDate>Fri, 30 Jun 2023 17:31:52 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/escolhas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hicks law</title>
+      <link>https://frnd.design/tags/hicks-law/</link>
+      <pubDate>Fri, 30 Jun 2023 17:31:52 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/hicks-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ux</title>
+      <link>https://frnd.design/tags/ux/</link>
+      <pubDate>Fri, 30 Jun 2023 17:31:52 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sites</title>
+      <link>https://frnd.design/tags/sites/</link>
+      <pubDate>Mon, 12 Jun 2023 21:40:00 -0300</pubDate>
+      
+      <guid>https://frnd.design/tags/sites/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>layout</title>
       <link>https://frnd.design/tags/layout/</link>
@@ -22,15 +58,6 @@
       <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
       
       <guid>https://frnd.design/tags/site/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ux</title>
-      <link>https://frnd.design/tags/ux/</link>
-      <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
-      
-      <guid>https://frnd.design/tags/ux/</guid>
       <description></description>
     </item>
     

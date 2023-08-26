@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Fernando Soares — Designer de Interfaces</title>
+    <link>https://frnd.design/portfolio/</link>
+    <description>Recent content in Portfolio on Fernando Soares — Designer de Interfaces</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2019 22:19:15 -0300</lastBuildDate><atom:link href="https://frnd.design/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perf Monitor</title>
+      <link>https://frnd.design/portfolio/perf-monitor/</link>
+      <pubDate>Sun, 16 Jul 2023 00:05:42 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/perf-monitor/</guid>
+      <description>Software de monitoramento de performance de hardware.</description>
+    </item>
+    
+    <item>
+      <title>Glowing Icons</title>
+      <link>https://frnd.design/portfolio/glowing-icons/</link>
+      <pubDate>Sat, 15 Jul 2023 23:29:23 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/glowing-icons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spotify Vision Os</title>
+      <link>https://frnd.design/portfolio/spotify-vision-os/</link>
+      <pubDate>Sat, 15 Jul 2023 23:18:09 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/spotify-vision-os/</guid>
+      <description>Versão do Spotify para o VisionOS.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Editor</title>
+      <link>https://frnd.design/portfolio/markdown-editor/</link>
+      <pubDate>Sat, 15 Jul 2023 22:50:26 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/markdown-editor/</guid>
+      <description>Plugin WYSIWYG para edição de markdown.
+Light Mode Dark Mode </description>
+    </item>
+    
+    <item>
+      <title>Sunny</title>
+      <link>https://frnd.design/portfolio/sunny/</link>
+      <pubDate>Thu, 13 Jul 2023 11:30:00 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/sunny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symbols DB</title>
+      <link>https://frnd.design/portfolio/symbols-db/</link>
+      <pubDate>Thu, 13 Jul 2023 11:29:56 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/symbols-db/</guid>
+      <description>Pequeno web app com uma coleção de símbolos e caracteres para HTML, CSS e JS.</description>
+    </item>
+    
+    <item>
+      <title>Ícones</title>
+      <link>https://frnd.design/portfolio/icones/</link>
+      <pubDate>Thu, 13 Jul 2023 11:29:46 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/icones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neomorphic Calculator</title>
+      <link>https://frnd.design/portfolio/neomorphic-calculator/</link>
+      <pubDate>Thu, 13 Jul 2023 10:27:01 -0300</pubDate>
+      
+      <guid>https://frnd.design/portfolio/neomorphic-calculator/</guid>
+      <description>Calculadora no estilo de Neomorfismo.</description>
+    </item>
+    
+  </channel>
+</rss>

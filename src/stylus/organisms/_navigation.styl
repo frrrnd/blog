@@ -14,6 +14,7 @@
 	border 1px solid #222
 	padding 5px
 	overflow hidden
+	z-index 30
 
 	+below(545px)
 		border-radius 20px
@@ -45,8 +46,8 @@
 			text-align center
 
 			.is-active
-				color var(--text-color)
-				background-color #202020
+				color var(--bg-color)
+				background-color var(--text-color)
 				border-radius 50px
 
 				&:hover

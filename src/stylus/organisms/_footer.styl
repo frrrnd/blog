@@ -1,4 +1,38 @@
 .footer
 	width 100%
 	position relative
-	padding-top spacing(120px)
+	padding-bottom spacing(120px)
+	padding-top spacing(56px)
+
+	&-logos
+		display flex
+		flex-direction row
+		padding spacing(16px)
+		
+		svg
+			max-height 20px
+			
+			path
+				fill #444444
+				transition .4s
+
+		a
+			transition .4s
+
+			&:hover
+				path
+					fill white
+				transition .4s
+
+.connect
+	ul
+		list-style-type none
+		padding-left 0
+		font-family font-sans-serif
+	
+	li
+		margin-bottom spacing(12px)
+
+		span
+			margin-right spacing(16px)
+			color var(--text-secondary-color)

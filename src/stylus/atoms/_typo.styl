@@ -1,6 +1,6 @@
 font-sans-serif = 'Inter', sans-serif;
 font-sans-serif-bolder = 'Inter', sans-serif;
-font-serif = 'Lora', serif
+font-serif = 'Cormorant Garamond', serif
 
 set-font-size(_size)
 	if unit(_size) == 'px'
@@ -40,8 +40,8 @@ h4
 	margin-bottom spacing(21px)
 
 p
-	font-family font-serif
-	set-font-size 20px
+	font-family font-sans-serif
+	set-font-size 16px
 	line-height 170%
 	margin 0
 
@@ -57,7 +57,7 @@ pre
 	margin-bottom 40px
 
 time
-	color var(--light-meta)
+	color var(--text-secondary-color)
 	font-weight normal
 	set-font-size 13px
 	font-family font-sans-serif

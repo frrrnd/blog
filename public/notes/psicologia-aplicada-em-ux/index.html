@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Fernando Soares — UI Designer: Psicologia aplicada em UX</title>
+	<title>Fernando Soares — Designer de Interfaces: Psicologia aplicada em UX</title>
 	<base href="https://frnd.design/">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Psicologia aplicada em UX"/>
-	<meta property="og:title" content="Psicologia aplicada em UX  - Fernando Soares — UI Designer ">
+	<meta property="og:title" content="Psicologia aplicada em UX  - Fernando Soares — Designer de Interfaces ">
 	<meta property="og:description" content="Psicologia aplicada em UX">
 	<meta property="og:image" content="https://frnd.design/images/meta-image.jpg">
 	<meta property="og:url" content="https://frnd.design/notes/psicologia-aplicada-em-ux/">
-	<meta property="og:site_name" content="Fernando Soares — UI Designer">
+	<meta property="og:site_name" content="Fernando Soares — Designer de Interfaces">
 	<meta name="twitter:card" content="https://frnd.design/images/meta-image.jpg">
-	<meta name="twitter:image:alt" content="Fernando Soares — UI Designer">
+	<meta name="twitter:image:alt" content="Fernando Soares — Designer de Interfaces">
 	<meta name="twitter:site" content="@frrrnd">
-	<meta name="theme-color" content="#6350D1">
+	<meta name="theme-color" content="#101010">
+	<meta name="view-transition" content="same-origin">
 	<link rel="preload stylesheet" href="https://frnd.design/css/main.css" as="style">
 	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
 	<link rel="shortcut icon" href="https://frnd.design/images/favicon.png" type="image/x-icon">
@@ -24,81 +25,25 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 </head>
 <body>
 
 <header class="header" role="banner">
-	<h1>
-		<a href="https://frnd.design/" title="Fernando Soares">
-			Fernando Soares
-		</a>
-	</h1>
+    <div class="wrap">
+        <a href="../../">
+            <img src="../../images/avatar-home.jpg" alt="Fernando Soares" >
+        </a>
 
-	<nav aria-label="Main Navigation" class="navigation">
-		<ul>
-			
-			
-			
-			
-			
-			<li>
-				<a href="../../" class=""  >
-					Home
-				</a>
-			</li>
-			
-			
-			
-			
-			<li>
-				<a href="../../sobre/" class=""  >
-					Sobre
-				</a>
-			</li>
-			
-			
-			
-			
-			<li>
-				<a href="../../notes/" class="is-active"  >
-					Notes
-				</a>
-			</li>
-			
-			
-			
-			
-			<li>
-				<a href="../../links/" class=""  >
-					Links
-				</a>
-			</li>
-			
-		</ul>
-	</nav>
+        <h1 class="shuffle">Fer, Designer de Interfaces</h1>
+    </div>
 </header>
 
 <main class="main article__container" role="main">
-	<article class="wrap">
-		<ul class="bread">
-			<li><a href="../../">Home</a></li>
-			<li><a href="../../notes">Notes</a></li>
-			<li>Psicologia aplicada em UX</li>
-		</ul>
-		<div class="wrap--left">
+	<article class="wrap">	
 			<header role="banner" class="article__header">
 				<h1>Psicologia aplicada em UX</h1>
-				<time>29.12.2022</time>
-				 
-<ul class="article__content--tags">
-   <li>
-    <a title="posts com a tag psicologia" href="https://frnd.design/tags/psicologia/">[psicologia]</a>
-  </li> <li>
-    <a title="posts com a tag ux" href="https://frnd.design/tags/ux/">[ux]</a>
-  </li> <li>
-    <a title="posts com a tag design" href="https://frnd.design/tags/design/">[design]</a>
-  </li></ul>
-
+				<time>29.12.2022 - 3 minutos de leitura </time>
 			</header>
 		
 			<section class="article__content">
@@ -159,16 +104,76 @@
 </ul>
 
 			</section>
-
-			
-		</div>
 	</article>
 </main>
 
 	<footer class="footer" role="contentinfo">
-		
+		<div class="wrapper-nav">
+    <nav aria-label="Main Navigation" class="navigation">
+        <ul>
+            
+            
+            
+            
+            
+            <li>
+                <a data-replace="Home" href="../../" class=""  >
+                    <span>Home</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a data-replace="Sobre" href="../../sobre/" class=""  >
+                    <span>Sobre</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a data-replace="Portfolio" href="https://dribbble.com/fernando" class="" target="_blank" rel="noopener noreferrer" >
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a data-replace="Notes" href="../../notes/" class="is-active"  >
+                    <span>Notes</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a data-replace="Contato" href="../../links/" class=""  >
+                    <span>Contato</span>
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+    <button class="open-panel" id="open-menu">&#9776;</button>
+</div>
+		<div class="footer-logos">
+			<a href="https://atlasnesos.space" title="Atlas" target="_blank">
+				<svg width="57" height="32" viewBox="0 0 57 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M46.0015 0H10.2221V7.66701H18.911L0 26.578L5.4214 31.9994L28.0112 9.40962L50.601 31.9994L56.0224 26.578L37.1114 7.66701H46.0015V0Z" fill="white"/>
+				</svg>
+			</a>	
+		</div>
 	</footer>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
-	<script src="https://frnd.design/javascript/app.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+		<script src="https://frnd.design/javascript/shuffle-letters.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+		<script src="https://frnd.design/javascript/app.js"></script>
 	</body>
 </html>

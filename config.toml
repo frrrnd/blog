@@ -4,7 +4,7 @@ languageCode = "en-us"
 publishDir = "public"
 staticDir = "static"
 uploadDir = "static/uploads"
-title = "Fernando Soares — UX & UI Designer"
+title = "Fernando Soares — Designer de Interfaces"
 summaryLength = 30
 canonifyURLs = true
 relativeURLs = true
@@ -14,7 +14,7 @@ relativeURLs = true
 
 [Params]
     ghrepo = ""
-    title = "Fernando Soares - Designer e Desenvolvedor de Interfaces"
+    title = "Fernando Soares - Designer de Interfaces"
     description = "Portfolio e blog de Fernando Soares."
 
 [markup]
@@ -50,12 +50,3 @@ relativeURLs = true
         pageref = "/notes/"
         weight = 4
         pre = ''
-    [[menu.main]]
-        name = "Links"
-        pageref = "/links/"
-        weight = 5
-        pre = ''
-    # [[menu.main]]
-    #     name = "Lab"
-    #     pageref = "/lab/"
-    #     weight = 6

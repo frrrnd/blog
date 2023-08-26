@@ -27,6 +27,9 @@
 		position relative
 		padding-top spacing(64px)
 
+		a
+			color var(--meta-color)
+
 	&__header
 		margin-bottom 4vh
 		width 100%
@@ -34,8 +37,12 @@
 		h1
 			set-font-size 48px
 			font-family font-sans-serif-bolder
-			font-weight 600
+			font-weight 400
 			margin-bottom spacing(8px)
+		
+		time
+			margin 0 auto
+			display block
 
 	&__wrap
 		width 100%
@@ -58,9 +65,9 @@
 			background embedurl('/images/arrow-right.svg') no-repeat left
 			padding 25px 0 25px 25px
 
-	&__content,
-	&__summary
+	&__content
 		width 100%
+		margin-bottom spacing(24px)
 
 		ul
 			margin-bottom 56px
@@ -84,7 +91,6 @@
 
 		p
 			margin-bottom spacing(40px)
-			font-family font-serif
 
 			code
 				padding 0 3px
@@ -171,6 +177,10 @@
 
 					&:hover
 						color var(--link-color)
+
+		[data-fancybox]
+			margin-bottom spacing(24px)
+			display block
 
 	&__footer
 		display flex
