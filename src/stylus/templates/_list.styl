@@ -1,21 +1,31 @@
 .notes
 	width 100%
 
-	article
-		padding spacing(21px) 0
+	.wrap
+		border-top 1px solid #1c1c1c
+		padding-top spacing(24px)
+		padding-bottom spacing(24px)
 
-		&:not(:last-child)
-			border-bottom 1px solid #1c1c1c
+	article
+		padding spacing(16px) 0
+
+		// &:not(:last-child)
+		// 	border-bottom 1px solid #1c1c1c
 	
 	header
 		a
 			width 100%
 			display flex
-			justify-content space-between
 			align-items center
+
+			time
+				max-width 71px
+				width 100%
+				text-align right
 
 			&:hover
 				transition .4s
+
 				
 				h3
 					color var(--text-secondary-color)
@@ -24,3 +34,7 @@
 		h3
 			transition .4s
 			set-font-size 16px
+			margin-left 16px
+
+.notes-page
+	padding-bottom spacing(24px)

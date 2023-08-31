@@ -8,13 +8,13 @@
 			<h2>{{ .Title }}</h2>
 		</header> -->
 
-		<section class="notes">
+		<section class="notes notes-page">
 			{{ range (where .Site.Pages "Params.type" "post") }}
 			<article>
 				<header role="banner">
 					<a href="{{ .Permalink }}">
-						<h3>{{ .Title }}</h3>
 						<time>{{ .Date.Format "02.01.2006" }}</time>
+						<h3>{{ .Title }}</h3>
 					</a>
 				</header>
 			</article>

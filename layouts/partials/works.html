@@ -61,13 +61,13 @@
 <section class="notes">
 	<div class="wrap">
 		<h4>Notes</h4>
-			{{ range first 6 (where .Site.Pages "Params.type" "post") }}
+			{{ range first 10 (where .Site.Pages "Params.type" "post") }}
 
 			<article>
 				<header role="banner">
 					<a href="{{ .Permalink }}">
-						<h3>{{ .Title }}</h2>
 						<time>{{ .Date.Format "02.01.2006" }}</time>
+						<h3>{{ .Title }}</h2>
 					</a>
 				</header>
 			</article>

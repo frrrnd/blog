@@ -2,7 +2,6 @@
 	width 100%
 	position relative
 	padding-bottom spacing(120px)
-	padding-top spacing(56px)
 
 	&-logos
 		display flex
@@ -25,14 +24,26 @@
 				transition .4s
 
 .connect
-	ul
-		list-style-type none
-		padding-left 0
-		font-family font-sans-serif
-	
-	li
-		margin-bottom spacing(12px)
+	border-top 1px solid #1c1c1c
+	padding-top spacing(24px)
 
-		span
-			margin-right spacing(16px)
-			color var(--text-secondary-color)
+	p
+		color var(--text-secondary-color)
+
+		a
+			color var(--text-color)
+
+.avatar
+	display block
+	margin 0 0 spacing(21px) 0
+	max-width max-content
+
+	img
+		max-width 100px
+		width 100%
+		border-radius 100%
+		transition .4s
+
+		&:hover
+			opacity .6
+			transition .4s
