@@ -3,35 +3,12 @@
 	position relative
 	padding-bottom spacing(120px)
 
-	&-logos
-		display flex
-		flex-direction row
-		padding spacing(16px)
-		
-		svg
-			max-height 20px
-			
-			path
-				fill #444444
-				transition .4s
-
-		a
-			transition .4s
-
-			&:hover
-				path
-					fill white
-				transition .4s
-
 .connect
-	border-top 1px solid #1c1c1c
+	border-top 1px solid var(--divider-color)
 	padding-top spacing(24px)
 
-	p
-		color var(--text-secondary-color)
-
-		a
-			color var(--text-color)
+	a
+		text-decoration underline
 
 .avatar
 	display block

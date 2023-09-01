@@ -1,76 +1,21 @@
-<section class="works" id="works">
-	<div class="wrap--wide">
-		<!-- <section class="grid-container" id="grid-container">
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-1.png" alt="Spotify VisionOS">
-					</figure>
-					<h5>Spotify VisionOS</h5>
-				</a>
-			</article>
-
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-2.png" alt="Icons">
-					</figure>
-					<h5>Align Icons</h5>
-				</a>
-			</article>
-
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-3.png" alt="Sunny">
-					</figure>
-					<h5>Sunny</h5>
-				</a>
-			</article>
-
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-4.png" alt="App Icons">
-					</figure>
-					<h5>App Icons</h5>
-				</a>
-			</article>
-
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-5.png" alt="App Icons">
-					</figure>
-					<h5>App Icons</h5>
-				</a>
-			</article>
-
-			<article class="grid-slot">
-				<a href="#">
-					<figure>
-						<img src="/images/works/place-6.png" alt="App Icons">
-					</figure>
-					<h5>App Icons</h5>
-				</a>
-			</article>
-		</section> -->
-	</div>
+<section class="now">
+	<h4>Agora</h4>
+	<p>Aprimorando técnicas em design system e buscando entender o usuário. Sou apaixonado por
+		interfaces e em estudar e entender como ela se parece e se comporta. Me aperfeiçoando
+		em <em>icon design</em>.</p>
 </section>
 
 <section class="notes">
-	<div class="wrap">
-		<h4>Notes</h4>
-			{{ range first 10 (where .Site.Pages "Params.type" "post") }}
+	<h4>Notes</h4>
+		{{ range first 10 (where .Site.Pages "Params.type" "post") }}
 
-			<article>
-				<header role="banner">
-					<a href="{{ .Permalink }}">
-						<time>{{ .Date.Format "02.01.2006" }}</time>
-						<h3>{{ .Title }}</h2>
-					</a>
-				</header>
-			</article>
-			{{ end }}
-	</div>
+		<article>
+			<header role="banner">
+				<a href="{{ .Permalink }}">
+					<time>{{ .Date.Format "02.01.2006" }}</time>
+					<h3>{{ .Title }}</h2>
+				</a>
+			</header>
+		</article>
+		{{ end }}
 </section>

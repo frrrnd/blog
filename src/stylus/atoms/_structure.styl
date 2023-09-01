@@ -60,40 +60,11 @@ body
   	-webkit-font-smoothing antialiased !important
   	-moz-font-smoothing antialiased
 
-.container
-	width 100%
-	min-height 100%
-	position relative
-	z-index 1
+img
+	max-width 100%
+	height auto
 
 .wrap
 	max-width wrap-max-width
 	width 100%
 	margin 0 auto
-
-	&--wide
-		max-width 990px
-		width 100%
-		margin 0 auto
-
-	+below(1108px)
-		padding 0 spacing(16px)
-
-	&--left
-		max-width 60%
-		width 100%
-
-		+below(739px)
-			max-width 100%
-
-img
-	max-width 100%
-	height auto
-
-.main
-	position relative
-
-.about-image
-	max-width 480px
-	width 100%
-	margin 0!important

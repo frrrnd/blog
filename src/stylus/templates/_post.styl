@@ -26,9 +26,6 @@
 		margin 0 auto
 		position relative
 
-		a
-			color var(--meta-color)
-
 	&__header
 		margin-bottom 4vh
 		width 100%
@@ -99,17 +96,8 @@
 				border 1px solid var(--zebra-color)
 
 		a
-			color var(--link-color)
 			transition .4s
-
-			&:hover
-				color var(--menu-color)
-				transition .4s
-
-			&[target='_blank']:after
-				content embedurl('/images/external-link.svg')
-				margin 0 3px 0 5px
-				opacity .4
+			text-decoration underline
 
 		h2
 			margin-bottom spacing(16px)
