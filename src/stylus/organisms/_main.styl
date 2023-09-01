@@ -1,12 +1,17 @@
 .main
     width 100%
-    font-family font-sans-serif
+    position relative
 
-    figure
-        width auto
-        margin 0
-        max-height 100vh
-        height 100%
+.go-back
+    position absolute
+    top 0
+    left -100px
+    font-style italic
+    font-family font-serif
 
-.index-image
-    padding spacing(72px) 0
+    +below(920px)
+        display none
+
+    &:before
+        content "\21A9"
+        margin-right 12px

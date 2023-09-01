@@ -3,18 +3,15 @@
 {{ partial "header.html" . }}
 
 <main class="main lab__container" role="main">
-	<article class="">
-		<div class="wrap">
-			<header role="banner" class="lab__header">
-				<div class="wrap wrap--title">
-					<h1>{{ .Title }}</h1>
-				</div>
-			</header>
-		
-			<section class="lab__content">
-				{{ .Content }}
-			</section>
-		</div>
+	<article class="lab__article">
+		<header role="banner" class="lab__header">
+			<h1>{{ .Title }}</h1>
+			<time>{{ .Date.Format "02.01.2006" }}</time>
+		</header>
+	
+		<section class="lab-content">
+			{{ .Content }}
+		</section>
 	</article>
 </main>
 

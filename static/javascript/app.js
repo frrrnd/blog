@@ -96,13 +96,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-let menu = document.querySelector('.navigation'),
-    open = document.getElementById("open-menu");
-
-    open.onclick = function() {
-        menu.classList.toggle("openned");
-    };
-
 // Fancybox
 let linkImage = document.querySelector("a[data-fancybox]");
 

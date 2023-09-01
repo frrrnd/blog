@@ -39,14 +39,19 @@ relativeURLs = true
         weight = 2
         pre = ''
     [[menu.main]]
+        name = "Lab"
+        pageref = "/lab/"
+        weight = 3
+        pre = ''
+    [[menu.main]]
         name = "Portfolio"
         url = "https://dribbble.com/fernando"
-        weight = 3
+        weight = 4
         pre = ''
         [menu.main.params]
             external = true
     [[menu.main]]
         name = "Notes"
         pageref = "/notes/"
-        weight = 4
+        weight = 5
         pre = ''

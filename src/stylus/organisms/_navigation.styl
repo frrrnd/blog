@@ -15,12 +15,6 @@
 	padding 5px
 	overflow hidden
 	z-index 30
-
-	+below(545px)
-		border-radius 20px
-		flex-direction column
-		transform translateY(210px)
-		height 0
 	
 	ul
 		list-style-type none
@@ -32,9 +26,6 @@
 		justify-content center
 		set-font-size 16px
 		transition .4s
-
-		+below(545px)
-			flex-direction column
 
 		li
 			display inline-block
@@ -69,6 +60,9 @@
 				display block
 				padding 10px 20px
 
+				+below(756px)
+					padding 12px
+
 				&:before,
 				&:after
 					content ""
@@ -76,8 +70,6 @@
 					width 100%
 					left 0
 					padding 10px 20px
-
-
 
 				&:after
 					content attr(data-replace)

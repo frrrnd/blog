@@ -1,1 +1,1 @@
-.main{width:100%;font-family:font-sans-serif;}.main figure{width:auto;margin:0;max-height:100vh;height:100%}.index-image{padding:spacing(72px) 0}
+.main{width:100%;position:relative}.go-back{position:absolute;top:0;left:-100px;font-style:italic;font-family:font-serif;below(920px)}.go-back:before{content:"\21A9";margin-right:12px}

@@ -1,83 +1,54 @@
-.lab-page
-    +below(47.25rem)
-        padding 0 21px
-
 .lab__list
     width 100%
-    display grid
-    grid-template-columns 1fr 1fr 1fr
-    grid-gap 21px
     margin 1vh auto 0
     padding-bottom 2vh
 
-    +below(47.25rem)
-        grid-template-columns 1fr 1fr
-
-
 .lab__article
     width 100%
-    margin 1vh 1vw
-    border 1px solid #111
-    border-radius 10px
-    box-shadow 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 -1px 0 0 #242424,
-        1px 0 0 0 rgba(0, 0, 0, 0.2), -1px 0 0 0 rgba(0, 0, 0, 0.2)
-    position relative
-    overflow hidden
+    border-top 1px solid var(--divider-color)
+    padding spacing(24px) 0
 
-    a
-        &:after
-            content ""
-            width 100%
-            height 100%
-            background linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1))
-            position absolute
-            top 0
-            left 0
-            z-index 3
-            transition .4s
-        
-        &:hover img
-            scale 1.1
-            transition .4s
-
-    figure
-        margin 0
-        border-radius 10px
-        height 100%
-
-        img
-            border-radius 10px
-            height 100%
-            transition .4s
-
-            +below(47.25rem)
-                height auto
+    > a
+        display flex
+        flex-direction row
+        justify-content space-between
+        margin-bottom spacing(24px)
+        align-items center
 
     h3
-        font-size 16px
-        position absolute
-        bottom 0
-        z-index 4
+        set-font-size 16px
         width 100%
-        padding 12px
-        border-bottom-left-radius 10px
-        border-bottom-right-radius 10px
 
         a
             color white
 
+    figure
+        margin-bottom spacing(24px)
+        display block
+
+.lab-content
+    margin-bottom spacing(24px)
+
+    iframe
+        margin spacing(24px) 0
+
+    img
+        max-width 100%
+    
+    figure
+        margin 0 0 spacing(16px) 0
+
+    a
+        text-decoration underline
+
 // single
 
 .lab__header
+    display flex
+    flex-direction row
+    justify-content space-between
+    margin-bottom spacing(24px)
+    align-items center
+    
     h1
         set-font-size 20px
-    
-    .wrap
-        +below(47.25rem)
-            padding 0 0 32px 0
-
-.lab__content
-    padding-left 21px
-
-    +below(47.25rem)
-        padding-left 0

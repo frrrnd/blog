@@ -3,21 +3,26 @@
 {{ partial "header.html" . }}
 
 <main class="main t-page lab-page" role="main">
-    <div class="wrap-wide">
-        <h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2>
-        <section class="lab__list">
-            {{ range where .Site.RegularPages "Type" "lab" }}
-            <article class="lab__article">
-                <a href="{{ .Permalink }}">
-                    <figure>
-                        <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
-                    </figure>
-                    <h3>{{ .Title }}</h3>
-                </a>
-            </article>
-            {{ end }}
-        </section>
-    </div>
+    <!-- <h2 class="t-page__title" data-title="{{ .Title }}">{{ .Title }}</h2> -->
+    <!-- <p>Experimentos, testes e protótipos.</p> -->
+    <section class="lab__list">
+        {{ range where .Site.RegularPages "Type" "lab" }}
+        <article class="lab__article">
+            <a href="{{ .Permalink }}">
+                <h3>{{ .Title }}</h3>
+                <time>{{ .Date.Format "02.01.2006" }}</time>
+            </a>
+
+            <section class="lab-content">
+                <figure>
+                    <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
+                </figure>
+                {{ .Summary }}
+            </section>
+
+        </article>
+        {{ end }}
+    </section>
 </main>
 
 
