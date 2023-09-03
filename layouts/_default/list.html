@@ -3,24 +3,24 @@
 {{ partial "header.html" . }}
 
 <main class="main article__container" role="main">
-	<div class="wrap">
-		<!-- <header role="banner" class="article__header">
-			<h2>{{ .Title }}</h2>
-		</header> -->
 
-		<section class="notes notes-page">
-			{{ range (where .Site.Pages "Params.type" "post") }}
-			<article>
-				<header role="banner">
-					<a href="{{ .Permalink }}">
-						<time>{{ .Date.Format "02.01.2006" }}</time>
-						<h3>{{ .Title }}</h3>
-					</a>
-				</header>
-			</article>
-			{{ end }}
-		</section>
-	</div>
+	<!-- <header role="banner" class="article__header">
+		<h2>{{ .Title }}</h2>
+	</header> -->
+
+	<section class="notes notes-page">
+		{{ range (where .Site.Pages "Params.type" "post") }}
+		<article>
+			<header role="banner">
+				<a href="{{ .Permalink }}">
+					<time>{{ .Date.Format "02.01.2006" }}</time>
+					<h3>{{ .Title }}</h3>
+				</a>
+			</header>
+		</article>
+		{{ end }}
+	</section>
+
 	
 	
 </main>
