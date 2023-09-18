@@ -104,3 +104,28 @@ if (linkImage) {
   // Your custom options
   });
 }
+
+// tabs
+
+window.onload = function() {
+  const tabButtons = document.querySelectorAll('.select__item');
+  const tabContents = document.querySelectorAll('.item--content');
+
+  for (var i = 0; i < tabButtons.length; i++) {
+    tabButtons[i].addEventListener('click', function(e) {
+      e.preventDefault(); // cancela
+      var id = this.hash.replace('#', '');
+
+      for (var j = 0; j < tabContents.length; j++) {
+        var tabContent = tabContents[j];
+        tabContent.classList.remove('visible');
+        tabButtons[j].classList.remove('active');
+        if (tabContent.id === id) {
+          tabContent.classList.add('visible');
+        }
+      }
+
+      this.classList.add('active');
+    });
+  }
+}

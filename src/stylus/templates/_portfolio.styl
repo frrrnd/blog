@@ -18,7 +18,7 @@
 
     &__list
         display grid
-        grid-template-columns 1fr 1fr 1fr 1fr
+        grid-template-columns 1fr 1fr
         gap spacing(32px)
 
         +below(47.25rem)
@@ -27,7 +27,6 @@
     &__item
         width 100%
         margin 1vh 0
-        border 1px solid #111
         border-radius 10px
         position relative
         overflow hidden
@@ -59,15 +58,13 @@
         figure
             margin 0
             border-radius 10px
-            height 100%
+            overflow hidden
+            max-height 243px
 
             img
                 border-radius 10px
-                height 100%
                 transition .4s
-
-                +below(47.25rem)
-                    height auto
+                max-width 100%
 
         h3
             font-size 16px
@@ -85,4 +82,31 @@
             a
                 color white
 
-    
+
+.tab-content--item
+    opacity 0
+    transition .4s
+
+.visible .tab-content--item
+    opacity 1
+    transition .4s
+
+.tab-buttons,
+.tab-content
+    list-style-type none
+    padding-left 0
+
+.tab-buttons
+    width 100%
+    display flex
+
+    li:not(last-child)
+        margin-right 16px
+
+.select__item
+    color var(--menu-color)
+
+
+.select__item.active
+    color white
+    border-bottom 1px solid white

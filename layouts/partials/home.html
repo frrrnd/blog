@@ -1,0 +1,48 @@
+<section class="hero home-section">
+	<h2><em>Designer de Interfaces</em> com conhecimento e experiência em Front-End. <br>
+		Apaixonado por design minimalista e skeumorfismo.</h2>
+</section>
+
+<section class="now home-section">
+	<h4>Agora</h4>
+	<p>Aprimorando técnicas em design system e buscando entender o usuário. Sou apaixonado por
+		interfaces e em estudar e entender como elas funcionam e se comportam. Me aperfeiçoando
+		em icon design.</p>
+	
+	<p><em>“Make it simple, but significant.”</em></p>
+</section>
+
+<section class="notes home-section">
+	<h4>Notas</h4>
+		
+    {{ range first 10 (where .Site.Pages "Params.type" "post") }}
+    <article>
+        <header role="banner">
+            <a href="{{ .Permalink }}">
+                <time>{{ .Date.Format "02.01.2006" }}</time>
+                <h3>{{ .Title }}</h2>
+            </a>
+        </header>
+    </article>
+    {{ end }}
+</section>
+
+<!--
+<section class="ui home-section">
+    <h4>Portfolio</h4>
+
+    <section class="ui-grid">
+        {{ range first 6 (where .Site.RegularPages "Params.type" "portfolio") }}
+        <article class="portfolio__item">
+            <a href="{{ .Permalink }}">
+                <figure>
+                    <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
+                </figure>
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Params.cat }}</p>
+            </a>
+        </article>
+        {{ end }}
+    </section>
+</section>
+-->

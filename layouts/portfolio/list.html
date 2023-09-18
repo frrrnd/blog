@@ -3,23 +3,40 @@
 {{ partial "header.html" . }}
 
 <main class="main portfolio__container" role="main">
-    <div class="wrap">
-        <p>Últimos trabalhos/estudos selecionados.</p>
+    <div class="portfolio-filter">
+        <ul class="tab-buttons">
+            <li><a class="select__item active" href="#trabalhos">Trabalhos</a></li>
+            <li><a class="select__item" href="#visuals">Visuals</a></li>
+        </ul>
+
+        <ul class="tab-content">
+            <li id="trabalhos" class="item--content visible">
+                <div class="tab-content--item">
+                    <section class="portfolio__list">
+                        {{ range where .Site.RegularPages "Type" "portfolio" }}
+                        <article class="portfolio__item">
+                            <a href="{{ .Permalink }}">
+                                <figure>
+                                    <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
+                                </figure>
+                                <h3>{{ .Title }}</h3>
+                            </a>
+                        </article>
+                        {{ end }}
+                    </section>
+                </div>
+            </li>
+
+            <li id="visuals" class="item--content">
+                <div class="tab-content--item">
+                    <h2>Visuals</h2>
+                </div>
+            </li>
+        </ul>
     </div>
 
     <div class="portfolio__wrap">
-        <section class="portfolio__list">
-            {{ range where .Site.RegularPages "Type" "portfolio" }}
-            <article class="portfolio__item">
-                <a href="{{ .Permalink }}">
-                    <figure>
-                        <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
-                    </figure>
-                    <h3>{{ .Title }}</h3>
-                </a>
-            </article>
-            {{ end }}
-        </section>
+        
     </div>
 </main>
 
