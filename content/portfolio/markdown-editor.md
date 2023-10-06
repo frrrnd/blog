@@ -3,6 +3,7 @@ title: "Markdown Editor"
 date: 2023-07-15T22:50:26-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "post"
 tags: ['']
 featured_image: "/uploads/portfolio/markdown-editor/markdown-editor-02.png"

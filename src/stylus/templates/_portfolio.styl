@@ -18,11 +18,8 @@
 
     &__list
         display grid
-        grid-template-columns 1fr 1fr
+        grid-template-columns 1fr
         gap spacing(32px)
-
-        +below(47.25rem)
-            grid-template-columns 1fr
 
     &__item
         width 100%
@@ -59,7 +56,6 @@
             margin 0
             border-radius 10px
             overflow hidden
-            max-height 243px
 
             img
                 border-radius 10px
@@ -82,31 +78,84 @@
             a
                 color white
 
+/* Tab component */
 
 .tab-content--item
     opacity 0
+    visibility hidden
     transition .4s
+    height 0
 
 .visible .tab-content--item
     opacity 1
     transition .4s
+    visibility visible
+    height initial
+
+.item--content
+    height 0
+
+.item--content.visible
+    height initial
+
+.tab-content--item .portfolio__list
+    height 0
+
+.visible .portfolio__list
+    height initial
 
 .tab-buttons,
 .tab-content
     list-style-type none
     padding-left 0
 
-.tab-buttons
-    width 100%
-    display flex
+.tab-content
+    padding 2vh 0
 
-    li:not(last-child)
-        margin-right 16px
+.tab-buttons
+    max-width max-content
+    margin 0 auto
+    display flex
+    background-color rgba(255,255,255,.03)
+    border-radius 30px
+    border 1px solid rgba(255,255,255,.03)
+
+    li
+        padding spacing(8px) spacing(4px) spacing(10px) spacing(4px)
 
 .select__item
     color var(--menu-color)
+    padding spacing(8px) spacing(16px)
+    set-font-size(12px)
+    text-transform uppercase
+    font-weight 600
+    letter-spacing .5px
+    line-height 1.5
 
 
 .select__item.active
     color white
-    border-bottom 1px solid white
+    background-color rgba(255,255,255,.08)
+    border-radius 20px
+
+/* Views */
+.portfolio__view
+    /* Column */
+    &--column
+        width 100%
+
+        .portfolio__item
+            width 100%
+    
+    /* Grid */
+    &--grid
+        width 100%
+        display grid
+        grid-template-columns 1fr 1fr
+        gap spacing(32px)
+
+        +below(47.25rem)
+            grid-template-columns 1fr
+        
+        figure
+            max-height 243px

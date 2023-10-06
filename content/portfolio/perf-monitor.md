@@ -3,6 +3,7 @@ title: "Perf Monitor"
 date: 2023-07-16T00:05:42-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "post"
 tags: ['']
 cat: "UI"

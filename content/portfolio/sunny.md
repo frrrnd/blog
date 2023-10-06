@@ -3,6 +3,7 @@ title: "Sunny"
 date: 2023-07-13T11:30:00-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "post"
 tags: ['']
 featured_image: "/uploads/portfolio/sunny/sunny-01.png"

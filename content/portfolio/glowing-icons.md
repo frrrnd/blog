@@ -3,6 +3,7 @@ title: "Glowing Icons"
 date: 2023-07-15T23:29:23-03:00
 draft: false
 type: "portfolio"
+category: "works"
 layout: "post"
 tags: ['']
 featured_image: "/uploads/portfolio/glowing-icons/glowing-icons-01.png"

@@ -3,6 +3,7 @@ title: "Ícones"
 date: 2023-07-13T11:29:46-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "gallery"
 tags: ['']
 featured_image: "/uploads/portfolio/icons/terminal-icon.png"

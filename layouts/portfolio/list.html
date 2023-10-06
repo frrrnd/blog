@@ -3,17 +3,18 @@
 {{ partial "header.html" . }}
 
 <main class="main portfolio__container" role="main">
-    <div class="portfolio-filter">
+
         <ul class="tab-buttons">
-            <li><a class="select__item active" href="#trabalhos">Trabalhos</a></li>
-            <li><a class="select__item" href="#visuals">Visuals</a></li>
+            <li><a class="select__item active" href="#trabalhos">Últimos Trabalhos</a></li>
+            <li><a class="select__item" href="#visuais">Visuais</a></li>
         </ul>
 
-        <ul class="tab-content">
-            <li id="trabalhos" class="item--content visible">
+        <section class="tab-content">
+            
+            <section id="trabalhos" class="item--content visible">
                 <div class="tab-content--item">
-                    <section class="portfolio__list">
-                        {{ range where .Site.RegularPages "Type" "portfolio" }}
+                    <section class="portfolio__list portfolio__view--column">
+                        {{ range where .Site.RegularPages ".Params.category" "works" }}
                         <article class="portfolio__item">
                             <a href="{{ .Permalink }}">
                                 <figure>
@@ -25,19 +26,27 @@
                         {{ end }}
                     </section>
                 </div>
-            </li>
+            </section>
 
-            <li id="visuals" class="item--content">
+            <section id="visuais" class="item--content">
                 <div class="tab-content--item">
-                    <h2>Visuals</h2>
+                    <section class="portfolio__list portfolio__view--grid">
+                        {{ range where .Site.RegularPages ".Params.category" "visuals" }}
+                            <article class="portfolio__item">
+                                <a href="{{ .Permalink }}">
+                                    <figure>
+                                        <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
+                                    </figure>
+                                    <h3>{{ .Title }}</h3>
+                                </a>
+                            </article>
+                        {{end}}
+                    </section>
                 </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="portfolio__wrap">
+            </section>
         
-    </div>
+        </section>
+
 </main>
 
 {{ partial "footer.html" . }}

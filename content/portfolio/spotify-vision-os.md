@@ -3,6 +3,7 @@ title: "Spotify Vision Os"
 date: 2023-07-15T23:18:09-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "post"
 tags: ['']
 featured_image: "/uploads/portfolio/spotify-vision-os/spotify-visionOS-02.png"

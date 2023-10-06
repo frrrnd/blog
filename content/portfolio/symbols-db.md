@@ -3,6 +3,7 @@ title: "Symbols DB"
 date: 2023-07-13T11:29:56-03:00
 draft: false
 type: "portfolio"
+category: "visuals"
 layout: "post"
 tags: ['']
 featured_image: "/uploads/portfolio/symbols-db/symbols-db-04.png"
