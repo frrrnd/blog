@@ -2,19 +2,26 @@
 
 {{ partial "header.html" . }}
 
-<main class="main portfolio__container" role="main">
-    <div class="wrap">
-        <p>Ícones de aplicativos que gosto de desenhar.</p>
+<main class="main__wrapper" role="main">
+    <div class="main__left">
+        <article class="site-intro">
+            <div class="section-fixed">
+                <h1 class="shuffle">{{ .Title }}</h1>
+                <h2>Gallery</h2>
+            </div>
+        </article>
     </div>
 
-    <div class="portfolio__wrap">
-        <section class="portfolio__list portfolio__view--grid">
-            {{ .Content }}
-        </section>
+    <div class="main__right">
+        <div class="home__portfolio">
+            <article class="portfolio__item gallery-view">
+                {{ .Content }}
+            </article>
+        </div>
     </div>
 </main>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" /> -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
 {{ partial "footer.html" . }}

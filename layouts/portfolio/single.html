@@ -2,19 +2,36 @@
 
 {{ partial "header.html" . }}
 
-<main class="main article__container" role="main">
-	<article class="wrap">
-        <header role="banner" class="article__header">
-            <h2>{{ .Title }}</h2>
-        </header>
-    
-        <section class="article__content">
-            {{ .Content }}
-        </section>
+<main class="main__wrapper" role="main">
+    <div class="main__left">
+        <article class="site-intro">
+            <div class="section-fixed">
+                <h1 class="shuffle">{{ .Title }}</h1>
+                {{ if .Params.link }}
+                <h2><a href="https://{{ .Params.link }}" target="_blank">{{ .Params.link }}</a></h2>
+                {{ else }}
+                <h2>
+                    {{ .Params.cat }} 
+                    {{ if .Params.status }}
+                    - {{ .Params.status }}
+                    {{ end }}
+                </h2>
+                {{ end }}
+            </div>
+        </article>
+    </div>
 
-        <a href="/portfolio">← voltar</a>
-	</article>
+    <div class="main__right">
+        <div class="home__portfolio">
+            <article class="portfolio__item">
+                {{ .Content }}
+            </article>
+        </div>
+    </div>
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
 
 {{ partial "footer.html" . }}

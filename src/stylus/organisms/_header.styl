@@ -1,7 +1,55 @@
 .header
-	padding spacing(64px) 0 0 0
+	width 100%
+	padding spacing(16px) spacing(32px)
+	border-bottom 1px solid var(--divider-color)
+	position fixed
+	top 0
+	z-index 2
+	background-color var(--header-bg)
+	backdrop-filter blur(10px)
+	-webkit-backdrop-filter blur(10px)
 
-	h1
-		set-font-size(18px)
-		line-height 1.6
-		margin-bottom spacing(32px)
+	a
+		color var(--text-secondary-color)
+		transition .4s
+
+		&:hover
+			color var(--text-color)
+			transition .4s
+
+	.is-active
+		color var(--text-color)
+	
+	&__inner
+		width 100%
+		display flex
+		justify-content space-between
+		align-items center
+
+	&__nav
+		width max-content
+
+		ul
+			list-style-type none
+			padding 0
+			margin 0
+			display flex
+			width 100%
+
+			li
+				margin 0 spacing(16px)
+
+.sw
+	-webkit-appearance none
+	appearance none
+	background transparent
+	border none
+	cursor pointer
+
+.theme-icon
+	overflow hidden
+	display block
+	height 32px
+
+	svg
+		transition .4s

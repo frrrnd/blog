@@ -6,60 +6,64 @@
     <description>Recent content on Fernando Soares — Designer de Interfaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jul 2023 00:05:42 -0300</lastBuildDate><atom:link href="https://frnd.design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2023 19:03:05 -0300</lastBuildDate><atom:link href="https://frnd.design/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perf Monitor</title>
-      <link>https://frnd.design/portfolio/perf-monitor/</link>
-      <pubDate>Sun, 16 Jul 2023 00:05:42 -0300</pubDate>
+      <title>Viewport UI</title>
+      <link>https://frnd.design/portfolio/viewport/</link>
+      <pubDate>Wed, 25 Oct 2023 19:03:05 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/perf-monitor/</guid>
-      <description>Software de monitoramento de performance de hardware.</description>
+      <guid>https://frnd.design/portfolio/viewport/</guid>
+      <description>Viewport é uma coleção curada de experiências em UI.
+DesktopMobileUm meio de conectar os pontos entre a sua inspiração e os trabalhos excelentes de pessoas incríveis.</description>
     </item>
     
     <item>
-      <title>Glowing Icons</title>
-      <link>https://frnd.design/portfolio/glowing-icons/</link>
-      <pubDate>Sat, 15 Jul 2023 23:29:23 -0300</pubDate>
+      <title>BitPouch</title>
+      <link>https://frnd.design/portfolio/bitpouch/</link>
+      <pubDate>Wed, 11 Oct 2023 14:22:47 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/glowing-icons/</guid>
-      <description></description>
+      <guid>https://frnd.design/portfolio/bitpouch/</guid>
+      <description>BitPouch é uma carteira descomplicada de criptomoedas.
+O app foi projetado para permitir que os usuários comprem, vendam, depositem e troquem criptomoedas com facilidade. Ele oferece uma abordagem descomplicada para a gestão de ativos digitais, tornando-a adequada tanto para iniciantes quanto para investidores experientes.</description>
     </item>
     
     <item>
-      <title>Spotify Vision Os</title>
-      <link>https://frnd.design/portfolio/spotify-vision-os/</link>
-      <pubDate>Sat, 15 Jul 2023 23:18:09 -0300</pubDate>
+      <title>LovePix</title>
+      <link>https://frnd.design/portfolio/lovepix/</link>
+      <pubDate>Wed, 11 Oct 2023 14:22:28 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/spotify-vision-os/</guid>
-      <description>Versão do Spotify para o VisionOS.</description>
+      <guid>https://frnd.design/portfolio/lovepix/</guid>
+      <description>Redesign da plataforma LovePix.
+LovePix é um serviço de assinatura para criadores de conteúdo.</description>
     </item>
     
     <item>
-      <title>Markdown Editor</title>
-      <link>https://frnd.design/portfolio/markdown-editor/</link>
-      <pubDate>Sat, 15 Jul 2023 22:50:26 -0300</pubDate>
+      <title>CMS</title>
+      <link>https://frnd.design/portfolio/cms/</link>
+      <pubDate>Wed, 11 Oct 2023 14:07:06 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/markdown-editor/</guid>
-      <description>Plugin WYSIWYG para edição de markdown.
-Light Mode Dark Mode </description>
+      <guid>https://frnd.design/portfolio/cms/</guid>
+      <description>Sistema de gerenciamento de conteúdo e site.
+Página de LoginRecuperação de senhaLista de artigosVisualização rápida do artigoDetalhe do menu</description>
     </item>
     
     <item>
-      <title>Sunny</title>
-      <link>https://frnd.design/portfolio/sunny/</link>
-      <pubDate>Thu, 13 Jul 2023 11:30:00 -0300</pubDate>
+      <title>Overflow Icons</title>
+      <link>https://frnd.design/portfolio/icon-set/</link>
+      <pubDate>Wed, 11 Oct 2023 14:04:46 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/sunny/</guid>
-      <description></description>
+      <guid>https://frnd.design/portfolio/icon-set/</guid>
+      <description>Overflow é uma coleção de ícones para interfaces.
+Ao longo dos anos eu usei muitos tipos diferentes de icons set&amp;rsquo;s, e muitas das vezes alguns não eram concisos ou simplesmente não existia algum pra representar o que eu precisava.</description>
     </item>
     
     <item>
-      <title>Symbols DB</title>
-      <link>https://frnd.design/portfolio/symbols-db/</link>
-      <pubDate>Thu, 13 Jul 2023 11:29:56 -0300</pubDate>
+      <title>Ziiiro Clock</title>
+      <link>https://frnd.design/feed/clock/</link>
+      <pubDate>Fri, 01 Sep 2023 14:50:27 -0300</pubDate>
       
-      <guid>https://frnd.design/portfolio/symbols-db/</guid>
-      <description>Pequeno web app com uma coleção de símbolos e caracteres para HTML, CSS e JS.</description>
+      <guid>https://frnd.design/feed/clock/</guid>
+      <description>Relógio inspirado no Ziiiro que muda de cor a cada 2 horas. Protótipo feito em html/css e vanilla javascript.</description>
     </item>
     
     <item>
@@ -69,15 +73,6 @@ Light Mode Dark Mode </description>
       
       <guid>https://frnd.design/portfolio/icones/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Neomorphic Calculator</title>
-      <link>https://frnd.design/portfolio/neomorphic-calculator/</link>
-      <pubDate>Thu, 13 Jul 2023 10:27:01 -0300</pubDate>
-      
-      <guid>https://frnd.design/portfolio/neomorphic-calculator/</guid>
-      <description>Calculadora no estilo de Neomorfismo.</description>
     </item>
     
     <item>
@@ -110,10 +105,10 @@ Erros comuns PowerPoint Layouts Sliders com imagem que ocupam a tela toda. Algun
     
     <item>
       <title>Texto Refletivo</title>
-      <link>https://frnd.design/lab/texto-refletivo/</link>
+      <link>https://frnd.design/feed/texto-refletivo/</link>
       <pubDate>Thu, 09 Mar 2023 02:02:35 -0300</pubDate>
       
-      <guid>https://frnd.design/lab/texto-refletivo/</guid>
+      <guid>https://frnd.design/feed/texto-refletivo/</guid>
       <description>Efeito de texto refletivo usando a webcam.</description>
     </item>
     
@@ -139,11 +134,11 @@ Cards (ou cartões) e listas são dois modos comuns de organizar informações e
     
     <item>
       <title>Menu Dock</title>
-      <link>https://frnd.design/lab/menu-dock/</link>
+      <link>https://frnd.design/feed/menu-dock/</link>
       <pubDate>Tue, 28 Feb 2023 00:52:26 -0300</pubDate>
       
-      <guid>https://frnd.design/lab/menu-dock/</guid>
-      <description>Navegação em dock. Protótipo feito com React + Framer Motion e implementado aqui no site.</description>
+      <guid>https://frnd.design/feed/menu-dock/</guid>
+      <description>Navegação em dock. Protótipo feito com React + Framer Motion.</description>
     </item>
     
     <item>

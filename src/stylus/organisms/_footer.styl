@@ -1,26 +1,68 @@
 .footer
 	width 100%
-	position relative
-	padding-bottom spacing(120px)
-
-.connect
+	padding spacing(16px) spacing(24px)
 	border-top 1px solid var(--divider-color)
-	padding-top spacing(24px)
+	display flex
+	flex-direction row
 
-	a
-		text-decoration underline
+	+below(break)
+		flex-direction column
 
-.avatar
-	display block
-	margin 0 0 spacing(21px) 0
-	max-width max-content
-
-	img
-		max-width 100px
+	&__col
+		max-width 100%
 		width 100%
-		border-radius 100%
-		transition .4s
+		display flex
+		flex-direction row
 
-		&:hover
-			opacity .6
-			transition .4s
+		h4
+			set-font-size(14px)
+			margin-bottom spacing(4px)
+			color var(--text-color)
+
+	&__links
+		max-width 50%
+		width 100%
+
+		+below(break)
+			margin-bottom spacing(24px)
+
+		ul
+			list-style-type none
+			padding 0
+			margin spacing(8px) 0 0 0
+
+			li
+				margin-bottom spacing(4px)
+				set-font-size(13px)
+				display flex
+				align-items center
+
+				a
+					color var(--text-secondary-color)
+					transition .4s
+
+					&:hover
+						color var(--text-color)
+						transition .4s
+
+.green-dot
+	width 8px
+	height 8px
+	border-radius 100%
+	background-color #2bd52b
+	display inline-block
+	margin-right spacing(8px)
+	box-shadow 0 0 0 0 rgba(43,213,43,0.5)
+	animation pulse 1.5s infinite
+
+@keyframes pulse
+	70%
+		box-shadow 0 0 0 10px rgba(43,213,43,0)
+	
+	100%
+		box-shadow 0 0 0 0 rgba(43, 213, 43, 0)
+
+.m-center
+	+below(break)
+		display flex
+		justify-content center

@@ -1,18 +1,51 @@
 	<footer class="footer" role="contentinfo">
-		{{ partial "dock-menu.html" . }}
-		<div class="connect">
-			<h4>Conecte</h4>
+		<div class="footer__col">
+			<div class="footer__links">
+				<h4>Explore</h4>
+				<ul>
+					<li><a title="Home" href="/">Home</a></li>
+					<li><a title="Sobre" href="/sobre">Sobre</a></li>
+					<li><a title="Lab" href="/feed">Feed</a></li>
+					<li><a title="Notes" href="https://notepad.frnd.design" target="_blank">Notepad</a></li>
+					<li><a title="Viewport UI" href="https://viewport-ui.design" target="_blank">Viewport UI</a></li>
+				</ul>
+			</div>
 
-			<p>Reclamações no <a href="https://x.com/frrrnd" target="_blank">x</a>, design no <a href="https://layers.to/fer" target="_blank">layers</a>, currículo no <a href="https://read.cv/fer" target="_blank">read.cv</a> e alô no <a href="mailto:dotfernando@gmail.com">e-mail</a>.</p>
+			<div class="footer__links">
+				<h4>Social</h4>
+				<ul>
+					<li><a title="X" target="_blank" href="https://x.com/frrrnd">x.com</a></li>
+					<li><a title="CV" target="_blank" href="https://read.cv/fer">Read.cv</a></li>
+					<li><a title="Layers" target="_blank" href="https://layers.to/fer">Layers</a></li>
+					<li><a title="Github" target="_blank" href="https://github.com/frrrnd">Github</a></li>
+					<li><a title="Gumroad" target="_blank" href="https://frnd.gumroad.com/">Gumroad</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__col">
+			<div class="footer__links">
+				<ul>
+					<li class="m-center">
+						<span class="green-dot"></span>
+						<a href="mailto:dotfernando@gmail.com">Disponível para novos projetos.</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__links">
+				<ul>
+					<li class="m-center"><a href="https://github.com/frrrnd/blog" target="_blank">© 2023 - Código aberto no Github.</a></li>
+				</ul>
+			</div>
 		</div>
 	</footer>
-</div>
 	
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 	<script src="{{ .Site.BaseURL }}javascript/shuffle-letters.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 	<script src="{{ .Site.BaseURL }}javascript/app.js"></script>
-	
+
 	</body>
 </html>

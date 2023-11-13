@@ -2,17 +2,28 @@
 
 {{ partial "header.html" . }}
 
-<main class="main article__container" role="main">
-	<article>	
-			<header role="banner" class="article__header">
-				<h1>{{ .Title }}</h1>
+<main class="main__wrapper" role="main">
+	<div class="main__left">
+		<article class="site-intro">
+			<div class="section-fixed">
+				<h1 class="shuffle">{{ .Title }}</h1>
 				<time>{{ .Date.Format "02.01.2006" }} - {{ .ReadingTime }} minuto{{ if (ne .ReadingTime 1)}}s{{ end }} de leitura </time>
-			</header>
-		
-			<section class="article__content">
-				{{ .Content }}
-			</section>
-	</article>
+			</div>
+		</article>
+	</div>
+
+	<div class="main__right">
+		<div class="note__wrapper">
+			<article class="note__item">
+				<section class="note__content">
+					
+					<img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+					
+					{{ .Content }}
+				</section>
+			</article>
+		</div>
+	</div>
 </main>
 
 {{ partial "footer.html" . }}

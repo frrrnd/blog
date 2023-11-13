@@ -1,5 +1,4 @@
 font-sans-serif = 'Inter', sans-serif;
-font-sans-serif-bolder = 'Inter', sans-serif;
 font-serif = 'Newsreader', serif
 
 set-font-size(_size)
@@ -17,14 +16,10 @@ h6
 	margin 0
 	font-family font-sans-serif
 	font-weight normal
-	color var(--text-color)
 
 h1
 	set-font-size 55px
 	line-height 120%
-	
-	+below(47.25rem)
-		set-font-size 48px
 
 h2
 	set-font-size 28px
@@ -69,4 +64,41 @@ time
 	transition opacity 0.5s
 
 strong
-	font-family font-sans-serif-bolder
+	font-weight bold
+
+em
+	font-family font-serif
+
+code
+	border 1px solid var(--divider-color)
+	border-radius 4px
+	padding 0 spacing(8px)
+	color var(--accent-color)
+
+figcaption
+	set-font-size(14px)
+	margin spacing(8px) auto
+	width 100%
+	display block
+	text-align center
+	color var(--text-secondary-color)
+
+blockquote
+	margin 0
+	quotes "\201C" "\201D" "\2018" "\2019"
+	margin-bottom spacing(16px)
+
+	&:before
+		content: open-quote
+		line-height 0.1em
+		margin-right .1em
+		vertical-align -0.4em
+		font-size 4em
+		font-family font-serif
+		color var(--text-secondary-color)
+	
+	p
+		font-family font-serif
+		set-font-size(20px)
+		display inline
+		color var(--text-secondary-color)

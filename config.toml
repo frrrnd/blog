@@ -29,29 +29,26 @@ relativeURLs = true
 
 [menu]
     [[menu.main]]
-        name = "Home"
-        pageref = "/"
-        weight = 1
-        pre = ''
-    [[menu.main]]
         name = "Sobre"
-        pageref = "/sobre/"
+        url = "/sobre/"
         weight = 2
         pre = ''
     [[menu.main]]
-        name = "Lab"
-        pageref = "/lab/"
+        name = "Feed"
+        url = "/feed/"
         weight = 3
         pre = ''
+    # [[menu.main]]
+    #     name = "Portfolio"
+    #     url = "https://dribbble.com/fernando"
+    #     weight = 4
+    #     pre = ''
+    #     [menu.main.params]
+    #         external = true
     [[menu.main]]
-        name = "Portfolio"
-        url = "https://dribbble.com/fernando"
+        name = "Notepad"
+        url = "https://notepad.frnd.design/"
         weight = 4
         pre = ''
         [menu.main.params]
             external = true
-    [[menu.main]]
-        name = "Notes"
-        pageref = "/notes/"
-        weight = 5
-        pre = ''

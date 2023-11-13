@@ -1,161 +1,64 @@
 .portfolio
-    &__container
-        margin 0 auto
-        max-width 1536px
-        width 100%
-
-        .wrap
-            p
-                font-family font-sans-serif
-                set-font-size(16px)
-                color var(--text-secondary-color)
-
-    &__wrap
-        width 100%
-        margin 0 auto
-        margin-top spacing(32px)
-        padding 0 10px
-
-    &__list
-        display grid
-        grid-template-columns 1fr
-        gap spacing(32px)
-
     &__item
-        width 100%
-        margin 1vh 0
-        border-radius 10px
-        position relative
-        overflow hidden
-
-        a
-            &:after
-                content ""
-                width 100%
-                height 100%
-                background linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.4))
-                position absolute
-                top 0
-                left 0
-                z-index 3
-                transition .4s
-                opacity 0
-            
-            &:hover
-                img
-                    scale 1.1
-                    transition .4s
-                
-                &:after,
-                h3
-                    opacity 1
-                    transform translateY(0)
-                    transition .4s
-
-        figure
-            margin 0
-            border-radius 10px
-            overflow hidden
-
-            img
-                border-radius 10px
-                transition .4s
-                max-width 100%
+        margin-bottom spacing(48px)
 
         h3
-            font-size 16px
-            position absolute
-            bottom 0
-            z-index 4
+            set-font-size(16px)
+            margin-bottom spacing(8px)
+
+        h4
+            set-font-size(14px)
+        
+        time
+            margin-bottom spacing(16px)
+            display block
+
+        p, iframe
+            margin-bottom spacing(24px)
+
+        figure
+            max-width 100%
+            margin 0 0 spacing(24px) 0
+            border-radius 5px
+
+        img
+            max-width 100%
             width 100%
-            padding 12px
-            border-bottom-left-radius 10px
-            border-bottom-right-radius 10px
-            opacity 0
-            transform translateY(30px)
+            border-radius 5px
+            height auto
+            display block
+            margin 0
+
+    &__featured-image
+        overflow hidden
+        -webkit-perspective 1000
+        -webkit-backface-visibility hidden
+        transition .4s
+
+        img
             transition .4s
+        
 
-            a
-                color white
+        &:hover
+            img
+                transform scale(1.1)
+                transition .4s
 
-/* Tab component */
-
-.tab-content--item
-    opacity 0
-    visibility hidden
-    transition .4s
-    height 0
-
-.visible .tab-content--item
-    opacity 1
-    transition .4s
-    visibility visible
-    height initial
-
-.item--content
-    height 0
-
-.item--content.visible
-    height initial
-
-.tab-content--item .portfolio__list
-    height 0
-
-.visible .portfolio__list
-    height initial
-
-.tab-buttons,
-.tab-content
-    list-style-type none
-    padding-left 0
-
-.tab-content
-    padding 2vh 0
-
-.tab-buttons
-    max-width max-content
-    margin 0 auto
-    display flex
-    background-color rgba(255,255,255,.03)
-    border-radius 30px
-    border 1px solid rgba(255,255,255,.03)
-
-    li
-        padding spacing(8px) spacing(4px) spacing(10px) spacing(4px)
-
-.select__item
-    color var(--menu-color)
-    padding spacing(8px) spacing(16px)
-    set-font-size(12px)
-    text-transform uppercase
-    font-weight 600
-    letter-spacing .5px
-    line-height 1.5
-
-
-.select__item.active
-    color white
-    background-color rgba(255,255,255,.08)
-    border-radius 20px
-
-/* Views */
-.portfolio__view
-    /* Column */
-    &--column
-        width 100%
-
-        .portfolio__item
-            width 100%
-    
-    /* Grid */
-    &--grid
-        width 100%
-        display grid
-        grid-template-columns 1fr 1fr
-        gap spacing(32px)
-
-        +below(47.25rem)
-            grid-template-columns 1fr
+    &__content
+        a
+            text-decoration underline
         
         figure
-            max-height 243px
+            margin spacing(24px) 0
+
+
+#carousel
+    --f-carousel-slide-height 60%
+    --f-carousel-spacing 10px
+    height auto
+
+.f-carousel__slide
+    padding 50px
+
+.f-carousel__dot
+    background-color var(--text-secondary-color)!important

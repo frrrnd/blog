@@ -1,48 +1,53 @@
-<section class="hero home-section">
-	<h2><em>Designer de Interfaces</em> com conhecimento e experiência em Front-End. <br>
-		Apaixonado por design minimalista e skeumorfismo.</h2>
-</section>
+<main class="main__wrapper">
+    <div class="main__left">
+        <article class="site-intro">
+            <div class="section-fixed">
+                <h1 class="shuffle">Fernando Soares</h1>
+                <h2><em>Designer de Interfaces</em></h2>
 
-<section class="now home-section">
-	<h4>Agora</h4>
-	<p>Aprimorando técnicas em design system e buscando entender o usuário. Sou apaixonado por
-		interfaces e em estudar e entender como elas funcionam e se comportam. Me aperfeiçoando
-		em icon design.</p>
-	
-	<p><em>“Make it simple, but significant.”</em></p>
-</section>
-
-<section class="notes home-section">
-	<h4>Notas</h4>
-		
-    {{ range first 10 (where .Site.Pages "Params.type" "post") }}
-    <article>
-        <header role="banner">
-            <a href="{{ .Permalink }}">
-                <h3>{{ .Title }}</h2>
-                <time>{{ .Date.Format "02.01.2006" }}</time>
-            </a>
-        </header>
-    </article>
-    {{ end }}
-</section>
-
-<!--
-<section class="ui home-section">
-    <h4>Portfolio</h4>
-
-    <section class="ui-grid">
-        {{ range first 6 (where .Site.RegularPages "Params.type" "portfolio") }}
-        <article class="portfolio__item">
-            <a href="{{ .Permalink }}">
-                <figure>
-                    <img src="{{ .Params.featured_image}}" alt="{{ .Title }}">
-                </figure>
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.cat }}</p>
-            </a>
+                <p>Designer com conhecimento e experiência em Front-End.<br>
+                    Apaixonado por interfaces e em entender como elas funcionam e se comportam.
+                </p>
+            </div>
         </article>
-        {{ end }}
-    </section>
-</section>
--->
+    </div>
+    <div class="main__right">
+        <div class="home__portfolio">
+            {{ range first 10 (where .Site.RegularPages "Params.type" "portfolio") }}
+            <article class="portfolio__item">
+                <header>
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">
+                        <h3>{{ .Title }}</h3>
+                        <h4>{{ .Params.cat }}</h4>
+                    </a>
+                </header>
+
+                <section class="portfolio__content">
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">
+                        <figure class="portfolio__featured-image">
+                            <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+                        </figure>
+                    </a>
+                </section>
+            </article>
+            {{ end }}
+
+            <article class="portfolio__item">
+                <header>
+                    <a href="/feed" title="Feed">
+                        <h3>Feed</h3>
+                        <h4>Testes, Experimentos e Conceitos</h4>
+                    </a>
+                </header>
+
+                <section class="portfolio__content">
+                    <a href="/feed" title="Feed">
+                        <figure class="portfolio__featured-image">
+                            <img src="/uploads/feed/ios-camera-icon.png" alt="iOS Camera">
+                        </figure>
+                    </a>
+                </section>
+            </article>
+        </div>
+    </div>
+</main>

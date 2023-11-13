@@ -1,4 +1,5 @@
 wrap-max-width = 700px
+break = 960px
 
 html
 	box-sizing border-box
@@ -12,8 +13,8 @@ html
 	box-sizing border-box
 
 ::selection
-	background-color hsl(81, 95%, 57%)
-	color #333
+	background-color var(--invert-color)
+	color #101010
 
 ::-webkit-scrollbar
 	width 6px
@@ -48,13 +49,13 @@ html
 html,
 body
 	min-height 100%
-	background-color var(--background-color)
+	background-color var(--bg-color)
 
 body
 	color var(--text-color)
 	margin 0
 	font-family font-sans-serif
-	set-font-size 16px
+	set-font-size 14px
 	text-rendering optimizelegibility
 	-moz-osx-font-smoothing grayscale
   	-webkit-font-smoothing antialiased !important
@@ -63,11 +64,3 @@ body
 img
 	max-width 100%
 	height auto
-
-.wrap
-	max-width wrap-max-width
-	width 100%
-	margin 0 auto
-
-	+below(768px)
-		padding 0 spacing(24px)

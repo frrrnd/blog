@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main__wrapper" role="main">
+	<div class="main__left">
+		<article class="site-intro">
+			<div class="section-fixed">
+				<h1>{{ .Title }}</h1>
+				<time>{{ .Date.Format "02.01.2006" }}</time>
+			</div>
+		</article>
+	</div>
+
+	<div class="main__right">
+		<div class="home__portfolio">
+			<article class="portfolio__item">
+				<section class="portfolio__content">
+					{{ .Content }}
+				</section>
+			</article>
+		</div>
+	</div>
+</main>
+
+{{ partial "footer.html" . }}

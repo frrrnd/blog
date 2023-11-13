@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['ux', 'escolhas', 'hicks law']
+featured_image: "/uploads/test.png"
 ---
 
 Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha. 

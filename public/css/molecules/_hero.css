@@ -1,1 +1,1 @@
-.hero{padding:0;}.hero h2{max-width:550px;width:100%;line-height:1.6;color:var(--text-secondary-color);margin:0 auto spacing(32px);text-align:center}
+.hero{padding:0 0 spacing(24px) 0;}.hero h2{line-height:1.6;color:var(--text-color);}.hero h2 em{color:var(--text-color);font-family:font-serif;font-style:italic;font-weight:400}.ui .ui-grid{display:grid;grid-template-columns:1fr 1fr;grid-gap:16px;}.ui .ui-grid .portfolio__item{margin-bottom:0}

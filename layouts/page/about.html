@@ -2,37 +2,30 @@
 
 {{ partial "header.html" . }}
 
-<main class="main article__container" role="main">
-		<section class="article__content">
-			
-			<p>Sou o Fer, UX/UI com conhecimento e experiência em Front-End. Sou apaixonado por interfaces e a estudar como funcionam, como parecem, e a interação com os usuários.</p>
-
-			<p>10 anos de experiência em UX/UI e Front-End. De aplicativos à sistemas de gerenciamento, meu foco tem sido <em>Design Systems</em> e <em>UI Design.</em></p>
-
-			<div class="about-items">
-				<p>Currículo</p>
-				<p><a href="https://read.cv/fer">read.cv/fer</a></p>
-
-				<p>Portfolio</p>
-				<p><a href="/portfolio" target="_blank">frnd.design/portfolio</a></p>
-
-				<p>Contato</p>
-				<p><a href="mailto:dotfernando@gmail.com">dotfernando@gmail.com</a> ou <a href="https://t.me/frrrnd" target="_blank">@frrrnd</a></p>
-
-				<p>Localização</p>
-				<p>São José, SC / Remoto</p>
+<main class="main__wrapper" role="main">
+	<div class="main__left">
+		<article class="site-intro">
+			<div class="section-fixed">
+				<h1 class="shuffle">Fernando Soares</h1>
+				<h2><em>Designer de Interfaces</em></h2>
 			</div>
+		</article>
+	</div>
 
+	<div class="main__right">
+		<div class="home__portfolio">
+			<div class="portfolio__item">
+				<section class="portfolio__content">
+					<figure>
+						<img src="/images/avatar-home.jpg" alt="Eu!">
+					</figure>
 
-			<p>Com um sólido conhecimento dos princípios de design e desenvolvimento, sou capaz de transformar experiências em design limpo e fáceis de usar.</p>
+					{{ .Content }}
 
-			<p>Trabalhei em vários tipos de projetos, de pequenas startups à empresas de grande escala, desde landing pages à interfaces para óculos de realidade virtual. Tenho vasto conhecimento em ferramentas de design, como Adobe Suíte, Sketch e principalmente Figma. Proeficiência em tecnologias front-end, apaixonado por HTML e CSS.</p>
-
-			<p>Me mantenho sempre atualizado das últimas tendências de design em UI, tecnologias e processos. Gosto de novos desafios e trabalhar com o time para dar vida ao produto da melhor forma possível.</p>
-
-			<h2>Sobre o site</h2>
-			<p>Esse site é feito com <a href="https://gohugo.io/" target="_blank">Hugo</a>, usando gulp/npm pra automatizar algumas tarefas e usa Stylus como pré-processador de css. O deploy e a hospedagem ficam por conta do GitHub e o código dele é <a href="https://github.com/frrrnd/blog" target="_blank">aberto</a>.</p>
-		</section>
+				</section>
+			</div>
+		</div>
+	</div>
 </main>
 
 {{ partial "footer.html" . }}

@@ -1,0 +1,39 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<main class="main__wrapper" role="main">
+    <div class="main__left">
+        <article class="site-intro">
+            <div class="section-fixed">
+                <h1 class="shuffle">{{ .Title }}</h1>
+                <h2>Ideias, experimentos e testes em UI.</h2>
+            </div>
+        </article>
+    </div>
+
+    <div class="main__right">
+        <div class="home__portfolio">
+            {{ range where .Site.RegularPages "Type" "feed" }}
+            <article class="portfolio__item">
+                <header>
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">
+                        <h3>{{ .Title }}</h3>
+                        <!-- <time>{{ .Date.Format "02.01.2006" }}</time> -->
+                    </a>
+                </header>
+                <section class="portfolio__content">
+                    {{ .Summary }}
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">
+                        <figure class="portfolio__featured-image">
+                            <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+                        </figure>
+                    </a>
+                </section>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</main>
+
+{{ partial "footer.html" . }}

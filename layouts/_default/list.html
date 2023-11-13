@@ -2,27 +2,30 @@
 
 {{ partial "header.html" . }}
 
-<main class="main article__container" role="main">
-
-	<!-- <header role="banner" class="article__header">
-		<h2>{{ .Title }}</h2>
-	</header> -->
-
-	<section class="notes notes-page">
-		{{ range (where .Site.Pages "Params.type" "post") }}
-		<article>
-			<header role="banner">
-				<a href="{{ .Permalink }}">
-					<h3>{{ .Title }}</h3>
-					<time>{{ .Date.Format "02.01.2006" }}</time>
-				</a>
-			</header>
+<main class="main__wrapper" role="main">
+	<div class="main__left">
+		<article class="site-intro">
+			<div class="section-fixed">
+				<h1 class="shuffle">{{ .Title }}</h1>
+				<h2>Notas sobre meus estudos e/ou assuntos que gosto.</h2>
+			</div>
 		</article>
-		{{ end }}
-	</section>
+	</div>
 
-	
-	
+	<div class="main__right">
+		<div class="home__portfolio">
+			{{ range (where .Site.Pages "Params.type" "post") }}
+			<article class="portfolio__item">
+				<header>
+					<a href="{{ .Permalink }}" title="{{ .Title }}">
+						<h3>{{ .Title }}</h3>
+						<time>{{ .Date.Format "02.01.2006" }}</time>
+					</a>
+				</header>
+			</article>
+			{{ end }}
+		</div>
+	</div>	
 </main>
 
 {{ partial "footer.html" . }}
