@@ -1,6 +1,6 @@
 .header
 	width 100%
-	padding spacing(16px) spacing(32px)
+	padding spacing(16px) 0
 	border-bottom 1px solid var(--divider-color)
 	position fixed
 	top 0
@@ -26,6 +26,17 @@
 		justify-content space-between
 		align-items center
 
+		&--left
+			width 50%
+			padding 0 2rem
+
+		&--right
+			width 50%
+			display flex
+			justify-content space-between
+			align-items center
+			padding 0 2rem
+
 	&__nav
 		width max-content
 
@@ -37,7 +48,7 @@
 			width 100%
 
 			li
-				margin 0 spacing(16px)
+				margin 0 spacing(16px) 0 0
 
 .sw
 	-webkit-appearance none
